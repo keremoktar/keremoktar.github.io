@@ -3,3 +3,5 @@ logo: /assets/images/edited_a_2_22jpg.jpg
 show_downloads: false
 description: Ph.D Candidate at Princeton University.
 theme: jekyll-theme-minimal
+github:
+  is_project_page: false
