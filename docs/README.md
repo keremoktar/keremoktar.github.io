@@ -10,7 +10,7 @@ Currently, I am developing and testing a model of it can be that we overwhelming
 In particular, I am interested in when deeply important beliefs---such as whether abortion is moral---can be _changed_ [(Oktar et al., 2023)](https://doi.org/10.1016/j.cognition.2023.105434); and 
 how people decide _how to decide_ [(Oktar & Lombrozo, 2022)](https://www.sciencedirect.com/science/article/pii/S0010027722000099).
 
-[Click here]() for other areas of my research. 
+[Click here](./other-research.md) for other areas of my research. 
 
 ## Finally, feel free to contact me.
 At oktar[at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science.
