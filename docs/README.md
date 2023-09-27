@@ -1,16 +1,7 @@
 # The Science of Disagreement.
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h). 
 
-We disagree---collectively, forcefully, and frequently. We disagree in business meetings and family dinners; about scientific issues and moral questions; with loved ones and with millions of strangers. Yet our understanding of disagreement is<!-- space 
---><!-- space -->
-[id1]: ## "For instance, compared to other topics in philosophy, the study of disagreement is “a mere infant” that has focused almost exclusively on disagreement among peers (Frances & Matheson, 2019). In the sociological literature on large-scale opinion dynamics, “basic empirical questions about how to underpin model assumptions (e.g., about how individuals respond to evidence from disagreement) remain unanswered” (Flache et al., 2017). Similarly, relevant work in political science rests on “a rather shaky foundation; there are legitimate differences of opinion---sometimes explicit, often implicit---about what disagreement is” (Klofstad et al., 2013)." <!-- space 
---> [surprisingly limited.][id1].
-
-
-<!-- space -->
-
-<!-- space -->
-My research brings together insights from social and cognitive psychology, epistemology, and probability theory to further our understanding disagreement. Taken together, it shows how we can overwhelmingly persist in our views amid disagreement---even when millions disagree---yet maintain sufficient flexibility to learn from others in the right circumstances. 
+We disagree---collectively, forcefully, and frequently. We disagree in business meetings and family dinners; about scientific issues and moral questions; with loved ones and with millions of strangers. Yet our understanding of disagreement is surprisingly limited (Klofstad, 2013). My research brings together insights from social and cognitive psychology, epistemology, and probability theory to further our understanding disagreement. Taken together, it shows how we overwhelmingly persist in our views amid disagreement---even when millions disagree---yet maintain sufficient flexibility to learn from others in the right circumstances. 
 
 ## I also study belief and decision-making. 
 In particular, I am interested in when deeply important beliefs---such as whether abortion is moral---can be _changed_ [(Oktar et al., 2023)](https://doi.org/10.1016/j.cognition.2023.105434); and 
