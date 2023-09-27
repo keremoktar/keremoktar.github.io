@@ -1,5 +1,4 @@
-# Welcome to to Example.com
+# What is Disagreement?
+My research aims to clarify the psychological and computational basis of disagreement – across scales, domains, and agents – from definition to intervention. I also study decision-making; in particular, I am interested in understanding people's preferences for relying on intuition vs. deliberation.
 
-We hope you love this tiny tiny site.
-
-Need to [contact someone](/least-github-pages/contact.html) on the team?
+[Click here to see my CV.](/least-github-pages/contact.html) 
