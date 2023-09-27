@@ -2,7 +2,9 @@
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
 ## How Beliefs Persist When Millions Disagree:
-We disagree---collectively, forcefully, and frequently. We disagree in business meetings and family dinners; about scientific issues and moral questions; with loved ones and with millions of strangers. Yet, despite much relevant research, our understanding of disagreement is quite limited (Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon.
+We disagree---collectively, forcefully, and frequently. We disagree in business meetings and family dinners; about scientific issues and moral questions; with loved ones and with millions of strangers. 
+
+Despite much research, our understanding of disagreement is quite limited (Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon.
 
 Currently, I am developing and testing a model of it can be that we overwhelmingly persist in our views amid disagreement---even when millions disagree---yet maintain sufficient flexibility to learn from others in the right circumstances [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h).  
 
