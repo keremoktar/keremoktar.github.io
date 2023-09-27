@@ -1,6 +1,6 @@
 # Please start here
 
-# Rosie Greer
+## Rosie Greer
 
 Welcome, and thanks for choosing our product.
 
