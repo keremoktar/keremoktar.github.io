@@ -1,5 +1,5 @@
-# Please start here
+# Welcome to to Example.com
 
-Welcome, and thanks for choosing our product.
+We hope you love this tiny tiny site.
 
-If you want to dive right in, try our [quick start tutorial](./). 
+Need to [contact someone](/least-github-pages/contact.html) on the team?
