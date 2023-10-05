@@ -20,7 +20,7 @@ Here's a short summary: I was born and raised in Istanbul, Turkey; studied econo
 Here's the bit that gets left out: Like many, my research is motivated by my past. I left home to study in the states because I thought that my country was collapsing economically and losing its democratic, secular values (this turned out to be [true](https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/)). Participating in the Gezi Park [protests](https://en.wikipedia.org/wiki/Gezi_Park_protests) made me acutely aware of the importance of dissent---and our remarkable, violent capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. 
 
 ## Feel free to contact me!
-At oktar[at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science.
+At [surname][at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science.
 
 ## You may be here for resources:
 - If you are here for my database of controversial issues: [Clicking here will take you to a JSON formatted list.](https://github.com/keremoktar/disagreement_statsampling/blob/main/issues.js) 
