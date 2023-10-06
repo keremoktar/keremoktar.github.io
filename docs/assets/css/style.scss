@@ -7,10 +7,14 @@ body {
   color: #666666; /* Dark gray color */
 }
 
-.section {
-  width: 125%; /* Adjust the width as needed */
+section {
+  width:550px;
+  float:right;
+  padding-bottom:50px;
 }
 
-.header {
-  width: 125%; /* Adjust the width as needed */
+header {
+  width: 300px;
+  float: left;
+  position: fixed;
 }
