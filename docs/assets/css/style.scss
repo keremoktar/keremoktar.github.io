@@ -3,23 +3,6 @@
 @import "jekyll-theme-minimal";
 
 body {
-  font-size: 16px; /* Adjust the value to your preferred font size */
+  font-size: 15px; /* Adjust the value to your preferred font size */
   color: #666666; /* Dark gray color */
-}
-
-section {
-  width:550px;
-  float:right;
-  padding-bottom:50px;
-}
-
-header {
-  width: 250px;
-  float: left;
-  position: fixed;
-}
-
-.wrapper {
-  width: 870px;
-  margin: 0 auto;
 }
