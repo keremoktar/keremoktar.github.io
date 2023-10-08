@@ -4,8 +4,8 @@ My research aims to clarify the psychological and computational basis of disagre
 ## How Beliefs Persist When Millions Disagree:
 Currently, I am developing and testing a model of how we both persist in our views amid controversy, and maintain sufficient flexibility to learn from others [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h).  
 <details>
-<summary>(Details)</summary>
-  <br><br>
+<summary>(Details)<br><br></summary>
+  
 We disagree---collectively, forcefully, and frequently. We disagree in business meetings and violent protests; about scientific issues and moral questions; with loved ones and with millions of strangers. 
 <br><br>
 Despite much research, our understanding of disagreement is quite limited (see, e.g., Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon. I suggest that there are four distinct dimensions of disagreement that determine our responses to it, and that effective interventions aimed towards changing beliefs need to be tailored to these dimensions. <br><br>
