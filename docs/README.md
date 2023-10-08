@@ -38,7 +38,7 @@ At [surname][at]princeton[dot]edu with regards to my research / potential collab
           <label>
             Your email: 
             <br><input type="email" name="email">
-          </label><br><br>
+          </label><br>
           <label>
             Your message:
             <br><textarea name="message"></textarea>
@@ -47,6 +47,7 @@ At [surname][at]princeton[dot]edu with regards to my research / potential collab
           <br><input type="submit" class="btn btn-primary" value="Submit"/><br>
       </form>
   </body>
+  <br>
 </html>
 
 If you would like to send me _anonymous_ feedback instead (e.g., on my research, mentoring, teaching, website), [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY)
