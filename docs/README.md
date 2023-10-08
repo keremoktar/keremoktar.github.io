@@ -27,7 +27,6 @@ Like many, my research is motivated by my past. I left Turkey to study in the U.
 
 ## Feel free to contact me! 
 <!-- At oktar[at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science. Alternatively, use the form below directly: -->
-About research / potential collaborations / mentorship / interviews - I love talking about science:
 <html>
   <head>
       <script src="https://www.google.com/recaptcha/api.js?render=6Lc8hYcoAAAAACACR3N36SoQ7M8gWmlE7xAxpPsf"></script>
