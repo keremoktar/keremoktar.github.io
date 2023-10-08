@@ -1,10 +1,10 @@
 # It Takes a Village.
 Science is hard. The following individuals make it feasibly so:
 
-🖥️: Computer Science
-📙: Philosophy
-💭: Psychology
-🧠: Neuroscience
+
+💭: Psychology; 🖥️: Computer Science
+
+📙: Philosophy; 🧠: Neuroscience
 
 Mentors:
 - [Tania Lombrozo](https://cognition.princeton.edu/people) (Princeton; 💭, 📙)
