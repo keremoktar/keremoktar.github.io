@@ -8,7 +8,8 @@ Currently, I am developing and testing a model of how we both persist in our vie
   
 We disagree---collectively, forcefully, and frequently. We disagree in business meetings and violent protests; about scientific issues and moral questions; with loved ones and with millions of strangers. 
 <br><br>
-Despite much research, our understanding of disagreement is quite limited (see, e.g., Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon. I suggest that there are four distinct dimensions of disagreement that determine our responses to it, and that effective interventions aimed towards changing beliefs need to be tailored to these dimensions. <br><br>
+Despite much research, our understanding of disagreement is quite limited (see, e.g., Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon.<br><br>
+I suggest that there are four distinct dimensions of disagreement that determine our responses to it, and that effective interventions aimed towards changing beliefs need to be tailored to these dimensions. <br><br>
 </details>
 
 ## I also study belief and decision-making.
