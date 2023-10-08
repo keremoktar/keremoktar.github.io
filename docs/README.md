@@ -1,12 +1,16 @@
 # The Science of Disagreement.
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
-## How Beliefs Persist When Millions Disagree:
+<details>
+  
+<summary>## How Beliefs Persist When Millions Disagree:<\summary>
 We disagree---collectively, forcefully, and frequently. We disagree in business meetings and violent protests; about scientific issues and moral questions; with loved ones and with millions of strangers. 
 
 Despite much research, our understanding of disagreement is quite limited (see, e.g., [Klofstad, 2013](https://doi.org/10.1111/j.1540-5907.2012.00620.x)). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon.
 
 Currently, I am developing and testing a model of how we overwhelmingly persist in our views amid disagreement---even when millions disagree---yet maintain sufficient flexibility to learn from others in the right circumstances [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h).  
+
+<\details>
 
 ## I also study belief and decision-making.
 In particular, I am interested in when deeply important beliefs---such as whether abortion is moral---can be _changed_ [(Oktar et al., 2023)](https://doi.org/10.1016/j.cognition.2023.105434); and 
