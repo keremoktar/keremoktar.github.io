@@ -20,9 +20,7 @@ Here's a short summary: I was born and raised in Istanbul, Turkey; studied econo
 Like many, my research is motivated by my past. I left Turkey to study in the U.S because I thought it was collapsing economically and losing its democratic, secular values (this turned out to be [true](https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/)). Participating in the Gezi Park [protests](https://en.wikipedia.org/wiki/Gezi_Park_protests) made me acutely aware of the importance of dissent---and our remarkable, violent capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. 
 
 ## Feel free to contact me!
-At [surname][at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science. 
-
-You can also use the form below directly:
+At [surname][at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science. Alternatively, use the form below directly:
 <html>
   <head>
       <script src="https://www.google.com/recaptcha/api.js?render=6Lc8hYcoAAAAACACR3N36SoQ7M8gWmlE7xAxpPsf"></script>
@@ -40,18 +38,18 @@ You can also use the form below directly:
           <label>
             Your email: 
             <br><input type="email" name="email">
-          </label><br>
+          </label><br><br>
           <label>
             Your message:
             <br><textarea name="message"></textarea>
           </label>
           <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-          <input type="submit" class="btn btn-primary" value="submit"/>
+          <br><input type="submit" class="btn btn-primary" value="Submit"/><br>
       </form>
   </body>
 </html>
 
-- If you would like to send me _anonymous_ feedback instead (e.g., on my research, mentoring, teaching, website), [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY)
+If you would like to send me _anonymous_ feedback instead (e.g., on my research, mentoring, teaching, website), [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY)
 
 ## You may be here for resources:
 - If you are here for my database of controversial issues: [Clicking here will take you to a JSON formatted list.](https://github.com/keremoktar/disagreement_statsampling/blob/main/issues.js) 
