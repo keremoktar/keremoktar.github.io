@@ -28,36 +28,7 @@ Like many, my research is motivated by my past. I left Turkey to study in the U.
 
 ## Feel free to contact me! 
 At oktar[at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science.
-<!-- 
-<html>
-  <head>
-      <script src="https://www.google.com/recaptcha/api.js?render=6Lc8hYcoAAAAACACR3N36SoQ7M8gWmlE7xAxpPsf"></script>
-      <script>
-          grecaptcha.ready(function () {
-              grecaptcha.execute('6Lc8hYcoAAAAACACR3N36SoQ7M8gWmlE7xAxpPsf', {action: 'submit'}).then(function (token) {
-                  console.info("got token: " + token);
-                  document.getElementById('g-recaptcha-response').value = token;
-              });
-          });
-      </script>
-  </head>
-  <body>
-      <form action="https://formspree.io/f/mqkvgvvk" method="POST">
-          <label>
-            Your email: 
-            <br><input type="email" name="email">
-          </label><br>
-          <label>
-            Your message:
-            <br><textarea name="message"></textarea>
-          </label>
-          <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-          <br><input type="submit" class="btn btn-primary" value="Submit"/><br>
-      </form>
-  </body>
-  <br>
-</html>
- -->
+
 If you would like to send me _anonymous_ feedback instead (e.g., on my research, mentoring, teaching, website), [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY)
 
 ## You may be here for resources: 
