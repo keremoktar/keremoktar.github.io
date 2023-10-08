@@ -23,11 +23,12 @@ I was born and raised in Istanbul, Turkey; studied economics and cognitive scien
 <details>
   <summary>(Details)<br><br></summary>
   
-Like many, my research is motivated by my past. I left Turkey to study in the U.S because I thought it was collapsing economically and losing its democratic, secular values (this turned out to be <a href="https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/">true</a>). Participating in the Gezi Park <a href="https://en.wikipedia.org/wiki/Gezi_Park_protests">protests</a> made me acutely aware of the importance of dissent---and our remarkable, violent capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. <br><br>
+Like many, my research is motivated by my past. I left Turkey to study in the U.S because I thought it was collapsing economically and losing its democratic, secular values (this turned out to be <a href="https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/">true</a>). Participating in the Gezi Park <a href="https://en.wikipedia.org/wiki/Gezi_Park_protests">protests</a> made me acutely aware of the importance of dissent---and our remarkable capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. <br><br>
 </details>
 
 ## Feel free to contact me! 
-<!-- At oktar[at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science. Alternatively, use the form below directly: -->
+At oktar[at]princeton[dot]edu with regards to my research / potential collaborations / mentorship / interviews - I love talking about science.
+<!-- 
 <html>
   <head>
       <script src="https://www.google.com/recaptcha/api.js?render=6Lc8hYcoAAAAACACR3N36SoQ7M8gWmlE7xAxpPsf"></script>
@@ -56,7 +57,7 @@ Like many, my research is motivated by my past. I left Turkey to study in the U.
   </body>
   <br>
 </html>
-
+ -->
 If you would like to send me _anonymous_ feedback instead (e.g., on my research, mentoring, teaching, website), [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY)
 
 ## You may be here for resources: 
