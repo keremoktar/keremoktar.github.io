@@ -38,18 +38,19 @@ You can also use the form below directly:
   <body>
       <form action="https://formspree.io/f/mqkvgvvk" method="POST">
           <label>
-            Your email:
-            <input type="email" name="email">
-          </label>
+            Your email: 
+            <br><input type="email" name="email">
+          </label><br>
           <label>
             Your message:
-            <textarea name="message"></textarea>
+            <br><textarea name="message"></textarea>
           </label>
           <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
           <input type="submit" class="btn btn-primary" value="submit"/>
       </form>
   </body>
-<html>
+</html>
+
 - If you would like to send me _anonymous_ feedback instead (e.g., on my research, mentoring, teaching, website), [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY)
 
 ## You may be here for resources:
