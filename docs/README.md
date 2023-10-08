@@ -2,12 +2,10 @@
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
 ## How Beliefs Persist When Millions Disagree:
-Currently, I am developing and testing a model of how we both persist in our views amid controversy, and maintain sufficient flexibility to learn from others [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h).  
-
-<details><summary>(Details)<br></summary>
+Currently, I am developing and testing a model of how we both persist in our views amid controversy, and maintain sufficient flexibility to learn from others [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h).  <details><summary>(Details)</summary><br><br>
 We disagree---collectively, forcefully, and frequently. We disagree in business meetings and violent protests; about scientific issues and moral questions; with loved ones and with millions of strangers. 
 <br><br>
-Despite much research, our understanding of disagreement is quite limited (see, e.g., Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon. I suggest that there are four distinct dimensions of disagreement that determine our responses to it, and that effective interventions aimed towards changing beliefs need to be tailored to these dimensions. <br>
+Despite much research, our understanding of disagreement is quite limited (see, e.g., Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon. I suggest that there are four distinct dimensions of disagreement that determine our responses to it, and that effective interventions aimed towards changing beliefs need to be tailored to these dimensions. <br><br>
 </details>
 
 ## I also study belief and decision-making.
@@ -17,10 +15,8 @@ how people decide _how to decide_ [(Oktar & Lombrozo, 2022)](https://www.science
 <!-- [Click here](./other-research.md) for other areas of my research. -->
 
 ## Who am I?
-I was born and raised in Istanbul, Turkey; studied economics and cognitive science at Pomona College in California; and am currently working with a fantastic [community of collaborators](./collaborators.md) on the questions described above. 
-
-<details><summary>(Details)<br></summary>
-Like many, my research is motivated by my past. I left Turkey to study in the U.S because I thought it was collapsing economically and losing its democratic, secular values (this turned out to be <a href="https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/">true</a>). Participating in the Gezi Park <a href="https://en.wikipedia.org/wiki/Gezi_Park_protests">protests</a> made me acutely aware of the importance of dissent---and our remarkable, violent capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. <br>
+I was born and raised in Istanbul, Turkey; studied economics and cognitive science at Pomona College in California; and am currently working with a fantastic [community of collaborators](./collaborators.md) on the questions described above. <details><summary>(Details)<br><br></summary>
+Like many, my research is motivated by my past. I left Turkey to study in the U.S because I thought it was collapsing economically and losing its democratic, secular values (this turned out to be <a href="https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/">true</a>). Participating in the Gezi Park <a href="https://en.wikipedia.org/wiki/Gezi_Park_protests">protests</a> made me acutely aware of the importance of dissent---and our remarkable, violent capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. <br><br>
 </details>
 
 ## Feel free to contact me! 
