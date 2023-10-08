@@ -1,5 +1,7 @@
 # Some Words are Worth a Thousand Pictures.
-This is a growing list of some of my favorite papers/books. [Note: Under Construction.]
+This is a growing list of some of my favorite papers/books. 
+
+[Note: Under Construction.]
 
 ## Cognitive Science:
 - Griffiths, T. L. (2020). Understanding human intelligence through human limitations. Trends in Cognitive Sciences, 24(11), 873-883. [Link](https://doi.org/10.1016/j.tics.2020.09.001)
@@ -12,5 +14,6 @@ This is a growing list of some of my favorite papers/books. [Note: Under Constru
 - Meehl, P. E. (1990). Why summaries of research on psychological theories are often uninterpretable. Psychological reports, 66(1), 195-244.[Link](https://doi.org/10.2466/pr0.1990.66.1.195)
 
 ## Philosophy:
+- Hardwig, J. (1985). Epistemic dependence. The Journal of philosophy, 82(7), 335-349.
 - Kitcher, P. (1990). The division of cognitive labor. The journal of philosophy, 87(1), 5-22.[Link](https://www.jstor.org/stable/2026796)
 - Godfrey-Smith, P. (2009). Theory and reality: An introduction to the philosophy of science. University of Chicago Press.
