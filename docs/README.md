@@ -27,6 +27,7 @@ Like many, my research is motivated by my past. I left Turkey to study in the U.
 ## Contact and Resources:
 Feel free to contact me at oktar[at]princeton[dot]edu with regards to research / collaboration / mentorship /... - I love talking about science. If you would like to send me anonymous feedback, [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
 
+- If you are here for my stats tutorials: [Click here.](/stats.md){:target="_blank"} 
 - If you are here for my database of controversial issues: [Clicking here will take you to a JSON formatted list.](https://github.com/keremoktar/disagreement_statsampling/blob/main/issues.js){:target="_blank"} 
 - If you are here for advice on navigating graduate school applications: [Click here.](/advice.md){:target="_blank"}
 - If you are here for my favorite papers: [Click here.](/paperpile.md){:target="_blank"} 
