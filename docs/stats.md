@@ -51,7 +51,7 @@ t.test(cucumber, no_cucumber)
 ```
 
 In this instance, there was enough signal in the randomly generated data that I could find it:
-![Cucumber Graph](./assets/images/thirst.png){: width="50%"}
+![Cucumber Graph](./assets/images/thirst.png)
 
 But obviously this won't hold for all randomly generated data. The question is, for what proportion of these datasets? So we can loop over and randomly generate 1000 cucumber datasets, and collect the p-values:
 
@@ -68,7 +68,7 @@ for(dataset in 1:1000){
 ```
 
 Here is the distribution of p-values. Red shows the mean p-value, and blue shows p = .05. All p-values after the blue line, in this case, are false negatives (i.e., we are not detecting the effect).
-![P-values Graph](./assets/images/thirst_pvals.png){: width="50%"}
+![P-values Graph](./assets/images/thirst_pvals.png)
 
 Technically, this is more informative than a single number, but let's say you just want to know what your power is. We can just look at the proportion of our 'experiments' in which we found a significant relationship:
 
@@ -80,7 +80,7 @@ So our power in this case ~.47. We can increase the number of experiments (e.g.,
 
 We can also ask, what is the sample size you would need to get good (e.g., 90%) power? There are many ways to do this. I find simulations very intuitive, so I just search through possible sample sizes that might make sense, and see what power they are at. In this case, we need a total sample size of 170 to detect our cucumber effect:
 
-![P-values Graph](./assets/images/thirst_sampsearch.png){: width="50%"}
+![P-values Graph](./assets/images/thirst_sampsearch.png)
 
 And here is the code for looping over multiple sample sizes:
 
