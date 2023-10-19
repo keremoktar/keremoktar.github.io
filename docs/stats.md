@@ -105,7 +105,9 @@ for(samplesize in samplesizes){ #loop over possible sample sizes
 One shortcoming of this method is that it uses loops in R, which are notoriously slow; for more complex analyses, you will either want to optimize the code above, or use an established power analysis library for the particular test you want to run.
 
 ## Outro: Power Matters.
-I wrote this up because I have done tens of studies with thounds of participants, which, in retrospect, told me a lot less than I thought they did. I could have learned so much more about which effects are real, and which aren't, by conducting fewer, better powered studies. And we would all stop wasting money and time if everyone conducted well-powered studies and reported when they failed.
+I wrote this up because I have done tens of studies with thounds of participants, which, in retrospect, told me a lot less than I thought they did. In the example above, running a 'standard' N = 30 per-cell design gives us ~.5 power. So there's an even chance it didn't work out because the effect actually doesn't exist vs. we couldn't detect it because we're underpowered. There's linear returns to power in this simple setting, so if we had recruited twice the sample size, we would actually have known that if we don't find an effect, it's because there isn't one there.
+
+**I could have learned so much more about which effects are real, and which aren't, by conducting fewer, better powered studies.** And we would all stop wasting money and time if everyone conducted well-powered studies and reported when they failed.
 
 For more info on why this matters for psychology research, check out the article by Paul Meehl in my list of favorite [articles](./paperpile.html), or check out Uri, Joe, and Jake's posts above. [Data-colada](https://datacolada.org/) in particular has a lot of useful wrote-ups on this.
 
