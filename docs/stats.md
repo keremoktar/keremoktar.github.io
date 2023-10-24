@@ -1,6 +1,6 @@
-<!-- https://github.com/pages-themes/minimal/blob/master/index.md?plain=1 -->
 # How do I do X?
 - For an simple R tutorial on power analyses, [click here](#power).
+- [Other tutorials under construction...]
 
 # <a name="power"></a> Power Analyses in R
 
