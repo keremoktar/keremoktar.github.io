@@ -17,13 +17,16 @@ Generation Effect. Koc University Undergraduate Psychology Journal , 4(18), 12-1
 
 **Oktar, K.**, Sucholutsky, I., Lombrozo, T., & Griffiths, T. (2023). Unpacking Divergence and Misalignment in Cognitive Science and Artificial Intelligence. (R&R at Decision).
 
-Gottlieb-Cohen, S.\*, **Oktar, K.**\*, & Lombrozo, T. (2022). Deciding when we cannot know: First-person priority in transformative choice. (Manuscript Under Review at Open-mind ).
+Gottlieb-Cohen, S.\*, **Oktar, K.**\*, & Lombrozo, T. (2022). Deciding when we cannot know: First-person priority in transformative choice. (Manuscript Under Review at Open-mind).
+
+## Pre-prints:
+Sucholutsky, I.,\* Muttenthaler, L.,\* Weller, A., Peng, A., Bobu, A., Kim, B., Love, B. C., Grant, E., Groen, I., Achterberg, J., Tenenbaum, J. B., Collins, K. M., Hermann, K. L., **Oktar, K.,** Greff, K., Hebart, M. N., Jacoby, N., Zhang, Q. (Richard), Marjieh, R., Geirhos, R., Chen, S., Kornblith, S., Rane, S., Konkle, T., O'Connell, T. P., Unterthiner, T., Lampinen, A. K., Müller, K.-R., Toneva, M., & Griffiths, T. L. Getting Aligned on Representational Alignment. [https://arxiv.org/abs/2310.13018](https://arxiv.org/abs/2310.13018)
 
 ## Peer-reviewed Conference Proceedings:
 **Oktar, K.** and Lombrozo, T., (2022). Mechanisms of Belief Persistence in the Face of Societal Disagreement. Proceedings of the 44th Annual Conference of the Cognitive Science Society, Cognitive Science Society. 
 - Marr Prize for Best Paper
   
-Malaviya, M., Sucholutsky, I., **Oktar, K.**, and Griffiths, T. (2022).† Can Humans Do Less-Than-One-Shot Learning? Proceedings of the 44th Annual Conference of the Cognitive Science Society, Cognitive Science Society.
+Malaviya, M., Sucholutsky, I., **Oktar, K.**, and Griffiths, T. (2022). Can Humans Do Less-Than-One-Shot Learning? Proceedings of the 44th Annual Conference of the Cognitive Science Society, Cognitive Science Society.
 
 **Oktar, K.** and Lombrozo, T., (2021). Deciding to be Authentic: Intuition is Favored Over Deliberation for Self-Reflective Decisions. Proceedings of the 43rd Annual Conference of the Cognitive Science Society, Cognitive Science Society. 
 
