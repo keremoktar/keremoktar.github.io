@@ -30,5 +30,3 @@ Feel free to contact me at oktar[at]princeton[dot]edu with regards to research /
 - If you are here for my stats tutorials: [Click here.](/stats.md){:target="_blank"} 
 - If you are here for my database of controversial issues: [Clicking here will take you to a JSON formatted list.](https://github.com/keremoktar/disagreement_statsampling/blob/main/issues.js){:target="_blank"} 
 - If you are here for advice on navigating graduate school applications: [Click here.](/advice.md){:target="_blank"}
-- If you are here for my favorite papers: [Click here.](/paperpile.md){:target="_blank"} 
-
