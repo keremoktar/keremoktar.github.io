@@ -4,14 +4,16 @@
 
 # <a name="power"></a> Power Analyses in R
 
-## Intro: A Deadly Disease
-Imagine that you tested negative for a deadly disease. Should you celebrate? It depends on the following: How likely is the test to just say negative---even when you are sick---because it is a weak, bad test? A good, _powerful_ test would almost never do that---if it says that you are sick, it is because you are (formally, Power = P(identify H0 = F | H1 = T) = 1 - false negative rate).
+## Intro to a cucumber-flavored tutorial.
+Imagine that you tested negative for a fake disease, cucumberitis (congrats!). Should you celebrate? 
+
+Maybe. It depends on whether the test is any good. In particular, how likely is the test to turn out negative when you actually have cucumberitis? If it often turns out negative inaccurately, that makes it a weak, bad test. A good, _powerful_ test would almost never do that---if it says that you are sick, it is because you are.
 
 Powerful tests are therefore informative, and weak tests are misleading---in fact, you would probably be **very upset** if you learned that your medical test was weak (imagine a false-negative cancer test!). **In psychology, our tests are often much weaker than we think they are, and we should be upset, too;** because we often take costly actions (e.g., abondoning study designs, rejecting hypotheses, etc.) based on weak tests.
 
-To know if you have a weak test, you minimally need to know two things: what big is your effect, and how big is your sample?  
+To know if you have a weak test, you minimally need to know two things: how big is your effect, and how big is your sample?  
 
-### Why Do We Blindly Do Weak Tests? You Know More Than You Think. 
+### Why Do We Do Weak Tests?
 > “I can’t do a power analysis because I have no idea what the effect size is. If I knew the effect size, I wouldn't have to run the study in the first place!
 
 This is a common objection, and underlies why many still don't do power analyses---but it turns out, we know much more than we think we do. For instance, here is a distribution of effect sizes from a meta-analysis of meta-analyses in social psychology collecting effect sizes across ~25,000 studies over 100 years in diverse research areas (credits to Jake Westfall for [this analysis](http://jakewestfall.org/blog/index.php/2015/06/16/dont-fight-the-power-analysis/)):
