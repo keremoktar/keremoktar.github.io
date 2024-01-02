@@ -4,6 +4,19 @@
 
 ### Why does anything follow from Falsehood?
 
+You may have seen the following truth table for the conditional operator:
+
+|   A   |   B   | A -> B | 
+|:-----:|:-----:|:------:|
+|   T   |   T   |   T    | 
+|   T   |   F   |   F    |
+|   F   |   T   |   T    |
+|   F   |   F   |   T    |   
+
+And wondered, **why on earth is this only false in the second row?** Or, similarly, why is (F -> F) = T? 
+
+There are two answers to this question. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer, it turns out, is connected to the very foundations of logic. We’ll do both.
+
 There are two answers to this question. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer is connected to the very foundations of logic. We’ll do both.
 
 #### Misleading wording. 
@@ -12,7 +25,7 @@ There are two answers to this question. First, there is an intuitive answer that
 
 >If I am the pope, I can fly. 
 
-_If we were building a truth detector_, we could just stop at the premise—I am not the pope, this is false. Maybe we are building a counterfactual truth detector—in that case, we need to read the implication, and compare it to our simulated world—if I were abducted and baptized and pope-ified, would I be able to fly? [^1] No. No matter how we spin it, the proposition being true seems bizarre. But we are not building a truth detector.
+If we were building a truth detector, we could just stop at the premise—I am not the pope, this is false. Maybe we are building a counterfactual truth detector—in that case, we need to read the implication, and compare it to our simulated world—if I were abducted and baptized and pope-ified, would I be able to fly?[^1] No. No matter how we spin it, the proposition being true seems bizarre. <span style="color:red">But we are not building a truth detector.</span>
 
 To scaffold our understanding, it is useful to first think of logic as a _lie detector._ Consider the following:
 
@@ -32,9 +45,9 @@ This is a lie, and it is coincidentally the only way we get falsehood from the t
 
 Why does lie detection work as a framing? And why is it the ‘right way’ to define the conditional operator ‘->’?
 
-This framing works because lies are about contradictions, rather than falsehoods, and *logic is a machine for detecting consistent and ‘good’ inferences,* rather than truth. The ‘->’ operator is a primitive component of this machine. 
+This framing works because lies are about contradictions, rather than falsehoods, and **logic is a machine for detecting consistent and ‘good’ inferences,** rather than truth. The ‘->’ operator is a primitive component of this machine. 
 
-There is nothing _essentially correct_ about defining  ‘->’ this way, much like there is nothing essentially correct about the definition of any primitive component of a formal system. For example, pawns move forward in chess, but not because it is the right way for them to move. It is because chess is more fun when their movement is restricted in this way, and the goal of chess is to produce fun. Similarly, the goal of logic is to detect good inferences, and a primitive with properties similar to a lie detector turns out to be useful for that aim. *The definitions of primitives follow from what you want the system to be able to do.*
+There is nothing _essentially correct_ about defining  ‘->’ this way, much like there is nothing essentially correct about the definition of any primitive component of a formal system. For example, pawns move forward in chess, but not because it is the right way for them to move. It is because chess is more fun when their movement is restricted in this way, and the goal of chess is to produce fun. Similarly, the goal of logic is to detect good inferences, and a primitive with properties similar to a lie detector turns out to be useful for that aim. <span style="color:red">**The definitions of primitives follow from what you want the system to be able to do.**</span>
 
 But it isn’t a priori obvious which primitives will achieve your goals; and typically, systems evolve primitives over time. For example, chess evolved as a system from its ancestors (e.g., the Egyptian senet): 
 
@@ -78,7 +91,7 @@ We can try an alternative definition and see that it fails. Imagine that we go b
 |   F   |   T   |   F    |       F      |         F         |
 |   F   |   F   |   F    |       F      |         F          |
 
-This way of defining ‘->’ does not end up telling us that the inference as a whole is valid. The lie detector framing does, hence we use it as a primitive. 
+This way of defining ‘->’ does not end up telling us that the inference as a whole is valid. The lie detector framing does, hence we use it as a primitive. And it works.
 
 #### Why should this human-intuitive-definition turn out to be so useful? 
 
