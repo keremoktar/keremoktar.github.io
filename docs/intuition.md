@@ -4,7 +4,7 @@
 
 ### Why does anything follow from Falsehood?
 
-You may have seen the following truth table for the conditional operator:
+You may have seen the following truth table for the conditional operator '->':
 
 |   A   |   B   | A -> B | 
 |:-----:|:-----:|:------:|
@@ -13,11 +13,9 @@ You may have seen the following truth table for the conditional operator:
 |   F   |   T   |   T    |
 |   F   |   F   |   T    |   
 
-And wondered, **why on earth is this only false in the second row?** Or, similarly, why is (F -> F) = T? 
+And wondered, *why on earth is this only false in the second row?* Or, similarly, why is (F -> F) = T? 
 
-There are two answers to this question. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer, it turns out, is connected to the very foundations of logic. We’ll do both.
-
-There are two answers to this question. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer is connected to the very foundations of logic. We’ll do both.
+There are two answers to this question. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer, it turns out, is connected to the very foundations of logic, and reveals that the problem is not about wording at all. We’ll do both.
 
 #### Misleading wording. 
 
