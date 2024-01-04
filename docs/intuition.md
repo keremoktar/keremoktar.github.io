@@ -2,7 +2,7 @@
 
 ## Logic:
 
-### Why does anything follow from Falsehood?
+<h3 "text-align: center; color: Aquamarine;">Why does anything follow from Falsehood?<\h3>
 
 You may have seen the following truth table for the conditional operator '->':
 
