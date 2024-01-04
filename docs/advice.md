@@ -4,8 +4,7 @@ Here, I clarify the expectations, norms, and reality of academia.
 ## Chapter 1: PhD Applications.
 This Chapter is a guide to navigating PhD applications. 
 
-Before you begin, know that this is a hard process, and that you will really benefit from some help. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/).
-- It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
+Before you begin, know that this is a hard process, and that you will really benefit from some help. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/). It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
 
 Last Updated: 01/2024
 - [Section 0](#truth): Should you choose academia?
