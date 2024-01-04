@@ -75,7 +75,9 @@ Here are three key tips:
    - Assume that you have a shot everywhere. The application process is extremely chaotic--faculty have motivations and interests that are hidden from you and you are competing against a set of people that you don't know anything about. So it is in your best interest to apply to the places that you are most excited about, and that have the most resources to support you.
    - People use confidence as a signal of competence. So the more you convince yourself you can make it, the more likely you are to do so.
 
-Now let's get to what you can do to prepare a strong application. I will begin the upcoming sections with quotes from _The Trial_, which is a book about an absurd, bureaucratic, and arcane evaluation that inspires tremendous dread in the protagonist, K. Sounds oddly familiar...
+Now let's get to what you can do to prepare a strong application. 
+
+I will begin the upcoming sections with quotes from _The Trial_, which is a book by Franz Kafka about an absurd, bureaucratic, and arcane evaluation that inspires tremendous dread in the protagonist, K. Sounds oddly familiar...
 
 ---
 ### <a name="network"></a> How to build a network. 
