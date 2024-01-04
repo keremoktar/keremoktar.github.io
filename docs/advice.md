@@ -2,7 +2,10 @@
 Here, I clarify the expectations, norms, and reality of academia. 
 
 ## Chapter 1: PhD Applications.
-This is a guide to getting into a PhD program. Before you begin, know that this is a hard process, and one that is best navigated with some help. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/). It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
+This Chapter is a guide to navigating PhD applications. 
+
+Before you begin, know that this is a hard process, and that you will really benefit from some help. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/).
+- It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
 
 Last Updated: 01/2024
 - [Section 0](#truth): Should you choose academia?
@@ -60,9 +63,10 @@ I will now assume that you are set on applying, and walk you through the process
 Here are three key tips:
 
 1. Understand that the goal of admissions is identifying who *will do research most effectively*. 
-   - Thus, as an applicant, your goal is to convey that you are ( / have the capacity to become) an outstanding researcher.
-   - You are not trying to convince them that you are the smartest person, nor the one who most deserves this career, nor the person most interested in psychology, nor the most accomplished academically. You are trying to convince them that you can develop into a good researcher.
-      
+   - Your goal is therefore to convey that you are (or have the capacity to become) an outstanding researcher. 
+      - Students often get this wrong. You are not trying to convince them that you are the smartest person, nor the one who most deserves this career, nor the person most interested in the field, nor the most accomplished academically. You are trying to convince them that you can develop into a good researcher.
+      - The best way to do so is through evidence of past research involvement. All the other considerations above can be inferred from the research you have done. 
+         
 2. Apply widely.
    - This increases your odds. Think of your applications sort of like lottery tickets (there is a lot of stochasticity in admissions processes): if you apply to 1 program, and you have a 10% chance of getting in, you probably won't get in. If you apply to 10 programs, 1 - (0.9)^10 =  65% chance of getting in; with 20, it's 88%! This is a terrible approximation, of course, but the point is that you are much likelier to get in if you apply widely (7 would be a reasonable lower bound).
    - This holds even if you think you are guaranteed to get in somewhere. I know of cases where professors made promises that were not kept. There are no guarantees, besides the admission letter itself.
@@ -83,7 +87,7 @@ You should reach out to graduate students and faculty, as early as possible, but
 
 Talk to faculty to:
 - Get your name out there. Sometimes just being familiar with a name can allow it to stand out in a pile of applications. 
-- Learn whether they are taking students. Not every professor takes on graduate students each year, and it can be a waste of an application to ask a professor who is not taking students that year. 
+- Learn whether they are taking students. Not every professor takes on graduate students each year, and it can be a waste of your money and effort to apply to work with a professor who is not taking students that year. 
 - Hear about what they are excited about. Sometimes a professor will want to pivot to a new research direction, and the only way to learn about that (and use it in your application) is to ask them directly what they are excited about. 
 
 Talk to grad students to:
