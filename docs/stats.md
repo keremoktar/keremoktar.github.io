@@ -1,3 +1,7 @@
+---
+layout: post
+title: Intuitive Statistics Tutorials
+---
 # How do I do X?
 - For an simple R tutorial on power analyses, [click here](#power).
 - [Other tutorials under construction...]

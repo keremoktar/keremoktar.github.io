@@ -1,10 +1,23 @@
+---
+layout: post
+title: Intuition for Interesting Problems
+---
 # Intuition for…
+In this page, I intuitively explain interesting problems. I don't assume you know anything. 
 
 ## Logic:
 
-<h3 "text-align: center; color: Aquamarine;">Why does anything follow from Falsehood?</h3>
+<h3 style = "text-align: center; color: Aquamarine;">Why does anything follow from Falsehood?</h3>
 
-You may have seen the following truth table for the conditional operator '->':
+The following is a true statement in logic:
+> If I am a cat, I love eating dark matter.
+
+![Average Power Graph](./assets/images/power_graph.png)
+<img src="https://keremoktar.com/assets/images/cat-galaxy.jpg" alt="catkerem" class="center">
+
+If you don't know why this is true, logic is not what you think it is. In this post, I explain why many such absurd statements are true, and what this has to do with the foundations of logic.
+
+This is the truth table for the conditional operator '->' (where 'A -> B' = 'if A then B'):
 
 |   A   |   B   | A -> B | 
 |:-----:|:-----:|:------:|
@@ -13,9 +26,11 @@ You may have seen the following truth table for the conditional operator '->':
 |   F   |   T   |   T    |
 |   F   |   F   |   T    |   
 
-And wondered, *why on earth is this only false in the second row?* Or, similarly, why is (F -> F) = T? 
+Read this row-by-row. The first row tells us that "A is True, B is True, A -> B is True." The galaxy-eating-cat-Kerem statement corresponds to the last row: A = Kerem is a cat (I am not, so this is false); B = I love eating dark matter (...also false, as far as I know); but somehow A -> B is true.
 
-There are two answers to this question. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer, it turns out, is connected to the very foundations of logic, and reveals that the problem is not about wording at all. We’ll do both.
+You may be wondering, *why on earth is A -> B only false in the second row?* 
+
+There are two answers to this. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer, it turns out, is connected to the very foundations of logic, and reveals that the problem is not about wording at all. We’ll see both.
 
 #### Misleading wording. 
 
@@ -98,3 +113,5 @@ This is a nice puzzle for psychology. Probably because a human that drew useless
 [^1]: See [modal logic](https://en.wikipedia.org/wiki/Modal_logic). 
 [^2]: Some even think that the origins of reasoning itself emerge from argumentation [(Mercier & Sperber, 2011)](https://doi.org/10.1017/S0140525X10000968). Seems unlikely, but interesting.
 [^3]: These [arguments](https://plato.stanford.edu/entries/dutch-book/) are also used as evolutionary arguments for Bayesian approaches to cognition. 
+
+---
