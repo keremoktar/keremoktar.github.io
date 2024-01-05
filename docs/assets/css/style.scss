@@ -10,17 +10,18 @@ body {
 
 /* What's below does the flipping animation on main page*/
 .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: auto; /* Set the height to auto */
   transform: translate(-50%, -50%);
   overflow:hidden;
   color: #ecf0f1;
   
   &__container {
-    font-weight: 600;
     overflow: hidden;
-    height: 40px;
+    height: auto;
     padding: 0 40px;
 
     &__text {
@@ -31,7 +32,7 @@ body {
 
     &__list {
       margin-top: 0;
-      padding-left: 110px;
+      padding-left: 200px;
       text-align: left;
       list-style: none;
       
@@ -43,7 +44,7 @@ body {
       animation-iteration-count: infinite;
 
       &__item {
-        line-height:40px;
+        line-height:auto;
         margin:0;
       }
     }
