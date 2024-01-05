@@ -80,7 +80,7 @@ Here are three key tips:
 
 Now let's get to what you can do to prepare a strong application. 
 
-I will begin the upcoming sections with quotes from _The Trial_, which is a book by Franz Kafka about an absurd, bureaucratic, and arcane evaluation that inspires tremendous dread in the protagonist, K. Sounds oddly familiar...
+I will begin the upcoming sections with quotes from _The Trial_, which is a book by Franz Kafka about an absurd, bureaucratic, and arcane evaluation that inspires tremendous dread in the protagonist, whose name is "K." Sounds oddly familiar...
 
 ---
 ### <a name="network"></a>Section 2: How to build a network. 
@@ -166,6 +166,6 @@ The only thing I will add to this is that _your interviews are primarily about y
 - Think about a couple projects that you would be really excited to do. What would some experiments look like? What would the experiments tell us? What would be challenging about them (e.g., confounds)? Who in the lab could you collaborate with on these projects? 
    - The more concrete your vision, the easier it will be for you to communicate it.
 
-Thanks for reading, and best of luck!
+Thanks for reading, and best of luck! If you would like to send me anonymous feedback, about this guide, please [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
 
 <img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA3/29BACKPAGE_KAFKA3-jumbo.jpg?quality=75&auto=webp" alt="Kafka_2" class="center">
