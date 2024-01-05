@@ -2,16 +2,24 @@
 ---
 @import "jekyll-theme-minimal";
 
-.wrapper {
-  width:100vw;
-  margin:0 auto
-
-}
-header { /* change vw to adjust left section size */
-  width:15vw;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased
+@media screen and (min-width: 720px) {
+  .wrapper {
+    width:100vw;
+    margin:0 auto
+  
+  }
+  header { /* change vw to adjust left section size */
+    width:15vw;
+    float:left;
+    position:fixed;
+    -webkit-font-smoothing:subpixel-antialiased
+  }
+  section {
+    width:40vw; /* change vw to adjust middle section size */
+    margin: 0 auto;
+    padding-bottom:50px;
+    float: none
+  }
 }
 
 
@@ -21,13 +29,6 @@ hr { /* changes horizontal line styles  */
   background: linear-gradient(to right, #ff2d00, #ffb861); /* Apply a gradient background */
   margin: 40px 0; /* Add margin above and below the line */
   border-radius: 10px; /* Add rounded corners to the line */
-}
-
-section {
-  width:40vw; /* change vw to adjust middle section size */
-  margin: 0 auto;
-  padding-bottom:50px;
-  float: none
 }
 
 body {
