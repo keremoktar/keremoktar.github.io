@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content hideonphone">
   <div class="content__container">
     <h1 class="content__container__text">
       The Science of
@@ -10,6 +10,9 @@
       <li class="content__container__list__item">Decision-making.</li>
     </ul>
   </div>
+</div>
+<div class="hideonpc">
+  <h1> The Science of Disagreement </h1>
 </div>
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
