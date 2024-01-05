@@ -2,11 +2,10 @@
 layout: post
 title: Intuition for Interesting Problems
 ---
-# Intuition for…
-In this page, I intuitively explain interesting problems. I don't assume you know anything. 
+# Intuitively Interesting.
+In this page, I intuitively explain interesting problems. I don't assume you have any prior expertise. 
 
-## Logic:
-
+## Problems in Logic:
 <h3 style = "text-align: center;">Why does anything follow from Falsehood?</h3>
 
 The following is a true statement in logic:
@@ -27,17 +26,15 @@ This is the truth table for the conditional operator '->' (where 'A -> B' = 'if 
 
 Read this row-by-row. The first row tells us that "A is True, B is True, A -> B is True." The galaxy-eating-cat-Kerem statement corresponds to the last row: A = Kerem is a cat (I am not, so this is false); B = I love eating dark matter (...also false, as far as I know); but somehow A -> B is true.
 
-You may be wondering, *why on earth is A -> B only false in the second row?* 
+Now we can phrase our key question more precisely: *Why on earth is A -> B only false in the second row?* 
 
-There are two answers to this. First, there is an intuitive answer that makes the problem seem like a wording issue. The second answer, it turns out, is connected to the very foundations of logic, and reveals that the problem is not about wording at all. We’ll see both.
+#### A Misleading Intuition. 
 
-#### Misleading wording. 
-
-‘Implication’ and ‘anything follows’ make logic sound like a machine that arbitrates objective truths about the world (i.e., a causal truth detector). It isn’t. Here is an example:
+Logic intuitively sound like a machine that arbitrates objective truths about the world (i.e., a causal truth detector). It isn’t. Here is an example:
 
 >If I am the pope, I can fly. 
 
-If we were building a truth detector, we could just stop at the premise—I am not the pope, this is false. Maybe we are building a counterfactual truth detector—in that case, we need to read the implication, and compare it to our simulated world—if I were abducted and baptized and pope-ified, would I be able to fly?[^1] No. No matter how we spin it, the proposition being true seems bizarre. <span style="color:red">But we are not building a truth detector.</span>
+If we were building a truth detector, we could just stop at the premise--I am not the pope, this is false. Maybe we are building a counterfactual truth detector--in that case, we need to read the implication, and compare it to our simulated world—if I were abducted and baptized and pope-ified, would I be able to fly?[^1] No. No matter how we spin it, the proposition being true seems bizarre. <span style="color:red">But we are not building a truth detector.</span>
 
 To scaffold our understanding, it is useful to first think of logic as a _lie detector._ Consider the following:
 
