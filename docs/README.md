@@ -1,4 +1,17 @@
-# The Science of Disagreement.
+<div class="content">
+  <div class="content__container">
+    <h1 class="content__container__text">
+      The Science of
+    </h1>
+    
+    <ul class="content__container__list">
+      <li class="content__container__list__item">Disagreement.</li>
+      <li class="content__container__list__item">Opinion.</li>
+      <li class="content__container__list__item">Belief.</li>
+      <li class="content__container__list__item">Decisions.</li>
+    </ul>
+  </div>
+</div>
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
 Currently, I am developing and testing a model of how we both persist in our views amid societal controversy, yet maintain sufficient flexibility to learn from others [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h){:target="_blank"}.  
