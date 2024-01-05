@@ -17,7 +17,7 @@ Last Updated: 01/2024
 - [Section 3](#documents): How to prepare the application materials.
 - [Section 4](#intervieweing): How to interview. 
 
-### <a name="truth"></a> Should you choose academia?
+### <a name="truth"></a>Section 0: Should you choose academia?
 At its best, academia is wonderful (literally). We contemplate the deepest mysteries of the universe, expand the [frontiers of human knowledge](https://matt.might.net/articles/phd-school-in-pictures/), and consume ungodly quantities of caffeine.
 
 As such, many guides to grad school applications assume that you want to do academia. As time goes by, this implicit assumption becomes an expectation, and many find themselves stuck. Since you are thinking of applying now, **it is extremely important that you frame this to your self as a choice, and evaluate it as such.** This is your choice for how to spend the next 5-7 years of probably the most youthful, healthy, and independent years of your life.
@@ -60,7 +60,7 @@ If I had to summarize all of this for my past self, I would have said:
 
 ---
 
-### <a name="general"></a> General Application Advice.
+### <a name="general"></a>Section 1: General Application Advice.
 I will now assume that you are set on applying, and walk you through the process. 
 
 Here are three key tips:
@@ -83,7 +83,7 @@ Now let's get to what you can do to prepare a strong application.
 I will begin the upcoming sections with quotes from _The Trial_, which is a book by Franz Kafka about an absurd, bureaucratic, and arcane evaluation that inspires tremendous dread in the protagonist, K. Sounds oddly familiar...
 
 ---
-### <a name="network"></a> How to build a network. 
+### <a name="network"></a>Section 2: How to build a network. 
 > The only things of real value are honest personal contacts (...). That is the only way the progress of the trial can be influenced, hardly noticeable at first, it's true, but from then on it becomes more and more visible. (pg. 139).
 
 You should reach out to graduate students and faculty, as early as possible, but also throughout the whole process. 
@@ -127,7 +127,7 @@ Once you've had a chat, your job isn't over! You should circle back and thank th
 
 ---
 
-### <a name="documents"></a> How to prepare the application materials.
+### <a name="documents"></a>Section 3: How to prepare the application materials.
 
 > Needless to say, the documents would mean an almost endless amount of work. It was easy to come to the belief, not only for those of an anxious disposition, that it was impossible ever to finish it. (pg. 152).
 
@@ -149,13 +149,13 @@ Every admissions website tells you what documents they want: minimally, the pers
    - You can try to read some [self-help book summaries](https://www.nateliason.com/notes/atomic-habits-james-clear). 
 
 4. Be kind to yourself! This is a hard process - if you find yourself resembling this Kafka drawing:
-![Kafka_1](https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA4/29BACKPAGE_KAFKA4-jumbo.jpg?quality=75&auto=webp)
+<img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA4/29BACKPAGE_KAFKA4-jumbo.jpg?quality=75&amp;auto=webp" alt="Kafka_1" class="center">
 
 You should stop and go for a walk. Schedule breaks and rest, much as you schedule work.
 
 ---
 
-### <a name="interview"></a>  How to interview. 
+### <a name="interview"></a> Section 4: How to interview. 
 > This is when the defence begins. (...) he has to learn what he can about it from him and extract whatever he can that might be of use, even though what the accused has to report is often very confused. (pg. 138).
 
 Congratulations on making it to the interview stage! If you are here, you have already cleared the vast majority of the hurdles, and should feel very proud of yourself. 
@@ -166,6 +166,6 @@ The only thing I will add to this is that _your interviews are primarily about y
 - Think about a couple projects that you would be really excited to do. What would some experiments look like? What would the experiments tell us? What would be challenging about them (e.g., confounds)? Who in the lab could you collaborate with on these projects? 
    - The more concrete your vision, the easier it will be for you to communicate it.
 
-Thanks for reading, and best of luck. You have much to look forward to.
+Thanks for reading, and best of luck!
 
-![Kafka_2](https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA3/29BACKPAGE_KAFKA3-jumbo.jpg?quality=75&auto=webp)
+<img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA3/29BACKPAGE_KAFKA3-jumbo.jpg?quality=75&auto=webp" alt="Kafka_2" class="center">

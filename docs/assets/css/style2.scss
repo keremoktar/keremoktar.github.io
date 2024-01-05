@@ -7,17 +7,15 @@
   margin:0 auto
 
 }
-header {
+header { /* change vw to adjust left section size */
   width:15vw;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased
-
-
 }
 
 
-hr {
+hr { /* changes horizontal line styles  */
   border: none; /* Remove default border */
   height: 4px; /* Set the height of the line */
   background: linear-gradient(to right, #ff2d00, #ffb861); /* Apply a gradient background */
@@ -26,7 +24,7 @@ hr {
 }
 
 section {
-  width:40vw;
+  width:40vw; /* change vw to adjust middle section size */
   margin: 0 auto;
   padding-bottom:50px;
   float: none
@@ -39,4 +37,11 @@ body {
 
 li {
   margin-bottom: 5px; /* Optional: additional margin between list items */
+}
+
+.center { /* Optional: centered half-width images*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
