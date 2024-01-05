@@ -1,4 +1,8 @@
-# The Hidden Curriculum: A Guide.
+---
+layout: post
+title: A Guide to the Hidden Curriculum
+---
+# A Guide to the Hidden Curriculum
 Here, I clarify the expectations, norms, and reality of academia. 
 
 ## Chapter 1: PhD Applications.
