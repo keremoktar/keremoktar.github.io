@@ -3,12 +3,11 @@
     <h1 class="content__container__text">
       The Science of
     </h1>
-    
     <ul class="content__container__list">
       <li class="content__container__list__item">Disagreement.</li>
       <li class="content__container__list__item">Opinion.</li>
       <li class="content__container__list__item">Belief.</li>
-      <li class="content__container__list__item">Decisions.</li>
+      <li class="content__container__list__item">Decision-making.</li>
     </ul>
   </div>
 </div>
