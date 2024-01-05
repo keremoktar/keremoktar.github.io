@@ -21,14 +21,15 @@ hr {
   border: none; /* Remove default border */
   height: 4px; /* Set the height of the line */
   background: linear-gradient(to right, #ff2d00, #ffb861); /* Apply a gradient background */
-  margin: 50px 0; /* Add margin above and below the line */
+  margin: 40px 0; /* Add margin above and below the line */
   border-radius: 10px; /* Add rounded corners to the line */
 }
 
 section {
   width:40vw;
   margin: 0 auto;
-  padding-bottom:50px
+  padding-bottom:50px;
+  float: none
 }
 
 body {
@@ -37,5 +38,5 @@ body {
 }
 
 li {
-  margin-bottom: 10px; /* Optional: additional margin between list items */
+  margin-bottom: 5px; /* Optional: additional margin between list items */
 }
