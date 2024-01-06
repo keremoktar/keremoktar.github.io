@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Kerem Oktar - The Science of Disagreement.
 ---
 <div class="content">
