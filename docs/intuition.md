@@ -61,11 +61,11 @@ This framing works because lies are about contradictions, rather than falsehoods
 
 There is nothing _essentially correct_ about defining  ‘->’ this way, much like there is nothing essentially correct about the definition of any primitive component of a formal system. For example, pawns move forward in chess, but not because it is the right way for them to move. It is because chess is more fun when their movement is restricted in this way, and the goal of chess is to produce fun. Similarly, the goal of logic is to detect good inferences, and a primitive with properties similar to a lie detector turns out to be useful for that aim. <span style="color:red">**The definitions of primitives follow from what you want the system to be able to do.**</span>
 
-But it isn’t a priori obvious which primitives will achieve your goals; and typically, systems evolve primitives over time. For example, chess evolved as a system from its ancestors (e.g., the Egyptian senet): 
+But it isn’t a priori obvious which primitives will achieve your goals; and typically, systems evolve primitives over time. For example, chess evolved as a system from its ancestors (e.g., the Egyptian senet):[^2] 
 
-![Picture of Nefertiti playing Senet. It turns out that Chess is more easily traced back to an Indian game called Chaturanga, but I like this picutre.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/1133px-Maler_der_Grabkammer_der_Nefertari_003.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/1133px-Maler_der_Grabkammer_der_Nefertari_003.jpg)" alt="egypt_senet" class="center">
 
-It’s not like board game designers knew what would be more fun—they just knew fun when they had it. Similarly, people were arguing and figuring out what is a good inference before they had formal logic.[^2] Formal logic was built to satisfy these ‘good inference’ criteria. 
+It’s not like board game designers knew what would be more fun—they just knew fun when they had it. Similarly, people were arguing and figuring out what is a good inference before they had formal logic.[^3] Formal logic was built to satisfy these ‘good inference’ criteria. 
 
 #### Evolving logic.
 
@@ -107,10 +107,11 @@ This way of defining ‘->’ does not end up telling us that the inference as a
 
 #### Why should this human-intuitive-definition turn out to be so useful? 
 
-This is a nice puzzle for psychology. Probably because a human that drew useless inferences in simple cases would not survive. These kinds of arguments are called ‘dutch-book’ arguments.[^3] There is also something deeply unsatisfying about those, but that is a story for another time… 
+This is a nice puzzle for psychology. Probably because a human that drew useless inferences in simple cases would not survive. These kinds of arguments are called ‘dutch-book’ arguments.[^4] There is also something deeply unsatisfying about those, but that is a story for another time… 
 
 [^1]: See [modal logic](https://en.wikipedia.org/wiki/Modal_logic). 
 [^2]: Some even think that the origins of reasoning itself emerge from argumentation [(Mercier & Sperber, 2011)](https://doi.org/10.1017/S0140525X10000968). Seems unlikely, but interesting.
-[^3]: These [arguments](https://plato.stanford.edu/entries/dutch-book/) are also used as evolutionary arguments for Bayesian approaches to cognition. 
+[^3]: Queen Nefertari Playing Senet, ca. 1279-1213 B.C; from Nefertari's tomb. It turns out that Chess is more easily traced back to an Indian game called Chaturanga, but I like this picture.
+[^4]: These [arguments](https://plato.stanford.edu/entries/dutch-book/) are also used as evolutionary arguments for Bayesian approaches to cognition. 
 
 ---
