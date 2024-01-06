@@ -7,7 +7,17 @@ body {
   color: #666666; /* Dark gray color */
 }
 
+@media screen and (min-width: 720px) {
+  .hideonpc {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 720px) {
+  .hideonphone {
+    display: none;
+  }
+}
 /* What's below does the flipping animation on main page*/
 .content {
   display:flex;
