@@ -69,15 +69,15 @@ It’s not like board game designers knew what would be more fun—they just kne
 
 #### Evolving logic.
 
-For instance, the following inference, called a syllogism, seems solid: 
-
-A [There are bees]
+For instance, the following inference, called _modus ponens_, seems solid: 
 
 A -> B [If there are bees, then I scream]
 
+A [There are bees]
+
 ∴ B [I scream]
 
-So we want logic to identify this as a good inference. How do we do this? 
+Where '∴' means 'therefore.' We want logic to identify this as a good inference. How do we do this? 
 
 First, we can rewrite it as a single statement. The first two bits, when combined, should lead to the third. We can write the combination through ^ (the conjunction): 
 
