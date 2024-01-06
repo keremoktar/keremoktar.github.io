@@ -63,7 +63,7 @@ There is nothing _essentially correct_ about defining  ‘->’ this way, much l
 
 But it isn’t a priori obvious which primitives will achieve your goals; and typically, systems evolve primitives over time. For example, chess evolved as a system from its ancestors (e.g., the Egyptian senet):[^2] 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/1133px-Maler_der_Grabkammer_der_Nefertari_003.jpg)" alt="egypt_senet" class="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/1133px-Maler_der_Grabkammer_der_Nefertari_003.jpg" alt="egypt_senet" class="center">
 
 It’s not like board game designers knew what would be more fun—they just knew fun when they had it. Similarly, people were arguing and figuring out what is a good inference before they had formal logic.[^3] Formal logic was built to satisfy these ‘good inference’ criteria. 
 

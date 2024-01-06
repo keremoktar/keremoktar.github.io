@@ -36,7 +36,7 @@ The upshot of this is that even very obvious effects in psychology have 'small t
 
 Often, we'll do a smaller pilot study, and use the effect size estimates from that to do power analyses. This is probably not a good idea, unless your pilots are very large, mostly because getting tight bounds on effect sizes requires _very large_ samples, e.g., N > 3000 (see below, [courtesy of Uri Simonsohn](http://datacolada.org/20#footnote_1_545)) .
 
-![Power Uncertainty Graph](./assets/images/Power_uncertainty.jpg){: width="50%"}
+<img src="https://keremoktar.com/assets/images/Power_uncertainty.jpg" alt="power_uncertainty" class="center">
 
 This means that your pilot tells you less than you think about how big your effect probably is.
 
@@ -57,7 +57,7 @@ t.test(cucumber, no_cucumber)
 ```
 
 In this instance, there was enough signal in the randomly generated data that I could find it:
-![Cucumber Graph](./assets/images/thirst.png)
+<img src="https://keremoktar.com/assets/images/thirst.png" alt="Cucumber Graph" class="center">
 
 But obviously this won't hold for all randomly generated data. The question is, for what proportion of these datasets? So we can loop over and randomly generate 1000 cucumber datasets, and collect the p-values:
 
@@ -86,7 +86,7 @@ So our power in this case ~.47. We can increase the number of experiments (e.g.,
 
 We can also ask, what is the sample size you would need to get good (e.g., 90%) power? There are many ways to do this. I find simulations very intuitive, so I just search through possible sample sizes that might make sense, and see what power they are at. In this case, we need a total sample size of 170 to detect our cucumber effect:
 
-![P-values Graph](./assets/images/thirst_sampsearch.png)
+<img src="https://keremoktar.com/assets/images/thirst_sampsearch.png" alt="smple_sizes Graph" class="center">
 
 And here is the code for looping over multiple sample sizes:
 
