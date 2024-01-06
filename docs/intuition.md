@@ -11,7 +11,7 @@ In this page, I intuitively explain interesting problems. I don't assume you hav
 The following is a true statement in logic:
 > If I am a cat, I love eating dark matter.
 
-<img src="https://keremoktar.com/assets/images/cat-galaxy.jpg" alt="catkerem" class="center">
+<img src="https://keremoktar.com/assets/images/cat-galaxy2.jpg" alt="catkerem" class="center">
 
 If you don't know why this is true, logic is not what you think it is. In this post, I explain why many such absurd statements are true, and what this has to do with the foundations of logic.
 
@@ -30,7 +30,7 @@ Now we can phrase our key question more precisely: *Why on earth is A -> B only 
 
 #### A Misleading Intuition. 
 
-Logic intuitively sound like a machine that arbitrates objective truths about the world (i.e., a causal truth detector). It isn’t. Here is an example:
+Logic intuitively sound like a machine that arbitrates objective truths about the world (i.e., a causal truth detector). It isn’t. Here is another example:
 
 >If I am the pope, I can fly. 
 
