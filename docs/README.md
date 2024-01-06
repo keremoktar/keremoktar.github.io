@@ -1,6 +1,3 @@
----
-title: Kerem Oktar - The Science of Disagreement.
----
 <div class="content">
   <div class="content__container">
     <h1 class="content__container__text">
