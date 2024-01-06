@@ -43,20 +43,24 @@ It depends, but overall, [an analysis by the Economist](https://medium.economist
 But this average hides tremendous variation: If you change fields and end up with a good degree in a highly employable field (e.g., AI/ML/Econ), your job prospects will likely increase a lot.  Similarly, if you are an international student from a struggling economy, doing a graduate degree can help you emigrate, which will improve your prospects. And if you get into a good school you can build a strong network.
 
 #### How much will I enjoy the PhD process?
-This also depends, but overall, around a [third to half of graduate students](https://doi.org/10.1038/s41578-022-00444-x) are depressed or anxious, a much higher rate than the U.S average of around ~10-20%. The outlook for underprivileged students (minorities, international students, LGBTQ+ groups, etc.) tends to be worse, according to a large analysis of [UC Berkeley students](https://gradresources.org/wp-content/uploads/2015/09/wellbeingreport_2014-17.pdf). In my experience, almost every graduate student experiences significant career-related distress at some point. 
+This also depends, but overall, around a [third to half of graduate students](https://doi.org/10.1038/s41578-022-00444-x) are depressed or anxious, a much higher rate than the U.S average of around ~10-20%. The outlook for underprivileged students (minorities, international students, LGBTQ+ groups, etc.) tends to be worse, according to a large analysis of [UC Berkeley students](https://gradresources.org/wp-content/uploads/2015/09/wellbeingreport_2014-17.pdf). 
 
-You will also face constant rejection. Papers, grants, talks, etc. all have much higher odds of getting rejected than accepted. And it will sting, because you will have put in a lot of effort--sometimes hundreds of hours.
+Why do graduate students struggle so much? The following are all important factors:
+- Graduate students lack power. If you are stuck with an advisor whose expectations are misaligned with yours, or are in a toxic environment, it can be hard to pivot or hold people accountable.
+- Graduate students are not paid well. Especially for students with dependents or financial hardship, this can be a major stressor. 
+- Graduate students face a difficult job market. Many come in plannnig on becoming professors, and feel despair when confronted with the reality of the market.
+- Academics face constant rejection. Papers, grants, talks, job applications, etc. all have much higher odds of getting rejected than accepted. And it will sting, because you will have put in a lot of effort--sometimes hundreds of hours. 
 
-So it is often rough. But because each step is so challenging, victories can be very rewarding. Your students grow and learn, your ideas develop and are cited, and you build a community in which you are respected. 
+So it is often rough. But obviously there are major upsides in many cases:
+- Flexibility and freedom. You get to make your own schedule and routine, work on the things that interest you the most, and take on additional responsibilities as you see fit. 
+- Victories can be very rewarding. Your students grow and learn, your ideas develop and are cited, and these can be very satisfying.
+- Respect. In general, academics are trusted and well-respected, and I think people enjoy knowing that they are doing something that is societally valued.
+- Community. Academics are typically curious, quirky, and passionate. So it is relatively easy to make friends with interesting people. 
 
-In sum, academia is a challenging experience with sparse and uncertain rewards. Many struggle deeply during it, some thrive, and you should expect it to be more difficult than most alternative careers.
+In sum, academia is a challenging experience with sparse and uncertain rewards. Many struggle deeply during it, many thrive, and you should expect it to be more difficult than most alternative careers.
 
 #### So should you get a PhD?
-This all sounds quite bleak. And it is, for many. Of course, some academics are quite happy with their decision to pursue a PhD (I happen to be one). But it is important for you to know the facts, take some time to reflect, and make an informed decision about whether you want this for yourself. 
-
-If I had to summarize all of this for my past self, I would have said:
-- You should not do a PhD because you have a dream of becoming a well-paid elite college professor. That dream is unlikely to become true, for anyone. 
-- You should do a PhD if you think doing the PhD will confer value to you. 
+This may sound quite bleak. And it can be, for many. Of course, some academics are quite happy with their decision to pursue a PhD (I happen to be one). But it is important for you to know the facts, take some time to reflect, and make an informed decision about whether you want this for yourself. 
 
 ---
 
