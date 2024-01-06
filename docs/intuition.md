@@ -7,12 +7,11 @@ In this page, I intuitively explain interesting problems. I don't assume you kno
 
 ## Logic:
 
-<h3 style = "text-align: center; color: Aquamarine;">Why does anything follow from Falsehood?</h3>
+<h3 style = "text-align: center;">Why does anything follow from Falsehood?</h3>
 
 The following is a true statement in logic:
 > If I am a cat, I love eating dark matter.
 
-![Average Power Graph](./assets/images/power_graph.png)
 <img src="https://keremoktar.com/assets/images/cat-galaxy.jpg" alt="catkerem" class="center">
 
 If you don't know why this is true, logic is not what you think it is. In this post, I explain why many such absurd statements are true, and what this has to do with the foundations of logic.
