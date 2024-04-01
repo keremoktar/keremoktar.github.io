@@ -52,6 +52,9 @@ Sosa, E. (2021). Epistemic explanations: A theory of telic normativity, and what
 Understanding *why* requires going beyond mere deference--it requires developing an internal sense for why (an 'intuition'), beyond just knowing facts ('reach your answer through competence seated in yourself'), especially in particular domains, such as moral, normative, or humanistic questions. And as long as we rationally aim for understanding, vs. mere propositional knowledge, we have a reason **not to revise** our beliefs amid mere disagreement--but we do have reason to **question** or reconsider our views. Even if our aim is knowledge, we aim for firsthand knowledge (as in physical competitions). Moreover, epistemic standards vary across domains--in some (e.g., science), reliability is the core concern, in others (e.g., humanities), since they do not aim to build on each other by trust, reliability is less of a concern. 
 
 ### Thoughts:
+This seems to give a
+
+I like the idea that epistemic standards should include independent competence, though this could be realized in a reliabilist (vs. virtue-based, which is what Sosa is building) framework. You just need to specify that the goal is unaided reliability, or note that aided reliability is always a marginal, and the person not developing internal competence would fail in all the other cases.
 
 ### Quotes:
 'You can do the former [reconsider] seriously, without doing the latter [revise], without being moved in the slightest by the sheer say-so of someone else.'
@@ -63,6 +66,9 @@ Understanding *why* requires going beyond mere deference--it requires developing
 ### Questions:
 
 ### Related:
+
+
+---
 
 ## Structure:
 ### Summary:
