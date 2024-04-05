@@ -1,5 +1,5 @@
 # Reading Summaries
-Wouldn't it be nice to have sparknotes critiques of various papers? I think so (started 01/27/2024).
+Personal reflections on close readings (started 01/27/2024).
 
 ## Psychology
 
@@ -21,7 +21,7 @@ Moral dumbfounding example (sibling love). Moral psychology was mostly rationali
 
 ### Related:
 
-
+---
 ## AI
 
 Gigerenzer, G. (2023). Psychological AI: Designing Algorithms Informed by Human Psychology. Perspectives on Psychological Science, 0(0). https://doi.org/10.1177/17456916231180597
@@ -41,6 +41,32 @@ None.
 Simon, H. A., & Newell, A. (1958). Heuristic problem solving: The next advance in operations research. Operations Research, 6, 1–10.
 Gigerenzer, G. (1991). From tools to theories: A heuristic of discovery in cognitive psychology. Psychological Review, 98(2), 254.
 Daston, L. J. (1994). Enlightenment calculations. Critical Inquiry, 21, 182–202.
+
+---
+
+## Philosophy
+
+Sosa, E. (2021). Epistemic explanations: A theory of telic normativity, and what it explains. Oxford University Press. (Introduction)
+
+### Summary:
+Understanding *why* requires going beyond mere deference--it requires developing an internal sense for why (an 'intuition'), beyond just knowing facts ('reach your answer through competence seated in yourself'), especially in particular domains, such as moral, normative, or humanistic questions. And as long as we rationally aim for understanding, vs. mere propositional knowledge, we have a reason **not to revise** our beliefs amid mere disagreement--but we do have reason to **question** or reconsider our views. Even if our aim is knowledge, we aim for firsthand knowledge (as in physical competitions). Moreover, epistemic standards vary across domains--in some (e.g., science), reliability is the core concern, in others (e.g., humanities), since they do not aim to build on each other by trust, reliability is less of a concern. 
+
+### Thoughts:
+This seems to give a
+
+I like the idea that epistemic standards should include independent competence, though this could be realized in a reliabilist (vs. virtue-based, which is what Sosa is building) framework. You just need to specify that the goal is unaided reliability, or note that aided reliability is always a marginal, and the person not developing internal competence would fail in all the other cases.
+
+### Quotes:
+'You can do the former [reconsider] seriously, without doing the latter [revise], without being moved in the slightest by the sheer say-so of someone else.'
+
+'Proper deliberation uses testimony only as a conduit to reasons which can then be accessed firsthand, adopted as one’s own, and deployed through firsthand reasoning.'
+
+'All of that being so, your firsthand judgments in humanistic domains need not be so reliable. At least that is so from a social point of view, from the perspective of social norms on responsible judgment.'
+
+### Questions:
+
+### Related:
+
 
 ---
 
