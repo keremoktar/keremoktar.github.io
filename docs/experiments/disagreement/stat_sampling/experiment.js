@@ -10,7 +10,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
 
     // the below urls must be accessible with your browser
     var requiredResources = [
-		jslib_url + "/disagreement_statsampling/issues.js",
+		jslib_url + "/disagreement_statsampling/issues.js", 
         jslib_url + "/jspsych6.3/jspsych.js",
         jslib_url + "/jspsych6.3/plugins/jspsych-html-keyboard-response.js",
 		jslib_url + "/jspsych6.3/plugins/jspsych-survey-multi-choice.js",
@@ -70,18 +70,23 @@ Qualtrics.SurveyEngine.addOnload(function () {
 		var subj_stimuli = stimuli.filter(function(item) {
 		  return item["Domain"] === domain;
 		});
-		//console.log(subj_stimuli);
+		//console.log(subj_stimuli); //for troubleshooting [ts]
 		
+		// this tracks which specific item was randomly picked
 		var agreement_levels = [
 		  { disagreement_lvl: 'low', selected_item: "None" },
 		  { disagreement_lvl: 'medium', selected_item: "None" },
 		  { disagreement_lvl: 'high', selected_item: "None" }
 		];
 		
+		//////////////////////////////////////
+		//    Belief Selection Trial        //
+		//////////////////////////////////////
+
 		var agreement_selexn_trial = {
 		  type: "survey-multi-select",
 		  on_start: function(){
-		    console.log(subj_stimuli);
+		    //console.log(subj_stimuli); //for [ts]
 		  },
 		  questions: [
 		  {
@@ -89,42 +94,49 @@ Qualtrics.SurveyEngine.addOnload(function () {
 			options: function(){
 						//filtering by disagreement level
 						current_stimuli = subj_stimuli.filter(function(item) {
-											return item["Disagreement Level"] === jsPsych.timelineVariable('disagreement_lvl');
-										  });
+											return item["Disagreement Level"] === jsPsych.timelineVariable('disagreement_lvl'); 
+										  }); //dis lvl is randomized below, in the timeline construction
+						
+										  // log disagreement level
 						Qualtrics.SurveyEngine.setEmbeddedData("lvl" + (blockRepetitionCount + 1).toString(),jsPsych.timelineVariable('disagreement_lvl')); 
 						console.log("current stim disagreement level:", jsPsych.timelineVariable('disagreement_lvl'))
 						console.log("current stim: ", current_stimuli)
+						
 						//randomizing order of presentation
 						for (let i = current_stimuli.length - 1; i > 0; i--) {
 						  const j = Math.floor(Math.random() * (i + 1));
 						  [current_stimuli[i], current_stimuli[j]] = [current_stimuli[j], current_stimuli[i]];
 						}
 						//extracting only the item string from the data and returning the full array to populate "options"
+						// map applies a fxn to each element in an array
+						// so this returns only the item text as the options
 						return current_stimuli.map(function(item) {return item.Item;})
 					  },
 			required: false,
-			name: 'Agreement Selection Trial'
+			name: 'Agreement Selection Trial' //name of the question
 		  }],
 			on_finish: function(data) { //storing information about subj response to give feedback in next trial
 			  var agreed_items = data.response['Agreement Selection Trial']
 			  var num_agreed = agreed_items.length
 			  if (num_agreed > 0) { //pick one of the chosen items at random
-				var random_ind = Math.floor(Math.random() * agreed_items.length);
+				var random_ind = Math.floor(Math.random() * agreed_items.length); //random 0-1 * length => random choice
 				data.selected_item = agreed_items[random_ind]
 				 
-				  //log item into qualtrics embedded data
+				//log item into qualtrics embedded data
 				Qualtrics.SurveyEngine.setEmbeddedData("item" + (blockRepetitionCount + 1).toString(), data.selected_item);
 				
-				  //now get corresponding item data from stimulus list to put in additional info
+				//now get corresponding item data from stimulus list to put in additional info
 				  var chosen_item = stimuli.filter(function(item) {
 					  return item["Item"] === data.selected_item;
 					});
 				console.log("CHOSEN ITEM:", chosen_item);
 				console.log("CHOSEN ISSUE:", chosen_item[0]["Issue"]);
-				  console.log("CHOSEN Agree:", chosen_item[0]["Agree"]);
+				console.log("CHOSEN AGREE:", chosen_item[0]["Agree"]);
 				Qualtrics.SurveyEngine.setEmbeddedData("issue" + (blockRepetitionCount + 1).toString(), chosen_item[0]["Issue"]); 
-				Qualtrics.SurveyEngine.setEmbeddedData("dis" + (blockRepetitionCount + 1).toString(), chosen_item[0]["Agree"]);
+				//since we say 'don't share your view,' in the question dv, we can just invert the agreement rather than piping disagreement
+				Qualtrics.SurveyEngine.setEmbeddedData("dis" + (blockRepetitionCount + 1).toString(), 100-chosen_item[0]["Agree"]); 
 				
+				// this just logs all the beliefs that were chosen
 				var chosen_items = stimuli.filter(function(item) {
 				  return agreed_items.includes(item["Item"]);
 				});
@@ -133,8 +145,8 @@ Qualtrics.SurveyEngine.addOnload(function () {
 					});
 				Qualtrics.SurveyEngine.setEmbeddedData("bels" + (blockRepetitionCount + 1).toString(), chosen_item_labs.toString());
 				
-				  //increment item count so that when it loops back you log new variables into data
-				  blockRepetitionCount++;
+				//increment item count so that when it loops back you log new variables into data
+				blockRepetitionCount++;
 				  
 			  } else {
 				console.log("No response selected, skipping to next round")
@@ -145,12 +157,55 @@ Qualtrics.SurveyEngine.addOnload(function () {
 			}
 		};
 		
-		
 		//////////////////////////////////////
-		//    Agreement Confidence Trial    //
+		//    Belief Strength  Trial  1     //
 		//////////////////////////////////////
-		// select all trials
-		// get csv representation of data and log to console
+
+		var belief_scale = [
+		'Definitely True', 
+		'Very likely<br>to be True',  
+		'Likely to be True',  
+		'Slightly likely<br>to be True',  
+		'Slightly likely<br>to be False',  
+		'Likely to be False',  
+		'Very likely<br>to be False',  
+		'Definitely False'
+		];
+
+		var belief_true = [
+			'Definitely True', 
+			'Very likely to be True',  
+			'Likely to be True',  
+			'Slightly likely to be True'
+		];
+
+		var strength_trial_1 = {
+		  type: 'survey-likert',
+		  preamble:   function(data){
+			stim_html = 
+				"You selected that you agreed with the following claim: <i><br>" + 
+                jsPsych.data.get().last(1).select('selected_item').values[0] + 
+                "</i>"
+			return stim_html
+		  },
+		  questions: [
+			{prompt: "<b>I believe that this statement is... </b>", 
+			name: 'strength1', labels: belief_scale.reverse(), required: true,}
+		  ],
+		  name: 'strength1',
+		  data: function(){
+				return {selected_item: jsPsych.data.get().last(1).select('selected_item').values[0]}
+			  },
+		  on_finish: function(data) {
+			var resp = data.response['strength1']
+			  data.strength1 = resp
+			  Qualtrics.SurveyEngine.setEmbeddedData("strength1_" + (blockRepetitionCount).toString(), data.strength1);
+		  } 
+		};
+
+		//////////////////////////////////////
+		//             Confidence Trial  1  //
+		//////////////////////////////////////
 
 		var confidence_scale = [
 			"Very confident", 
@@ -160,7 +215,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
 			"Not at all confident"
 		];
 
-		var agreement_confidence_trial = {
+		var confidence_trial_1 = {
 		  type: 'survey-likert',
 		  preamble:   function(data){
 			stim_html = 
@@ -171,16 +226,16 @@ Qualtrics.SurveyEngine.addOnload(function () {
 		  },
 		  questions: [
 			{prompt: "<b>How confident are you in this response?</b>", 
-			name: 'confidence', labels: confidence_scale.reverse(), required: true,}
+			name: 'confidence1', labels: confidence_scale.reverse(), required: true,}
 		  ],
-		  name: 'confidence',
+		  name: 'confidence1',
 		  data: function(){
 				return {selected_item: jsPsych.data.get().last(1).select('selected_item').values[0]}
 			  },
 		  on_finish: function(data) {
-			var resp = data.response['confidence']
+			var resp = data.response['confidence1']
 			  data.confidence = resp
-			  Qualtrics.SurveyEngine.setEmbeddedData("conf" + (blockRepetitionCount).toString(), data.confidence);
+			  Qualtrics.SurveyEngine.setEmbeddedData("conf1_" + (blockRepetitionCount).toString(), data.confidence);
 		  } 
 		};
 
@@ -192,11 +247,19 @@ Qualtrics.SurveyEngine.addOnload(function () {
 		  type: "html-slider-response",
 		  stimulus: function(data){
 			stim_html = "Let's continue considering the claim that <i>" +
-				 jsPsych.data.get().last(1).select('selected_item').values[0] +
-			  ".</i><br><br> What percentage of people in the United States do " +
-			  "you think <b>share your view</b> about this claim? " +
-			  "Please drag the bar to indicate a percentage. <br><br>"
-			return stim_html
+				jsPsych.data.get().last(1).select('selected_item').values[0] +
+				".</i><br><br> You indicated that the statement above is more likely to be <i>";
+
+				//depends the person's belief strength response
+				console.log('Belief Strength Value', jsPsych.data.get().last(2).select('strength1').values[0]);
+				if (jsPsych.data.get().last(2).select('strength1').values[0] > 4) {
+				stim_html += 'true than false.';
+				} else {
+				stim_html += 'false than true.';
+				}
+				stim_html += "</i><br><br> What percentage of people in the United States do you think <b>share your view</b> about this claim? Please drag the bar to indicate a percentage. <br><br>";
+
+			return stim_html;
 		  },
 		  data: function(){
 			return {selected_item: jsPsych.data.get().last(1).select('selected_item').values[0]}
@@ -250,6 +313,62 @@ Qualtrics.SurveyEngine.addOnload(function () {
 				Qualtrics.SurveyEngine.setEmbeddedData("question" + (blockRepetitionCount).toString(), data.question);
 		} 
 		};
+
+		//////////////////////////////////////
+		//    Belief Strength  Trial  2     //
+		//////////////////////////////////////
+
+			var strength_trial_2 = {
+			  type: 'survey-likert',
+			  preamble:   function(data){
+				stim_html = 
+					"You selected that you agreed with the following claim: <i><br>" + 
+					jsPsych.data.get().last(1).select('selected_item').values[0] + 
+					"</i>"
+				return stim_html
+			  },
+			  questions: [
+				{prompt: "<b>I believe that this statement is... </b>", 
+				name: 'strength2', labels: belief_scale, required: true,}
+			  ],
+			  name: 'strength2',
+			  data: function(){
+					return {selected_item: jsPsych.data.get().last(1).select('selected_item').values[0]}
+				  },
+			  on_finish: function(data) {
+				var resp = data.response['strength2']
+				  data.strength1 = resp
+				  Qualtrics.SurveyEngine.setEmbeddedData("strength2_" + (blockRepetitionCount).toString(), data.strength1);
+			  } 
+			};
+	
+			//////////////////////////////////////
+			//             Confidence Trial  2  //
+			//////////////////////////////////////
+	
+			var confidence_trial_2 = {
+			  type: 'survey-likert',
+			  preamble:   function(data){
+				stim_html = 
+					"You selected that you agreed with the following claim: <i><br>" + 
+					jsPsych.data.get().last(1).select('selected_item').values[0] + 
+					"</i>"
+				return stim_html
+			  },
+			  questions: [
+				{prompt: "<b>How confident are you in this response?</b>", 
+				name: 'confidence', labels: confidence_scale, required: true,}
+			  ],
+			  name: 'confidence',
+			  data: function(){
+					return {selected_item: jsPsych.data.get().last(1).select('selected_item').values[0]}
+				  },
+			  on_finish: function(data) {
+				var resp = data.response['confidence']
+				  data.confidence = resp
+				  Qualtrics.SurveyEngine.setEmbeddedData("conf" + (blockRepetitionCount).toString(), data.confidence);
+			  } 
+			};
 		
 		var mapping_trial = {
 		  type: "html-button-response",
@@ -291,8 +410,8 @@ Qualtrics.SurveyEngine.addOnload(function () {
 				Qualtrics.SurveyEngine.setEmbeddedData("map" + (blockRepetitionCount).toString(), data.choices[resp]);
 		} 
 		};
-				///////////////////////////////////
-		//     PTP Questions     //
+		///////////////////////////////////
+		//     PTP Questions            //
 		///////////////////////////////////
 
 		var likert_scale = [
@@ -395,11 +514,12 @@ Qualtrics.SurveyEngine.addOnload(function () {
 		  } 
 		};
 
-
+		// this loads up other measures *if* the participant selected a belief in the prior trial
 		var if_selection = {
-			timeline: [agreement_confidence_trial, 
-					  //],
-					   agreement_estim_trial,question_views_trial,mapping_trial,ptp_agree_trial],//agree_inst, ptp_explain_trial],
+			timeline: [strength_trial_1, confidence_trial_1, 
+					   agreement_estim_trial,question_views_trial, 
+					   strength_trial_2, confidence_trial_2, 
+					   mapping_trial,ptp_agree_trial], // load on measures here
 			conditional_function: function(){
 				// get the data from the previous trial,
 				// and check if there was a selection
@@ -414,7 +534,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
 
 		var dv_block = {
 		  timeline: [agreement_selexn_trial, if_selection], //will only run if_selection if participant chose a statement to agree with
-		  timeline_variables: agreement_levels,
+		  timeline_variables: agreement_levels, //randomly chooses a disagreement level to display on the belief trial
 		  randomize_order: true
 		};
 		
