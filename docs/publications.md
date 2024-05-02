@@ -1,21 +1,23 @@
 # My Publications.
 
 ## Peer-reviewed Journal Articles:
+**Oktar, K.,** Lombrozo, T., & Griffiths, T. (2024). Learning from Aggregated Opinion. (Accepted at Psychological Science)
+ - *If 4 people think something is true, and 14 think it is false, what is the likelihood that it is true? People's answers to this problem match a Bayesian model's predictions well; better than alternative heuristics from epistemology and economics.*
+
+**Oktar, K.**, Sucholutsky, I., Lombrozo, T., & Griffiths, T. (2024). Unpacking Divergence and Misalignment in Cognitive Science and Artificial Intelligence. (Accepted at Decision).
+ - *Is disagreement a difference in beliefs, or is it a misalignment in worldviews? We formally define and relate both, and discuss how not taking alignment into account can lead to ineffective, or backfiring, interventions.*
+
 **Oktar, K.**, Lerner, A., Malaviya, M., & Lombrozo, T. (2023). Philosophy instruction changes views on moral controversies by decreasing reliance on intuition. Cognition, 236, 105434. [https://doi.org/10.1016/j.cognition.2023.105434](https://doi.org/10.1016/j.cognition.2023.105434)
+ - *Does moral reasoning play a role in shaping moral judgments? Recent research suggests it does not. Yet we find that a moral philosophy course can change students' views---especially those students who relied most on their intuitions initially.*
 - Best Poster Prize at SPP 2023
 
 **Oktar, K.** and Lombrozo, T. (2022). Deciding to be authentic: Intuition is favored over deliberation when authenticity matters. Cognition, 223, 105021. [https://doi.org/10.1016/j.cognition.2022.105021](https://doi.org/10.1016/j.cognition.2022.105021)
+ - *Why do we make romantic and financial decisions differently? For romance, deliberation seems awkward---imagine doing a linear regression on someone's features---for finance,relying on intuition seems strange. This is because people think some decisions (e.g., romance) should reflect their true selves, and that this notion is related to intuition.*
 - In Top 10 Most Downloaded Articles on Cognition, Spring 2022
 
-Oktar, K., Laura, Z., & Leticia, S. (2019). Impact of Increasing Levels of Difficulty on the
-Generation Effect. Koc University Undergraduate Psychology Journal , 4(18), 12-17
+Oktar, K., Laura, Z., & Leticia, S. (2019). Impact of Increasing Levels of Difficulty on the Generation Effect. Koc University Undergraduate Psychology Journal , 4(18), 12-17
 
 ## Journal Articles Under Review:
-**Oktar, K.,** Lombrozo, T., & Griffiths, T. (2023). Learning from Aggregated Opinion. (R&R at Psychological Science)
-
-**Oktar, K.** and Lombrozo, T. (2023). How Beliefs Persist Amid Controversy: The Paths to Persistence Model. (R&R at Psychological Review).
-
-**Oktar, K.**, Sucholutsky, I., Lombrozo, T., & Griffiths, T. (2023). Unpacking Divergence and Misalignment in Cognitive Science and Artificial Intelligence. (R&R at Decision).
 
 Gottlieb-Cohen, S.\*, **Oktar, K.**\*, & Lombrozo, T. (2022). Deciding when we cannot know: First-person priority in transformative choice. (Manuscript Under Review at Open-mind).
 
