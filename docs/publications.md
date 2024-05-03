@@ -1,3 +1,7 @@
+---
+layout: post
+title: My Publications.
+---
 # My Publications.
 
 ## Peer-reviewed Journal Articles:
