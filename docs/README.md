@@ -16,19 +16,19 @@
 </div>
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
-Here are two ongoing projects I am most excited about:
-
-**_Why do controversial beliefs persist?_** On controversies from abortion to vaccination, we know that millions disagree with us, yet remain anchored to our beliefs. I am developing a framework that explains this persistence through four interacting mechanisms that connect insights across the social sciences [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.  
-
-**_How do we avoid manipulation?_** I am developing a computational model of vigilant inference from motivated communication. This model explains why we generally trust doctors (but not politicians) and word-of-mouth recommendations (but not ads), and offers a novel explanation for polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
+Here are two ongoing projects I am most excited about:<br><br>
+**_Why do controversies persist?_** On controversies from abortion to vaccination, we typically know that millions disagree with us, yet remain anchored to our beliefs. Our framework explains why we persist through four mechanisms [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}. <br><br>
+**_How do we avoid manipulation?_** I am developing a computational model of how people learn from motivated communication. This model explains why we trust word-of-mouth recommendations (but not ads), and provides a novel explanation of polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
 <details>
 <summary>(Details)<br><br></summary>
   
-We disagree---collectively, forcefully, and frequently. We disagree in business meetings and violent protests; about scientific issues and moral questions; with loved ones and with millions of strangers. 
-<br><br>
-Despite much research, our understanding of disagreement is quite limited (see, e.g., Klofstad, 2013). My work brings together insights from social and cognitive psychology, epistemology, and probability theory to shed light on this important phenomenon.<br><br>
-I suggest that there are four distinct dimensions of disagreement that determine our responses to it, and that effective interventions aimed towards changing beliefs need to be tailored to these dimensions. <br><br>
+_Is abortion morally acceptable? Is the Earth getting warmer? Should vaccines be mandatory?_<br>
+Beliefs about such issues shape society. And people form these beliefs collectively, by negotiating differences in their views; learning from each other in some cases, and ignoring dissent in others. The goal of my research program is to understand the cognitive mechanisms that shape beliefs on such controversies---including how people navigate disagreements and change their views.
+
+I pursue this goal through multiple methods: I construct theories that identify the inductive problems people solve to navigate controversies, build computational models that provide optimal solutions to these problems, and test these models by comparing their predictions to human behavior across scientific, religious, moral, and political controversies. I then use these insights in theory-based interventions that leverage cutting-edge tools (e.g., large language models) to foster productive engagement with diverse perspectives.  
+
+My research operates at two levels of analysis. At one level, I study how people respond to an increasingly prevalent form of social information: the aggregated opinions of hundreds to millions of strangers (e.g., in the form of likes, polls, and votes). At another level, I examine responses to the conflicting testimony of known individuals. 
 </details>
 
 ## What drives our beliefs and decisions?
