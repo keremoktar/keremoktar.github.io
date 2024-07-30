@@ -14,9 +14,9 @@
 <div class="hideonpc">
   <h1> The Science of Disagreement </h1>
 </div>
-My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention. Here are two projects:
+My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention. Here are two key projects:
 
-**_Why do controversies persist?_** Our framework explains why millions disagreeing with us rarely changes our beliefs on important issues from abortion to vaccination [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.
+**_Why do controversies persist?_** Our framework explains why dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.
 
 **_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication, and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
@@ -32,7 +32,7 @@ My research operates at two levels of analysis. At one level, I study how people
 </details>
 
 ## What drives our beliefs and decisions?
-I also study when deeply important beliefs---such as whether abortion is moral---can be _changed_ [(Oktar et al., 2023)](https://doi.org/10.1016/j.cognition.2023.105434){:target="_blank"}; and am interested in how people decide _how to decide_ [(Oktar & Lombrozo, 2022)](https://www.sciencedirect.com/science/article/pii/S0010027722000099){:target="_blank"}.
+I also study when deeply important beliefs---such as whether immigration restrictions are moral---can be _changed_ [(Oktar et al., 2023)](https://doi.org/10.1016/j.cognition.2023.105434){:target="_blank"}; and am interested in how people decide _how to decide_ [(Oktar & Lombrozo, 2022)](https://www.sciencedirect.com/science/article/pii/S0010027722000099){:target="_blank"}.
 
 <!-- [Click here](./other-research.md) for other areas of my research. -->
 
