@@ -5,8 +5,8 @@
     </h1>
     <ul class="content__container__list">
      <li class="content__container__list__item">Disagreement.</li>
-      <li class="content__container__list__item">Opinion.</li>
       <li class="content__container__list__item">Belief.</li>
+      <li class="content__container__list__item">Controversy.</li>
       <li class="content__container__list__item">Decision-making.</li>
     </ul>
   </div>
@@ -16,7 +16,10 @@
 </div>
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
-Currently, I am developing and testing a model of how we both persist in our views amid societal controversy, yet maintain sufficient flexibility to learn from others [(Oktar & Lombrozo, 2022)](https://escholarship.org/uc/item/3380n01h){:target="_blank"}.  
+Here are two ongoing projects I am most excited about:
+- *Why do controversial beliefs persist?* On controversies from abortion to vaccination, we frequently know that millions disagree with us, yet remain firmly anchored to our beliefs. My Paths to Persistence model explains such persistence through four interacting mechanisms that connect insights across the social sciences [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.  
+- *How do we avoid manipulation?* I am developing a computational model of vigilant inference from motivated communication. This model explains why we generally trust doctors (but not politicians) and word-of-mouth recommendations (but not ads), and offers a novel explanation for polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
+
 <details>
 <summary>(Details)<br><br></summary>
   
