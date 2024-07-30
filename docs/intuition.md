@@ -2,10 +2,7 @@
 layout: post
 title: Intuition for Interesting Problems
 ---
-# Intuitively Interesting.
-In this page, I intuitively explain interesting problems. I don't assume you have any prior expertise. 
 
-## Problems in Logic:
 <h3 style = "text-align: center;">Why does anything follow from Falsehood?</h3>
 
 The following is a true statement in logic:
