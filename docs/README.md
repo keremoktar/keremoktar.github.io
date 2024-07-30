@@ -14,11 +14,11 @@
 <div class="hideonpc">
   <h1> The Science of Disagreement </h1>
 </div>
-My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
+My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention. Here are two projects:
 
-Here are two ongoing projects I am most excited about:<br>
-**_Why do controversies persist?_** This framework explains why millions disagreeing with us rarely changes our beliefs on important issues from abortion to vaccination [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}. <br>
-**_How do we avoid manipulation?_** This computational model explains how people learn from motivated communication, and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
+**_Why do controversies persist?_** Our framework explains why millions disagreeing with us rarely changes our beliefs on important issues from abortion to vaccination [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.
+
+**_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication, and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
 <details>
 <summary>(Details)<br><br></summary>
