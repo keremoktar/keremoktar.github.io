@@ -18,17 +18,17 @@ My research aims to clarify the psychological and computational basis of disagre
 
 **_Why do controversies persist?_** Our framework explains why dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.
 
-**_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication, and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
+**_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
 <details>
 <summary>(Details)<br><br></summary>
   
-<i>Is abortion morally acceptable? Is the Earth getting warmer? Should vaccines be mandatory?</i><br>
+<i>Is abortion morally acceptable? Is the Earth getting warmer? Should vaccines be mandatory?</i><br><br>
 Beliefs about such issues shape society. And people form these beliefs collectively, by negotiating differences in their views; learning from each other in some cases, and ignoring dissent in others. The goal of my research program is to understand the cognitive mechanisms that shape beliefs on such controversies---including how people navigate disagreements and change their views.
 <br><br>
 I pursue this goal through multiple methods: I construct theories that identify the inductive problems people solve to navigate controversies, build computational models that provide optimal solutions to these problems, and test these models by comparing their predictions to human behavior across scientific, religious, moral, and political controversies. I then use these insights in theory-based interventions that leverage cutting-edge tools (e.g., large language models) to foster productive engagement with diverse perspectives.  
 <br><br>
-My research operates at two levels of analysis. At one level, I study how people respond to an increasingly prevalent form of social information: the aggregated opinions of hundreds to millions of strangers (e.g., in the form of likes, polls, and votes). At another level, I examine responses to the conflicting testimony of known individuals. 
+My research operates at two levels of analysis. At one level, I study how people respond to an increasingly prevalent form of social information: the aggregated opinions of hundreds to millions of strangers (e.g., in the form of likes, polls, and votes). At another level, I examine responses to the conflicting testimony of known individuals. <br><br>
 </details>
 
 ## What drives our beliefs and decisions?
