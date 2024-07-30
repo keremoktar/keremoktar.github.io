@@ -17,8 +17,9 @@
 My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention.
 
 Here are two ongoing projects I am most excited about:
-- *Why do controversial beliefs persist?* On controversies from abortion to vaccination, we frequently know that millions disagree with us, yet remain firmly anchored to our beliefs. My Paths to Persistence model explains such persistence through four interacting mechanisms that connect insights across the social sciences [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.  
-- *How do we avoid manipulation?* I am developing a computational model of vigilant inference from motivated communication. This model explains why we generally trust doctors (but not politicians) and word-of-mouth recommendations (but not ads), and offers a novel explanation for polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
+<h2>Why do controversial beliefs persist?</h2> On controversies from abortion to vaccination, we frequently know that millions disagree with us, yet remain firmly anchored to our beliefs. My Paths to Persistence model explains such persistence through four interacting mechanisms that connect insights across the social sciences [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.  
+
+<h2>*How do we avoid manipulation?</h2> I am developing a computational model of vigilant inference from motivated communication. This model explains why we generally trust doctors (but not politicians) and word-of-mouth recommendations (but not ads), and offers a novel explanation for polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
 <details>
 <summary>(Details)<br><br></summary>
