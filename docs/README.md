@@ -23,13 +23,20 @@ My research aims to clarify the psychological and computational basis of disagre
 <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" class="float_right">
 -->
 
-<div style="position: relative; margin-bottom: 20px;">
-  <div style="margin-right: 100px;">
+<div style="position: relative; margin-bottom: 40px; min-height: 180px;">
+  <div style="width: 60%; margin-right: 40%;">
     <p id="opinion-paragraph">
       <strong><em>How does societal opinion influence belief?</em></strong> We review 300+ papers on how aggregated opinons---from opinion polls to online ratings---influence people's beliefs. <a href="./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf" target="_blank">(Oktar & Lombrozo, 2025)</a>.
     </p>
   </div>
-  <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" style="position: absolute; top: 0; right: 0; height: 100%; width: auto; object-fit: contain;">
+  
+  <!-- Decorative Arrow -->
+  <div style="position: absolute; top: 50%; right: 30%; transform: translateY(-50%); font-size: 24px; color: #555;">
+    &#8594;
+  </div>
+  
+  <!-- Image positioned further right -->
+  <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); height: 180px; width: auto; object-fit: contain;">
 </div>
 
 **_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
