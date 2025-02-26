@@ -23,19 +23,19 @@ My research aims to clarify the psychological and computational basis of disagre
 <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" class="float_right">
 -->
 
-<div style="display: flex; margin-bottom: 30px;">
-  <!-- Text content column -->
-  <div style="flex: 1; padding-right: 20px;">
-    <p><em><strong>How does societal opinion influence belief?</strong></em> We review 300+ papers on how aggregated opinons---from opinion polls to online ratings---influence people's beliefs. (<a href="./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf" target="_blank">Oktar & Lombrozo, 2025</a>).</p>
-  </div>
+<!-- Container for the entire section with relative positioning -->
+<div style="position: relative; margin-bottom: 60px; padding-right: 280px;">
+  <!-- Text content flows normally -->
+  <p><em><strong>How does societal opinion influence belief?</strong></em> We review 300+ papers on how aggregated opinons---from opinion polls to online ratings---influence people's beliefs. (<a href="./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf" target="_blank">Oktar & Lombrozo, 2025</a>).</p>
   
-  <!-- Arrow and image column -->
-  <div style="display: flex; align-items: center; width: 270px; flex-shrink: 0;">
-    <div style="margin: 0 10px; font-size: 24px; color: #555;">&#8594;</div>
-    <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" style="width: 220px; height: auto;">
+  <!-- Absolutely positioned image and arrow to the right of all content -->
+  <div style="position: absolute; top: 0; right: 0; width: 250px;">
+    <div style="display: flex; align-items: center;">
+      <div style="margin-right: 10px; font-size: 24px; color: #555;">&#8594;</div>
+      <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" style="width: 220px; height: auto;">
+    </div>
   </div>
 </div>
-
 **_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
 <details>
