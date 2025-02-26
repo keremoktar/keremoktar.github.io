@@ -14,9 +14,23 @@
 <div class="hideonpc">
   <h1> The Science of Disagreement </h1>
 </div>
-My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention. Here are two key projects:
+My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention. Here are three key projects:
 
 **_Why do controversies persist?_** Our framework explains why dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.
+
+<!-- **_How does societal opinion influence belief?_** We review 300+ papers on how aggregated opinons---from opinion polls to online ratings---influence people's beliefs. [(Oktar & Lombrozo, 2025)](./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf){:target="_blank"}.
+
+<img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" class="float_right">
+-->
+
+<div style="position: relative; margin-bottom: 20px;">
+  <div style="margin-right: 100px;">
+    <p id="opinion-paragraph">
+      <strong><em>How does societal opinion influence belief?</em></strong> We review 300+ papers on how aggregated opinons---from opinion polls to online ratings---influence people's beliefs. <a href="./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf" target="_blank">(Oktar & Lombrozo, 2025)</a>.
+    </p>
+  </div>
+  <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" style="position: absolute; top: 0; right: 0; height: 100%; width: auto; object-fit: contain;">
+</div>
 
 **_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
