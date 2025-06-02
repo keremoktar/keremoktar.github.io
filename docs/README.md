@@ -4,10 +4,10 @@
       The Science of
     </h1>
     <ul class="content__container__list">
-     <li class="content__container__list__item">Disagreement.</li>
+     <li class="content__container__list__item">Social Cognition.</li>
+      <li class="content__container__list__item">Persuasion.</li>
+      <li class="content__container__list__item">Disagreement.</li>
       <li class="content__container__list__item">Belief.</li>
-      <li class="content__container__list__item">Controversy.</li>
-      <li class="content__container__list__item">Decision-making.</li>
     </ul>
   </div>
 </div>
@@ -16,19 +16,29 @@
 </div>
 My research examines <i>social cognition</i> across minds and machines. 
 
-Human social capacities---from detecting perusasion to learning from opinion---remain out of reach for even the best artificial intelligence (AI) systems. Clarifying the computations underlying these social capacities can therefore shed light on human cognition, while helping us engineer better AI systems. These are central aims of my research program, as exemplified by the following projects:
+Human social capacities---from detecting perusasion to learning from opinion---remain out of reach for even the best artificial intelligence (AI) systems. 
 
-## Understanding human social cognition:
+Clarifying the computations underlying these social capacities can therefore shed light on human cognition, while helping us engineer better AI systems. 
 
-**_How does societal opinion influence belief?_** My research has shown that people can draw rational inferences from others' aggregated opinions [(Oktar et al., 2025; Psychological Science)](./assets/papers/Oktar_Learning_From_Aggregated_Opinion.pdf){:target="_blank"}---and that dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024; PsyArxiv)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}. The _Paths to Persistence Model_ explains how these pieces fit together, by identifying four factors that specify when societal opinion can change beliefs [(Oktar & Lombrozo, 2025; Nature Reviews Psychology)](./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf){:target="_blank"}.
+These are central aims of my research program, as exemplified by the following projects:
+
+### Understanding human social cognition:
+
+**_How does societal opinion influence belief?_** 
+My research has shown that people can draw rational inferences from others' aggregated opinions [(Oktar, Lombrozo, & Griffiths, 2025; Psychological Science)](./assets/papers/Oktar_Learning_From_Aggregated_Opinion.pdf){:target="_blank"}---and that dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024; PsyArxiv)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}. 
+
+The _Paths to Persistence Model_ explains how these pieces fit together, by identifying four factors that specify when societal opinion can change beliefs [(Oktar & Lombrozo, 2025; Nature Reviews Psychology)](./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf){:target="_blank"}.
 
 <!-- <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" > -->
 
-## Engineering artificial social intelligence:
+### Engineering artificial social intelligence:
 
-**_How can AI systems vigilantly avoid manipulation?_** For AI agents to be effective in the real world, they must critically evaluate the motivations of their sources: for example, LLMs should discount claims made in sales pitches, while trusting reliable experts. My research has provided formal models of how such vigilance should operate rationally, and shown that human inferences are aligned with this model across financial and medical decisions [(Oktar, Sumers, & Griffiths, 2024; CogSci)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. In ongoing research, we have shown that making salient the key components of this model through prompt-engineering improves LLMs' capacity for vigilance (across replications of experiments in cognitive science and novel tests with hundreds of real YouTube ads) [forthcoming]. 
+**_How can AI systems vigilantly avoid manipulation?_** 
+For AI agents to be effective in the real world, they must critically evaluate the motivations of their sources: for example, LLMs should discount claims made in sales pitches, while trusting reliable experts. My research has provided formal models of how such vigilance should operate rationally, and shown that human inferences are aligned with this model across financial and medical decisions [(Oktar, Sumers, & Griffiths, 2024; CogSci)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
 
-### Past research: judgment and decision-making.
+In ongoing research, we have shown that making salient the key components of this model through prompt-engineering improves LLMs' capacity for vigilance (across replications of experiments in cognitive science and novel tests with hundreds of real YouTube ads) [forthcoming]. 
+
+#### Past research: judgment and decision-making.
 In past research, I studied when deeply important beliefs---such as whether immigration restrictions are moral---can be _changed_ through courses in moral philosophy [(Oktar et al., 2023; Cognition)](https://doi.org/10.1016/j.cognition.2023.105434){:target="_blank"}; and have studied how people decide _how to decide_ [(Oktar & Lombrozo, 2022; Cognition)](https://www.sciencedirect.com/science/article/pii/S0010027722000099){:target="_blank"}.
 
 <!-- [Click here](./other-research.md) for other areas of my research. -->
