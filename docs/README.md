@@ -14,47 +14,35 @@
 <div class="hideonpc">
   <h1> The Science of Disagreement </h1>
 </div>
-My research aims to clarify the psychological and computational basis of disagreement---across scales, domains, and agents---from definition to intervention. Here are three key projects:
+My research examines <i>social cognition</i> across minds and machines. 
 
-**_Why do controversies persist?_** Our framework explains why dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024; PsyArxiv)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}.
+Human social capacities---from detecting perusasion to learning from opinion---remain out of reach for even the best artificial intelligence (AI) systems. Clarifying the computations underlying these social capacities can therefore shed light on human cognition, while helping us engineer better AI systems. These are central aims of my research program, as exemplified by the following projects:
 
-**_How does societal opinion influence belief?_** We review 300+ papers on how aggregated opinons---from opinion polls to online ratings---influence people's beliefs. [(Oktar & Lombrozo, 2025; Nature Reviews Psychology)](./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf){:target="_blank"}.
+## Understanding human social cognition:
+
+**_How does societal opinion influence belief?_** My research has shown that people can draw rational inferences from others' aggregated opinions [(Oktar et al., 2025; Psychological Science)](./assets/papers/Oktar_Learning_From_Aggregated_Opinion.pdf){:target="_blank"}---and that dissent from millions rarely changes our beliefs on important issues, from abortion to vaccination [(Oktar & Lombrozo, 2024; PsyArxiv)](https://osf.io/preprints/psyarxiv/9t6va){:target="_blank"}. The _Paths to Persistence Model_ explains how these pieces fit together, by identifying four factors that specify when societal opinion can change beliefs [(Oktar & Lombrozo, 2025; Nature Reviews Psychology)](./assets/papers/Oktar_How_Aggregated_Opinions_Shape_Beliefs.pdf){:target="_blank"}.
 
 <!-- <img src="https://keremoktar.com/assets/images/natrevpsy_cover.png" alt="cover_article" > -->
 
-**_How do we avoid manipulation?_** Our computational model explains how people learn from motivated communication and provides a novel explanation of belief polarization [(Oktar, Sumers, & Griffiths, 2024; CogSci)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. 
+## Engineering artificial social intelligence:
 
-<details>
-<summary>(Details)<br><br></summary>
-  
-<i>Is abortion morally acceptable? Is the Earth getting warmer? Should vaccines be mandatory?</i><br><br>
-Beliefs about such issues shape society. And people form these beliefs collectively, by negotiating differences in their views; learning from each other in some cases, and ignoring dissent in others. The goal of my research program is to understand the cognitive mechanisms that shape beliefs on such controversies---including how people navigate disagreements and change their views.
-<br><br>
-I pursue this goal through multiple methods: I construct theories that identify the inductive problems people solve to navigate controversies, build computational models that provide optimal solutions to these problems, and test these models by comparing their predictions to human behavior across scientific, religious, moral, and political controversies. I then use these insights in theory-based interventions that leverage cutting-edge tools (e.g., large language models) to foster productive engagement with diverse perspectives.  
-<br><br>
-My research operates at two levels of analysis. At one level, I study how people respond to an increasingly prevalent form of social information: the aggregated opinions of hundreds to millions of strangers (e.g., in the form of likes, polls, and votes). At another level, I examine responses to the conflicting testimony of known individuals. <br><br>
-</details>
+**_How can AI systems vigilantly avoid manipulation?_** For AI agents to be effective in the real world, they must critically evaluate the motivations of their sources: for example, LLMs should discount claims made in sales pitches, while trusting reliable experts. My research has provided formal models of how such vigilance should operate rationally, and shown that human inferences are aligned with this model across financial and medical decisions [(Oktar, Sumers, & Griffiths, 2024; CogSci)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. In ongoing research, we have shown that making salient the key components of this model through prompt-engineering improves LLMs' capacity for vigilance (across replications of experiments in cognitive science and novel tests with hundreds of real YouTube ads) [forthcoming]. 
 
-## What drives our beliefs and decisions?
-I also study when deeply important beliefs---such as whether immigration restrictions are moral---can be _changed_ [(Oktar et al., 2023; Cognition)](https://doi.org/10.1016/j.cognition.2023.105434){:target="_blank"}; and am interested in how people decide _how to decide_ [(Oktar & Lombrozo, 2022; Cognition)](https://www.sciencedirect.com/science/article/pii/S0010027722000099){:target="_blank"}.
+### Past research: judgment and decision-making.
+In past research, I studied when deeply important beliefs---such as whether immigration restrictions are moral---can be _changed_ through courses in moral philosophy [(Oktar et al., 2023; Cognition)](https://doi.org/10.1016/j.cognition.2023.105434){:target="_blank"}; and have studied how people decide _how to decide_ [(Oktar & Lombrozo, 2022; Cognition)](https://www.sciencedirect.com/science/article/pii/S0010027722000099){:target="_blank"}.
 
 <!-- [Click here](./other-research.md) for other areas of my research. -->
 
 ## Who am I?
-I was born and raised in Istanbul (Turkey); studied economics and cognitive science at Pomona College (CA); and am currently at Princeton (NJ), advancing research alongside a fantastic [community of collaborators](./collaborators.md){:target="_blank"}.
-<details>
-  <summary>(Details)<br><br></summary>
-  
-Like many, my research is motivated by my past. I left Turkey to study in the U.S because I thought it was collapsing economically and losing its democratic, secular values (this turned out to be <a target="_blank" rel="noopener noreferrer" href="https://www.brookings.edu/articles/the-rise-and-fall-of-liberal-democracy-in-turkey-implications-for-the-west/">true</a>). Participating in the Gezi Park <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Gezi_Park_protests">protests</a> made me acutely aware of the importance of dissent---and our remarkable capacity for it. Since then, I have been trying to understand how and when others' beliefs influence ours. <br><br>
-</details>
+I was born and raised in Istanbul (Turkey); studied economics and cognitive science at Pomona College (CA); and completed my PhD in Psychology at Princeton (NJ). I am presently advancing research alongside a fantastic [community of collaborators](./collaborators.md){:target="_blank"}.
 
 ## Resources.
 I want science to be more inclusive and rigorous. Here are some resources that can help with that:
-- [Click here for](/advice.md){:target="_blank"} concrete advice on succeeding in academia (currently focusing on graduate school applications). 
+- [Click here for](/advice.md){:target="_blank"} advice on succeeding in academia (currently focusing on graduate school applications). 
 - [Click here for](/stats.md){:target="_blank"} a set of accessible and opinionated stats tutorials. 
 - [Click here for](/intuition.md){:target="_blank"} intuitive explanations of some interesting problems.
 <!-- - If you are here for my database of controversial issues: [Clicking here will take you to a JSON formatted list.](https://github.com/keremoktar/disagreement_statsampling/blob/main/issues.js){:target="_blank"}
 -->
   
 ## Contact.
-Feel free to contact me at oktar[at]princeton[dot]edu with regards to research / collaboration / mentorship /... - I love talking about science. If you would like to send me anonymous feedback, [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
+Feel free to contact me at oktar[dot]research[at]gmail.com with regards to research / collaboration / mentorship /... - I love talking about science. If you would like to send me anonymous feedback, [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
