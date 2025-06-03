@@ -26,10 +26,8 @@ My research has shown that people can draw rational inferences from others' opin
 
 **_How can AI systems vigilantly avoid manipulation?_**<br>
 For AI agents to be effective in the real world, they must critically evaluate opinions diverging from their own [(5)](./assets/papers/Oktar_Dimensions_of_Disagreement.pdf){:target="_blank"}: for example, LLMs should discount claims made in sales pitches, while trusting reliable experts. My research has provided formal models of how such vigilance should operate rationally, and shown that human inferences are aligned with this model [(6)](https://escholarship.org/uc/item/3kv0c8b7#main){:target="_blank"}. In ongoing research, we have shown that making salient the key components of this model through prompt-engineering improves LLMs' capacity for vigilance (across replications of experiments in cognitive science and novel tests with hundreds of real YouTube ads). 
-
 #### Past research: judgment and decision-making.
 In past research, I studied when deeply important beliefs---such as whether immigration restrictions are moral---can be _changed_ through courses in moral philosophy [(7)](https://doi.org/10.1016/j.cognition.2023.105434){:target="_blank"}; and have studied how people decide _how to decide_ [(8)](https://www.sciencedirect.com/science/article/pii/S0010027722000099){:target="_blank"}.
-
 <!-- [Click here](./other-research.md) for other areas of my research. -->
 
 ## Who am I?
