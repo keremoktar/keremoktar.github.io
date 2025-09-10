@@ -14,7 +14,7 @@
 <div class="hideonpc">
   <h1> Understanding Social Cognition</h1>
 </div>
-My research examines <i>social cognition</i> across minds and machines. 
+I study <i>social cognition</i> in minds and machines. 
 
 Human social capacities---from detecting persuasion to learning from opinion---remain out of reach for even the best artificial intelligence (AI) systems. 
 
