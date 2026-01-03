@@ -14,13 +14,13 @@
 <div class="hideonpc">
   <h1>Social Learning in Minds and Machines</h1>
 </div>
-A secret to our success as a species is our ability to learn from one another, and a secret failure mode of modern artificial intelligence is its inability to do so. 
+A secret to our success as a species is our ability to learn from one another. A corresponding failure of modern artificial intelligence is its difficulty doing the same.
 
-My research studies the mechanisms that underlie **social learning**: how people and AI decide who to believe, when to trust, and when to doubt. I do this by building computational models and testing them with behavioral experiments. I pursue this work with two dovetailing aims.
+My research studies the mechanisms that underlie such social learning, such as detecting persuasion or evaluating others' opinions. I do this by building computational models and testing them with behavioral experiments in humans and AI. This research has two central aims.
 
-First, my research explains why people are so good at learning from one another in some cases (e.g., through scientific inquiry and institutions), yet so quick to ignore one another in matters of deep societal import (e.g., when encountering political disagreement; [Psych Rev, 2025)](./assets/papers/Oktar_Beliefs_Persist.pdf){:target="_blank"}.
+First, my research explains why people are so good at learning from one another in some cases (e.g., through scientific inquiry and institutions), yet so quick to ignore one another in matters of deep societal import (e.g., when encountering political disagreement; [Psychological Review, 2025)](./assets/papers/Oktar_Beliefs_Persist.pdf){:target="_blank"}.
 
-Second, I use these psychological insights to engineer AI systems that reason more effectively about social information. While people easily infer others’ knowledge and intentions, even cutting-edge AI systems struggle with basic forms of social intelligence—such as detecting self-interested or manipulative sources of information [(NeurIPS, 2025)](./assets/papers/LLM_Vigilance.pdf){:target="_blank"}.
+Second, I use these psychological insights to engineer better AI systems. Even cutting-edge AI systems struggle with basic forms of social intelligence, such as detecting manipulative sources of information, and we can use the principles of social learning in humans to improve these capacities in AI [(NeurIPS, 2025)](./assets/papers/LLM_Vigilance.pdf){:target="_blank"}.
 
 ## Who am I?
 I was born and raised in Istanbul (🧿); studied economics and cognitive science at Pomona College, CA (☀️); completed my PhD in Psychology at Princeton, NJ (❄️); and am currently researching social cognition in Large Language Models at Meta in Seattle, WA (☔).
