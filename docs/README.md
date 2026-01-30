@@ -4,7 +4,7 @@
       The Science of
     </h1>
     <ul class="content__container__list">
-     <li class="content__container__list__item">Social&nbsp;Cognition.</li>
+     <li class="content__container__list__item">Social&nbsp;Intelligence.</li>
       <li class="content__container__list__item">Disagreement.</li>
       <li class="content__container__list__item">Persuasion.</li>
       <li class="content__container__list__item">Belief Change.</li>
@@ -12,15 +12,15 @@
   </div>
 </div>
 <div class="hideonpc">
-  <h1>Social Learning in Minds and Machines</h1>
+  <h1>Social Intelligence in Minds and Machines</h1>
 </div>
-A secret to our success as a species is our ability to learn from one another. A corresponding failure of modern artificial intelligence is its difficulty doing the same.
+A secret to our success as a species is social intelligence: our ability to understand, learn from, and collaborate with one another. A corresponding limitation of modern artificial intelligence is its difficulty doing the same.
 
-My research studies the mechanisms that underlie such social learning, such as detecting persuasion or evaluating others' opinions. I do this by building computational models and testing them with behavioral experiments in humans and AI. This research has two central aims.
+My research studies the mechanisms that underlie such social intelligence. I do this by building computational models (e.g., of how we detect persuasion) and testing these models with behavioral experiments in humans and AI. This research has two central pillars.
 
-First, my research explains why people are so good at learning from one another in some cases (e.g., through scientific inquiry and institutions), yet so quick to ignore one another in matters of deep societal import (e.g., when encountering political disagreement; [Psychological Review, 2025)](./assets/papers/Oktar_Beliefs_Persist.pdf){:target="_blank"}.
+<b> Understanding Human Social Intelligence. </b> My research sheds light on basic puzzles of human social cognition. For example, why are people so good at learning from one another in some cases (e.g., scientific inquiry), yet so quick to ignore one another on important issues (e.g., political disagreement)? Our Paths to Persistence Model answers this through three interacting mechanisms ([Psychological Review, 2025)](./assets/papers/Oktar_Beliefs_Persist.pdf){:target="_blank"}.
 
-Second, I use these psychological insights to engineer better AI systems. Even cutting-edge AI systems struggle with basic forms of social intelligence, such as detecting manipulative sources of information, and we can use the principles of social learning in humans to improve these capacities in AI [(NeurIPS, 2025)](./assets/papers/LLM_Vigilance.pdf){:target="_blank"}.
+<b> Engineering Artificial Social Intelligence. </b> Second, I use these psychological insights to engineer better AI systems. Even frontier AI systems struggle with basic forms of social intelligence, such as detecting manipulative sources of information. Our research shows how Bayesian models of human social learning can be used to systematically improve these capacities in AI systems.  [(NeurIPS, 2025)](./assets/papers/LLM_Vigilance.pdf){:target="_blank"}.
 
 ## Who am I?
 I was born and raised in Istanbul (🧿); studied economics and cognitive science at Pomona College, CA (☀️); completed my PhD in Psychology at Princeton, NJ (❄️); and am currently researching social cognition in Large Language Models at Meta in Seattle, WA (☔).
