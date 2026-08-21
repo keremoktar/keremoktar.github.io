@@ -3,7 +3,7 @@ layout: post
 title: Draft Thoughts
 ---
 
-# On The Reasonable Effectiveness of Communication 
+# On The Reasonable Effectiveness of Judgment 
 
 <img src="./assets/dropcaps/yinit-D.svg" alt="D" height="36">ear reader captivated by specks of dust, shimmering in a sunbeam - 
 
