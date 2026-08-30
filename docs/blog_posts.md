@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Draft Thoughts
+title: Kerem Oktar — On the Reasonable Effectiveness of Judgment
+description: An essay on how subjective judgment helps explain the practical effectiveness of mathematics and language models.
 ---
 
 # On The Reasonable Effectiveness of Judgment 
@@ -29,8 +30,7 @@ Eugene's puzzle partly arises from an illusion of objectivity that obscures the 
 
 It is easy to understand the origins of this illusion. Math, we are told, is derivation. You could start with the axioms, and grind the gears of logic until you reach every proof ever. As objective as it gets---so much so that they called it *Pure Mathematics* (pure of human or worldly relevance, presumably). Even a computer could do it. In fact, arguably the first AI program, the *Logic Theorist*, was all about generating arbitrary proofs from starting axioms, and formulated math as just this kind of mechanical search problem: 
 
-<img src="
-https://pbs.twimg.com/media/FOJHeSTXEAAKpsC.png" alt="logic theorist image" width="300">
+<img src="https://pbs.twimg.com/media/FOJHeSTXEAAKpsC.png" alt="logic theorist image" width="300">
 
 And this is all correct; the machinery of mathematics is indeed objective. Cast as an arbitrary exploration of symbolic systems, it is puzzling that it does anything useful at all. 
 
@@ -149,4 +149,4 @@ That is, there is a close fit between the notches of subjectivity and the groove
 
 This insight brings us a step closer to understanding our starting puzzles. Our subjective judgments --- of what's beautiful and interesting, right and wrong, true and false --- reflect aspects of our reality, in ways both obvious and subtle. Mathematical derivation and language prediction are thus *surprisingly* useful, because the inherent subjectivity of their means and ends is hidden by illusions of objectivity, and without subjectivity, there is nothing to tether these to reality. So reality seeps into subjective judgment, which seeps into objective derivation and prediction, and imbues them with usefulness.  
 
-This of course does not answer all of the metaphysical questions raised by Wigner's puzzle (e.g., what about a lot of math that does not seem to be particularly useful?), and raises a lot of questions: from the biological (e.g., what kind of selection would cause reality to seep into subjectivity in these extremely subtle ways?) to the psychological (e.g., why does math seem more subjective than other domains?) and the philosophical (e.g., if reality is seeping into judgment in these subtle ways, then how can there be so much disagreement in different domains over much more obviously grounded issues). It is worth reading up on others' reflections on both Wigner's [puzzle](https://scholarshipweekend.oglethorpe.edu/wp-content/uploads/sites/21/2023/02/The-Reasonable_Unreasonable-Effectiveness_Ineffectiveness-of-Mathematics-Counterpoint-Abbott-and-Hamming-L-deCamp.pdf) as well as the LLM [puzzle](https://www.lesswrong.com/posts/AzRRPDNmeEoJdSiib/implications-of-predicting-the-next-token). But the central lesson, that these things are much more subjective than they appear to be, and moreover, that this subjectivity is absolutely necessary, should hold.  
+This of course does not answer all of the metaphysical questions raised by Wigner's puzzle (e.g., what about a lot of math that does not seem to be particularly useful?), and raises a lot of questions: from the biological (e.g., what kind of selection would cause reality to seep into subjectivity in these extremely subtle ways?) to the psychological (e.g., why does math seem more subjective than other domains?) and the philosophical (e.g., if reality is seeping into judgment in these subtle ways, then how can there be so much disagreement in different domains over much more obviously grounded issues). It is worth reading up on others' reflections on both Wigner's [puzzle](https://scholarshipweekend.oglethorpe.edu/wp-content/uploads/sites/21/2023/02/The-Reasonable_Unreasonable-Effectiveness_Ineffectiveness-of-Mathematics-Counterpoint-Abbott-and-Hamming-L-deCamp.pdf) as well as the LLM [puzzle](https://www.lesswrong.com/posts/AzRRPDNmeEoJdSiib/implications-of-predicting-the-next-token). But the central lesson, that these things are much more subjective than they appear to be, and moreover, that this subjectivity is absolutely necessary, should hold.

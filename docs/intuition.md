@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Intuition for Interesting Problems
+title: Kerem Oktar — Intuition for Interesting Problems
+description: A galaxy-eating cat, a flying pope, and why the logical conditional is a lie detector rather than a truth detector.
 ---
 
-<h3 style = "text-align: center;">Why does anything follow from Falsehood?</h3>
+<h1 style="text-align: center;">Why does anything follow from Falsehood?</h1>
+
+<small>Last updated: August 2026</small>
 
 The following is a true statement in logic:
 > If I am a cat, I love eating dark matter.

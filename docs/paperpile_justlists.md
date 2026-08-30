@@ -1,3 +1,9 @@
+---
+layout: default
+title: Kerem Oktar — Reading List
+description: A concise list of recommended papers and books in cognitive science, psychology, and statistics.
+---
+
 # Some Words are Worth a Thousand Pictures.
 This is a growing, alphabetically ordered list of some of my favorite papers/books, and why I think you should read them. 
 

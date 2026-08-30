@@ -1,3 +1,9 @@
+---
+layout: default
+title: Kerem Oktar — Reading Summaries
+description: Personal summaries and reflections from close readings in psychology and cognitive science.
+---
+
 # Reading Summaries
 Personal reflections on close readings (started 01/27/2024).
 

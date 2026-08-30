@@ -1,8 +1,13 @@
 title: Kerem Oktar
-logo: /assets/images/KeremOktar_cropped.jpg
+logo: /assets/KeremOktar_headshot.jpg
 show_downloads: false
-description: Cognitive Scientist
+description: Postdoctoral researcher at Meta FAIR studying social intelligence in minds and machines.
+url: https://keremoktar.com
+baseurl: ""
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 github:
   is_project_page: false
   is_user_page: false

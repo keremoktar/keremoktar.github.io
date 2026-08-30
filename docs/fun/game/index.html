@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<title>helpful_cucumber</title>
+		<title>Helpful Cucumber — Kerem Oktar</title>
+		<meta name="description" content="Helpful Cucumber, an experimental browser game by Kerem Oktar.">
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -16,6 +17,18 @@ body {
 	background-color: black;
 	overflow: hidden;
 	touch-action: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
 }
 
 #canvas {
@@ -95,6 +108,7 @@ body {
 
 	</head>
 	<body>
+		<h1 class="visually-hidden">Helpful Cucumber</h1>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
 		</canvas>
@@ -217,4 +231,3 @@ const engine = new Engine(GODOT_CONFIG);
 		</script>
 	</body>
 </html>
-

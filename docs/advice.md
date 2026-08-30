@@ -1,8 +1,11 @@
 ---
 layout: post
-title: A Guide to the Hidden Curriculum
+title: Kerem Oktar — A Guide to the Hidden Curriculum
+description: Should you get a PhD, and if so, how do you get in? A guide to academic job odds, building a network, preparing application materials, and interviewing.
 ---
 # A Guide to the Hidden Curriculum
+<small>Last updated: August 2026</small>
+
 Here, I clarify the expectations, norms, and reality of academia. 
 
 ## Chapter 1: PhD Applications.
@@ -10,12 +13,11 @@ This Chapter is a guide to navigating PhD applications.
 
 Before you begin, know that this is a hard process, and that you will really benefit from some help. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/). It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
 
-Last Updated: 01/2024
 - [Section 0](#truth): Should you choose academia?
 - [Section 1](#general): General application advice.
-- [Section 2](#networking): How to build a network. 
+- [Section 2](#network): How to build a network.
 - [Section 3](#documents): How to prepare the application materials.
-- [Section 4](#intervieweing): How to interview. 
+- [Section 4](#interview): How to interview.
 
 ### <a name="truth"></a>Section 0: Should you choose academia?
 At its best, academia is wonderful (literally). We contemplate the deepest mysteries of the universe, expand the [frontiers of human knowledge](https://matt.might.net/articles/phd-school-in-pictures/), and consume ungodly quantities of caffeine.
@@ -48,7 +50,7 @@ This also depends, but overall, around a [third to half of graduate students](ht
 Why do graduate students struggle so much? The following are all important factors:
 - Graduate students lack power. If you are stuck with an advisor whose expectations are misaligned with yours, or are in a toxic environment, it can be hard to pivot or hold people accountable.
 - Graduate students are not paid well. Especially for students with dependents or financial hardship, this can be a major stressor. 
-- Graduate students face a difficult job market. Many come in plannnig on becoming professors, and feel despair when confronted with the reality of the market.
+- Graduate students face a difficult job market. Many come in planning on becoming professors, and feel despair when confronted with the reality of the market.
 - Academics face constant rejection. Papers, grants, talks, job applications, etc. all have much higher odds of getting rejected than accepted. And it will sting, because you will have put in a lot of effort--sometimes hundreds of hours. 
 
 So it is often rough. But obviously there are major upsides in many cases:
@@ -170,6 +172,6 @@ The only thing I will add to this is that _your interviews are primarily about y
 - Think about a couple projects that you would be really excited to do. What would some experiments look like? What would the experiments tell us? What would be challenging about them (e.g., confounds)? Who in the lab could you collaborate with on these projects? 
    - The more concrete your vision, the easier it will be for you to communicate it.
 
-Thanks for reading, and best of luck! If you would like to send me anonymous feedback, about this guide, please [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
+Thanks for reading, and best of luck! If you would like to send me anonymous feedback about this guide, please use the [anonymous feedback form.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
 
 <img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA3/29BACKPAGE_KAFKA3-jumbo.jpg?quality=75&auto=webp" alt="Kafka_2" class="center">

@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Kerem Oktar — Other Research
+description: Research questions spanning epistemic vigilance, suspended judgment, and the philosophy of disagreement.
 ---
 
 # This is not an exhaustive list! 

@@ -1,19 +1,22 @@
 ---
 layout: post
-title: Intuitive Statistics Tutorials
+title: Kerem Oktar — Intuitive Statistics Tutorials
+description: A cucumber-flavored, simulation-based introduction to statistical power analysis in R.
 ---
 # How do I do X?
-- For an simple R tutorial on power analyses, [click here](#power).
+<small>Last updated: August 2026</small>
+
+- Read the [simulation-based R tutorial on power analyses](#power).
 - [Other tutorials under construction...]
 
-# <a name="power"></a> Power Analyses in R
+## <a name="power"></a> Power Analyses in R
 
 ## Intro to a cucumber-flavored tutorial.
 Imagine that you tested negative for a fake disease, cucumberitis (congrats!). Should you celebrate? 
 
 Maybe. It depends on whether the test is any good. In particular, how likely is the test to turn out negative when you actually have cucumberitis? If it often turns out negative inaccurately, that makes it a weak, bad test. A good, _powerful_ test would almost never do that---if it says that you are sick, it is because you are.
 
-Powerful tests are therefore informative, and weak tests are misleading---in fact, you would probably be **very upset** if you learned that your medical test was weak (imagine a false-negative cancer test!). **In psychology, our tests are often much weaker than we think they are, and we should be upset, too;** because we often take costly actions (e.g., abondoning study designs, rejecting hypotheses, etc.) based on weak tests.
+Powerful tests are therefore informative, and weak tests are misleading---in fact, you would probably be **very upset** if you learned that your medical test was weak (imagine a false-negative cancer test!). **In psychology, our tests are often much weaker than we think they are, and we should be upset, too;** because we often take costly actions (e.g., abandoning study designs, rejecting hypotheses, etc.) based on weak tests.
 
 To know if you have a weak test, you minimally need to know two things: how big is your effect, and how big is your sample?  
 
@@ -111,14 +114,13 @@ for(samplesize in samplesizes){ #loop over possible sample sizes
 One shortcoming of this method is that it uses loops in R, which are notoriously slow; for more complex analyses, you will either want to optimize the code above, or use an established power analysis library for the particular test you want to run.
 
 ## Outro: Power Matters.
-I wrote this up because I have done tens of studies with thounds of participants, which, in retrospect, told me a lot less than I thought they did. In the example above, running a 'standard' N = 30 per-cell design gives us ~.5 power. So there's an even chance it didn't work out because the effect actually doesn't exist vs. we couldn't detect it because we're underpowered. There's linear returns to power in this simple setting, so if we had recruited twice the sample size, we would actually have known that if we don't find an effect, it's because there isn't one there.
+I wrote this up because I have done tens of studies with thousands of participants, which, in retrospect, told me a lot less than I thought they did. In the example above, running a 'standard' N = 30 per-cell design gives us ~.5 power. So there's an even chance it didn't work out because the effect actually doesn't exist vs. we couldn't detect it because we're underpowered. There's linear returns to power in this simple setting, so if we had recruited twice the sample size, we would actually have known that if we don't find an effect, it's because there isn't one there.
 
 **I could have learned so much more about which effects are real, and which aren't, by conducting fewer, better powered studies.** And we would all stop wasting money and time if everyone conducted well-powered studies and reported when they failed.
 
 For more info on why this matters for psychology research, check out the article by Paul Meehl in my list of favorite [articles](./paperpile.html), or check out Uri, Joe, and Jake's posts above. [Data-colada](https://datacolada.org/) in particular has a lot of useful wrote-ups on this.
 
 * * * 
-
 
 
 

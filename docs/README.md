@@ -1,70 +1,105 @@
-<div class="content hideonphone">
-  <div class="content__container">
-    <h1 class="content__container__text">
-      The Science of
-    </h1>
-    <ul class="content__container__list">
-     <li class="content__container__list__item">Social&nbsp;Intelligence.</li>
-      <li class="content__container__list__item">Disagreement.</li>
-      <li class="content__container__list__item">Persuasion.</li>
-      <li class="content__container__list__item">Belief Change.</li>
-    </ul>
+---
+layout: default
+title: Kerem Oktar — Social Intelligence in Minds and Machines
+description: Postdoctoral researcher at Meta FAIR. Computational models of social intelligence, turned into evaluations and post-training methods for language models. PhD, Princeton.
+permalink: /
+redirect_from:
+  - /publications.html
+  - /collaborators.html
+---
+
+# Social Intelligence in Minds and Machines
+
+Social intelligence — our ability to understand, learn from, and collaborate with one another — is a secret to our success as a species. I build computational models of social cognition and use them to evaluate language models.
+
+**Understanding Human Social Intelligence.** The Paths to Persistence Model explains how four interacting mechanisms sustain beliefs amid controversy ([Psychological Review, 2025](/assets/papers/Oktar_Beliefs_Persist.pdf)).
+
+**Engineering Artificial Social Intelligence.** I translate models of social inference into LLM evaluations and interventions; making intentions and incentives salient improves vigilance in sponsored-content settings ([NeurIPS, 2025](/assets/papers/Oktar_LLM_Vigilance.pdf)).
+
+<p class="current-focus"><strong>Current focus.</strong> Evaluations of vigilance, sycophancy, prompt robustness, and long-horizon preference tracking, with extensions into post-training and multi-agent systems.</p>
+
+## Selected Work
+
+<article class="selected-work">
+  <div class="selected-work__copy">
+    <span class="work-label">LLM EVALUATION · NEURIPS 2025 · EQUAL CONTRIBUTION</span>
+    <strong><a href="/assets/papers/Oktar_LLM_Vigilance.pdf">Are Large Language Models Sensitive to the Motives Behind Communication?</a></strong>
+    <span class="work-meta">Wu, Liu, Oktar, Sumers &amp; Griffiths</span>
+    <p><strong>Contribution:</strong> Equal contribution to the study.</p>
+    <p><strong>Result:</strong> In controlled settings, LLMs discount motivated testimony in human-like ways; in sponsored content, making intentions and incentives salient substantially improves their vigilance.</p>
+    <a class="work-link" href="/assets/papers/Oktar_LLM_Vigilance.pdf">Paper</a>
   </div>
-</div>
-<div class="hideonpc">
-  <h1>Social Intelligence in Minds and Machines</h1>
-</div>
-A secret to our success as a species is social intelligence: our ability to understand, learn from, and collaborate with one another. A corresponding limitation of modern artificial intelligence is its difficulty doing the same.
+  <a class="selected-work__figure" href="/assets/papers/Oktar_LLM_Vigilance.pdf" aria-label="Open the NeurIPS vigilance paper">
+    <img class="selected-work__image selected-work__image--crop-left" src="/assets/images/figures/neurips-vigilance.png" width="900" height="253" loading="lazy" alt="Bar chart comparing model belief shifts after advice versus spied information.">
+  </a>
+</article>
 
-My research studies the mechanisms that underlie such social intelligence. I do this by building computational models (e.g., of how we detect persuasion) and testing these models with behavioral experiments in humans and AI. This research has two central pillars.
+<article class="selected-work">
+  <div class="selected-work__copy">
+    <span class="work-label">COMPUTATIONAL THEORY · PSYCHOLOGICAL REVIEW 2025</span>
+    <strong><a href="/assets/papers/Oktar_Beliefs_Persist.pdf">How Beliefs Persist Amid Controversy: The Paths to Persistence Model</a></strong>
+    <span class="work-meta">Oktar &amp; Lombrozo</span>
+    <p><strong>Contribution:</strong> Co-author of the Paths to Persistence Model.</p>
+    <p><strong>Result:</strong> The model explains belief persistence through four interacting paths—informational, ontological, functional, and computational—and predicts when beliefs should change.</p>
+    <a class="work-link" href="/assets/papers/Oktar_Beliefs_Persist.pdf">Paper</a>
+  </div>
+  <a class="selected-work__figure" href="/assets/papers/Oktar_Beliefs_Persist.pdf" aria-label="Open the Paths to Persistence paper">
+    <img class="selected-work__image" src="/assets/images/figures/paths-to-persistence.png" width="900" height="534" loading="lazy" alt="Diagram of four responses to disagreement: conciliation, suspension, persistence, and polarization.">
+  </a>
+</article>
 
-<b> Understanding Human Social Intelligence. </b> My research sheds light on basic puzzles of human social cognition. For example, why are people so good at learning from one another in some cases (e.g., scientific inquiry), yet so quick to ignore one another on important issues (e.g., political disagreement)? Our Paths to Persistence Model answers this through three interacting mechanisms ([Psychological Review, 2025)](./assets/papers/Oktar_Beliefs_Persist.pdf){:target="_blank"}.
+<article class="selected-work">
+  <div class="selected-work__copy">
+    <span class="work-label">BEHAVIORAL EVALUATION · PREPRINT 2025</span>
+    <strong><a href="https://arxiv.org/abs/2505.09662">When Large Language Models Are More Persuasive Than Incentivized Humans, and Why</a></strong>
+    <span class="work-meta">Liu, Salvi, Schoenegger et al. (with Oktar)</span>
+    <p><strong>Contribution:</strong> Co-author of the behavioral comparison between LLM and incentivized-human persuasion.</p>
+    <p><strong>Result:</strong> Claude 3.5 Sonnet was more persuasive than incentivized humans in truthful and deceptive contexts; DeepSeek v3 exceeded humans only in the deceptive condition.</p>
+    <a class="work-link" href="https://arxiv.org/abs/2505.09662">Paper</a>
+  </div>
+  <a class="selected-work__figure" href="https://arxiv.org/abs/2505.09662" aria-label="Open the LLM persuasion paper">
+    <img class="selected-work__image" src="/assets/images/figures/llm-persuasion.png" width="1020" height="540" loading="lazy" alt="Bar chart showing higher compliance with Claude 3.5 Sonnet than human persuaders overall and in truthful and deceptive conditions.">
+  </a>
+</article>
 
-<b> Engineering Artificial Social Intelligence. </b> Second, I use these psychological insights to engineer better AI systems. Even frontier AI systems struggle with basic forms of social intelligence, such as detecting manipulative sources of information. Our research shows how Bayesian models of human social learning can be used to systematically improve these capacities in AI systems.  [(NeurIPS, 2025)](./assets/papers/LLM_Vigilance.pdf){:target="_blank"}.
+Full list: [CV](/assets/Academic_CV.pdf) · [Google Scholar](https://scholar.google.com/citations?user=wBVlDlYAAAAJ&hl=en).
 
-## Who am I?
-I was born and raised in Istanbul (🧿); studied economics and cognitive science at Pomona College, CA (☀️); completed my PhD in Psychology at Princeton, NJ (❄️); and am currently researching social cognition in Large Language Models at Meta in Seattle, WA (☔).
+## Evaluations & Benchmarks
 
-## Contact.
-Feel free to contact me at oktar[dot]research[at]gmail.com with regards to research / collaboration / mentorship /... - I love talking about science. If you would like to send me anonymous feedback, [click here.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
+<article class="benchmark-work">
+  <span class="work-label">SAFETY EVALUATION · META 2026</span>
+  <strong><a href="https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/">Muse Spark Safety &amp; Preparedness Report</a></strong>
+  <span class="work-meta">Oktar: sycophancy evaluation contributor</span>
+  <p><strong>Contribution:</strong> Contributed to an internal benchmark evaluating whether models inappropriately agree with users or fail to correct them.</p>
+  <a class="work-link" href="https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/">Report</a> · <a class="work-link" href="https://arxiv.org/abs/2606.12429">arXiv</a>
+</article>
 
-## Resources.
-I want science to be more inclusive and rigorous. Here are some resources that can help with that:
-- [Click here for](/advice.md){:target="_blank"} advice on succeeding in academia (currently focusing on graduate school applications). 
-- [Click here for](/stats.md){:target="_blank"} some accessible/fun stats tutorials. 
-- [Click here for](/intuition.md){:target="_blank"} intuitive explanations of some interesting problems.
+<article class="benchmark-work">
+  <span class="work-label">BENCHMARK · LONG-HORIZON PERSONALIZATION · 2026</span>
+  <strong><a href="https://arxiv.org/abs/2604.17283">HorizonBench: Long-Horizon Personalization with Evolving Preferences</a></strong>
+  <span class="work-meta">Li, Paranjape, Oktar et al.</span>
+  <p><strong>Result:</strong> Across 25 frontier models, most scored at or below the 20% chance baseline when tracking evolving preferences across six-month conversations averaging about 163,000 tokens.</p>
+  <a class="work-link" href="https://arxiv.org/abs/2604.17283">Paper</a> · <a class="work-link" href="https://github.com/stellalisy/HorizonBench">Code</a> · <a class="work-link" href="https://huggingface.co/datasets/stellalisy/HorizonBench">Data</a>
+</article>
 
+<article class="benchmark-work">
+  <span class="work-label">MODEL AUDIT · PROMPT ROBUSTNESS · 2026</span>
+  <strong><a href="https://arxiv.org/abs/2603.13285">Brittlebench: Quantifying LLM Robustness via Prompt Sensitivity</a></strong>
+  <span class="work-meta">Romanou, Ibrahim, Ross, Oktar et al.</span>
+  <p><strong>Result:</strong> A single semantics-preserving prompt perturbation changed model rankings in 63% of cases, showing that benchmark conclusions can hinge on wording.</p>
+  <a class="work-link" href="https://arxiv.org/abs/2603.13285">Paper</a>
+</article>
 
-<!-- - I study social cognition in minds and machines.
+## About
 
-Human social capacities—from detecting persuasion to learning from opinion—remain out of reach for even the best artificial intelligence (AI) systems.
+I was born and raised in Istanbul (🧿); studied economics and cognitive science at Pomona College, CA (☀️); completed my PhD in Psychology at Princeton, NJ (❄️); and now research social cognition in AI systems at Meta FAIR in Seattle, WA (☔).
 
-Clarifying the computations underlying these social capacities can therefore shed light on human cognition while helping us engineer better AI systems.
+In 2024, I co-designed and co-taught Psychology of Justice at Edna Mahan, a women's prison in New Jersey, and I mentor prospective PhD applicants through [Project SHORT](https://www.project-short.com/).
 
-The following projects exemplify these dovetailing aims:
+Invited talks: Harvard, Stanford, Berkeley, Max Planck Institute, MIT Sloan, UW CSE.
 
-How does opinion influence belief?
-My research has shown that people can draw rational inferences from others’ opinions (Psych. Sci., 2024), and that societal dissent rarely changes our beliefs on important issues, from abortion to vaccination (Psych Rev, 2025). Our Paths to Persistence Model explains such robustness through three factors that distill decades of cross-disciplinary research (Nat. Rev. Psy., 2025) and that we can use to explain when interventions—such as persuasive conversations with AI (Arxiv, 2025)—will succeed or fail.
+## Contact
 
-How can AI systems vigilantly avoid manipulation?
-For AI agents to be effective in the real world, they must critically evaluate opinions diverging from their own (Decision, 2024): for example, LLMs should discount claims made in sales pitches, while trusting reliable experts. My research has provided formal models of how such vigilance should operate rationally, and shown that human inferences are aligned with this model (Proc. CogSci, 2024). In ongoing research, we have shown that making salient the key components of this model through prompt-engineering improves LLMs’ capacity for vigilance (NeurIPS, 2025).
-Past research: judgment and decision-making.
+Feel free to contact me at oktar[dot]research[at]gmail.com with regards to research / collaboration / mentorship /... - I love talking about science.
 
-In past research, I studied when deeply important beliefs—such as whether immigration restrictions are moral—can be changed through courses in moral philosophy (Cognition, 2023); and have studied how people decide how to decide (Cognition, 2022).
-Who am I?
-
-I was born and raised in Istanbul (merhaba!); studied economics and cognitive science at Pomona College (CA); and completed my PhD in Psychology at Princeton (NJ). I am presently advancing research alongside a fantastic [community of collaborators](./collaborators.md){:target="_blank"}.
-
-Resources.
-
-I want science to be more inclusive and rigorous. Here are some resources that can help with that:
-
-    Click here for advice on succeeding in academia (currently focusing on graduate school applications).
-    Click here for a set of accessible and opinionated stats tutorials.
-    Click here for intuitive explanations of some interesting problems.
-
-Contact.
-
-Feel free to contact me at oktar[dot]research[at]gmail.com with regards to research / collaboration / mentorship /… - I love talking about science. If you would like to send me anonymous feedback, click here.
--->
-  
+<small>[Anonymous feedback form](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY).</small>
