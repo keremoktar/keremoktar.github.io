@@ -113,15 +113,13 @@ Full list: [CV](/assets/Academic_CV.pdf) · [Google Scholar](https://scholar.goo
 
 I was born and raised in Istanbul (🧿); studied economics and cognitive science at Pomona College, CA (☀️); completed my PhD in Psychology at Princeton, NJ (❄️); and now research social cognition in AI systems at Meta FAIR in Seattle, WA (☔).
 
-Beyond research, I co-designed and co-taught *Psychology of Justice* at Edna Mahan, a women's prison in New Jersey, in 2024; I also mentor prospective PhD applicants through [Project SHORT](https://www.project-short.com/).
-
-I have received the Marr Prize for Best Student Paper, the Graduate School Teaching Award, and the Fletcher Jones Foundation Top Thesis Prize. Forbes, Nautilus, and ZME Science have covered my work.
+My research won CogSci's Marr Prize and SPP's Best Poster Prize, and Princeton's Center for Human Values supported my PhD through a Rockefeller Graduate Prize Fellowship. Beyond research, I co-designed and co-taught *Psychology of Justice* at Edna Mahan, a women's prison in New Jersey, in 2024. I have also found and tamed the [Oscar Mayer Wienermobile](/assets/images/wienermobile.jpeg).
 
 ## Contact {#contact}
 
 Feel free to contact me at oktar[dot]research[at]gmail.com with regards to research / collaboration / mentorship /... - I love talking about science.
 
-[Anonymous feedback form](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY).
+Here is an [anonymous feedback form](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY).
 
 ## Writing {#writing}
 
