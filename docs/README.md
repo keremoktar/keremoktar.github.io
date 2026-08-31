@@ -113,7 +113,7 @@ Full list: [CV](/assets/Academic_CV.pdf) · [Google Scholar](https://scholar.goo
 
 I was born and raised in Istanbul (🧿); studied economics and cognitive science at Pomona College, CA (☀️); completed my PhD in Psychology at Princeton, NJ (❄️); and now research social cognition in AI systems at Meta FAIR in Seattle, WA (☔).
 
-My research won CogSci's Marr Prize and SPP's Best Poster Prize, and Princeton's Center for Human Values supported my PhD through a Rockefeller Graduate Prize Fellowship. Beyond research, I co-designed and co-taught *Psychology of Justice* at Edna Mahan, a women's prison in New Jersey, in 2024. I have also found and tamed the [Oscar Mayer Wienermobile](/assets/images/wienermobile.jpeg).
+My research has won CogSci's Marr Prize for best paper and SPP's Poster Prize; Princeton's Center for Human Values supported my PhD through a Rockefeller Prize Fellowship. Beyond research, I co-designed and co-taught *Psychology of Justice* at Edna Mahan, a women's prison in New Jersey, in 2024. I have also found and tamed the [Oscar Mayer Wienermobile](/assets/images/wienermobile.jpeg).
 
 ## Contact {#contact}
 
