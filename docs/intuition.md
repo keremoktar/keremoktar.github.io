@@ -8,14 +8,16 @@ description: A galaxy-eating cat, a flying pope, and an intuitive explanation of
 
 <small>Last updated: August 2026</small>
 
-The following is a true statement in logic:
+Here is a sentence that classical logic calls true:
 > If I am a cat, I love eating dark matter.
 
 <img src="https://keremoktar.com/assets/images/cat-galaxy2.jpg" alt="catkerem" class="center">
 
-If you don't know why this is true, logic is not what you think it is. In this post, I explain why many such absurd statements are true, and what this has to do with the foundations of logic.
+Seriously. I am not a cat, and I have never tasted dark matter. But logic uses a stripped-down version of “if” called the material conditional. It asks one question: Did the first part happen while the second part failed? Only then does it call the statement false. Because I am not a cat, the rule has not been broken, and the whole statement counts as true.
 
-This is the truth table for the conditional operator '→' (where 'A → B' = 'if A then B'):
+Ordinary conversation expects more from “if”: relevance, causality, and some useful connection between the two ideas. Formal logic leaves those expectations behind so that it can do a narrower practical job: track which inferences preserve truth. The strange result above is therefore a clue to why true, false, and the basic machinery of propositional logic were built the way they were.
+
+Here is the truth table for the conditional operator '→' (where 'A → B' = 'if A then B'):
 
 |   A   |   B   | A → B |
 |:-----:|:-----:|:------:|

@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Kerem Oktar — A Guide to the Hidden Curriculum
-description: Should you get a PhD, and if so, how do you get in? A guide to academic job odds, building a network, preparing application materials, and interviewing.
+title: "Kerem Oktar — Grad School Application Guide: The Hidden Curriculum"
+description: Should you get a PhD, and if so, how do you get in? A guide to choosing programs, building a network, preparing application materials, and interviewing.
 ---
-# A Guide to the Hidden Curriculum
+# Grad School Application Guide: The Hidden Curriculum
 <small>Last updated: August 2026</small>
 
-Here, I clarify the expectations, norms, and reality of academia.
+This guide explains the expectations and unwritten norms surrounding PhD applications, drawing primarily on my experience with U.S. psychology and adjacent research programs. Practices differ across fields, countries, and departments, so applicants should treat program-specific instructions as authoritative.
 
-## Chapter 1: PhD Applications.
-This chapter is a guide to navigating PhD applications.
+Before applying, it is worth asking two separate questions: Do you want a PhD, and what would make an application effective?
 
-Before you begin, know that this is a hard process, and that you will really benefit from some help. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/). It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
+Application support can make this hard process much more manageable. If you do not have professors or friends in academia, and especially if you come from a disadvantaged background of any sort, I strongly suggest reaching out to [Project SHORT](https://www.project-short.com/). It is a free, international application support program that pairs you up with a PhD mentor. I've been volunteering with them for years, and it's been a great experience!
 
 - [Section 0](#truth): Should you choose academia?
 - [Section 1](#general): General application advice.
@@ -92,44 +91,19 @@ I will begin the upcoming sections with quotes from _The Trial_, which is a book
 ### <a name="network"></a>Section 2: How to build a network.
 > The only things of real value are honest personal contacts (...). That is the only way the progress of the trial can be influenced, hardly noticeable at first, it's true, but from then on it becomes more and more visible. (pg. 139).
 
-You should reach out to graduate students and faculty, as early as possible, but also throughout the whole process.
+Before contacting anyone, check the program's stated norms. Some programs encourage prospective students to contact individual faculty; others explicitly say that contact is unnecessary or discouraged.
 
-#### Why you should reach out.
+When contact is appropriate, write to faculty with a specific purpose: to confirm whether they are accepting students, ask about a developing research direction, or clarify whether your interests fit the lab. Do not write merely to make your name familiar. For practical advice on wording these messages, see this [guide to writing cold emails](https://sowasser.com/cold-emails/).
 
-Talk to faculty to:
-- Get your name out there. Sometimes just being familiar with a name can allow it to stand out in a pile of applications.
-- Learn whether they are taking students. Not every professor takes on graduate students each year, and it can be a waste of your money and effort to apply to work with a professor who is not taking students that year.
-- Hear about what they are excited about. Sometimes a professor will want to pivot to a new research direction, and the only way to learn about that (and use it in your application) is to ask them directly what they are excited about.
+Current and recent graduate students are often the best source of candid information about advising, funding, collaboration, workload, and lab culture. Ask questions that invite concrete examples: How often do students meet with the advisor? How are projects chosen? What happens when a project fails? Where have recent students gone?
 
-Talk to grad students to:
-- Learn about which labs are good and which are bad. Unfortunately, many labs have serious problems: Some are abusive, some are underfunded, some are hyper-competitive... and professors will not tell you about these things. Grad students are the only way to learn about these.
-   - Sometimes it is easier to learn about a lab from a grad student who isn't in that lab---some faculty are so toxic that their students will fear retaliation and pretend they are having a great time to applicants.
-   - Get mentors. Graduate students are often willing and have the time to coach aspiring students through the application process.
-   - Get involved in research. Often, graduate students have projects that they could use help with. Talking to them is the easiest way to get involved in research, since faculty are much harder to reach.
+#### How to have a useful conversation
 
-#### How to make first contact.
-How should you reach out? Email them. Here is a [good guide](https://sowasser.com/cold-emails/) to writing these emails.
+In conversations, be prepared, listen carefully, and avoid treating the interaction as a performance. Arrive with specific questions or aims, but leave room for the other person to tell you what they think matters. The more you have these conversations, the more natural they will feel.
 
-#### How to talk to them.
-First, you should know that the more you talk to strangers, the easier it gets, so don't worry about it being stressful. It can actually become really fun!
+#### How to follow up
 
-The most important thing is to go in with specific questions or aims. The 'why you should talk' section above lists excellent reasons to have a conversation with someone. Just be prepared for your meeting.
-
-Here are some more general social tips for how to talk:
-
-1. Become genuinely interested in other people.
-2. Smile.
-3. Remember that a person's name is to that person the sweetest and most important sound in any language.
-4. Be a good listener. Encourage others to talk about themselves.
-5. Talk in terms of the other person's interests.
-6. Make the other person feel important - and do it sincerely.
-
-These are from [How to Win Friends and Influence People](https://fs.blog/how-to-win-friends-and-influence-people/). I haven't read it but have heard good things from people unfamiliar with American professional social customs.
-
-The key idea is to think of these conversations as attempts at building friendships with people who you really respect.
-
-#### How to follow up.
-Once you've had a chat, your job isn't over! You should circle back and thank them for the conversation, and check back in about anything you left for future conversations (e.g., to schedule another conversation about a potential project, or to discuss another topic). There are some templates [here](https://academicguides.duke.edu/follow-up-and-reminder-emails/). Remember not to pester anyone with questions, though.
+Follow up with a brief thank-you and act on any concrete next step you discussed. If you need to remind someone about an unanswered question, these [follow-up email templates](https://academicguides.duke.edu/follow-up-and-reminder-emails/) offer useful examples. Be considerate of people's time and avoid sending repeated reminders in quick succession.
 
 ---
 
@@ -152,7 +126,6 @@ Every admissions website tells you what documents they want: minimally, the pers
 
 3. Work consistently. You should expect each document to take multiple (5-10) drafts to get right. Often you will have to start over. The only way you will have time for that is if you start working early and consistently.
    - What has worked for me is having external accountability: Break your task into chunks, and tell someone that you will have the chunk ready for them by a certain time. The more the chunks, the more the deadlines, the less likely you are to just procrastinate until the final deadline.
-   - You can try to read some [self-help book summaries](https://www.nateliason.com/notes/atomic-habits-james-clear).
 
 4. Be kind to yourself! This is a hard process - if you find yourself resembling this Kafka drawing:
 <img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA4/29BACKPAGE_KAFKA4-jumbo.jpg?quality=75&amp;auto=webp" alt="Kafka_1" class="center">

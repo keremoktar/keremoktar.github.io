@@ -1,41 +1,35 @@
 ---
 layout: post
-title: Kerem Oktar — Intuitive Statistics Tutorials
-description: A cucumber-flavored, simulation-based introduction to statistical power analysis in R.
+title: Kerem Oktar — A Simple Guide to Power Analysis
+description: A simulation-based introduction to statistical power analysis in R, with an intuitive worked example.
 ---
-# How do I do X?
+# A Simple Guide to Power Analysis
 <small>Last updated: August 2026</small>
 
-- Read the [simulation-based R tutorial on power analyses](#power).
-- [Other tutorials under construction...]
+## What is statistical power?
 
-## <a name="power"></a> Power Analyses in R
+Statistical power is the probability that a study detects an effect when that effect actually exists.
 
-## Intro to a cucumber-flavored tutorial.
-Imagine that you tested negative for a fake disease, cucumberitis (congrats!). Should you celebrate?
+Imagine a diagnostic test for a fake disease called cucumberitis. If the test frequently returns a negative result when the patient is sick, it has a high false-negative rate. An underpowered experiment has an analogous problem: a real effect can be present even when the statistical test fails to detect it.
 
-Maybe. It depends on whether the test is any good. In particular, how likely is the test to turn out negative when you actually have cucumberitis? If it often turns out negative inaccurately, that makes it a weak, bad test. A good, _powerful_ test would almost never do that---if it says that you are sick, it is because you are.
+Low power makes negative results difficult to interpret. Did the manipulation fail, or was the study simply too noisy to reveal its effect? A power analysis helps us distinguish those possibilities before collecting data. Two of its most important inputs are the effect size we want to detect and the sample size we plan to collect.
 
-Powerful tests are therefore informative, and weak tests are misleading---in fact, you would probably be **very upset** if you learned that your medical test was weak (imagine a false-negative cancer test!). **In psychology, our tests are often much weaker than we think they are, and we should be upset, too;** because we often take costly actions (e.g., abandoning study designs, rejecting hypotheses, etc.) based on weak tests.
-
-To know if you have a weak test, you minimally need to know two things: how big is your effect, and how big is your sample?
-
-### Why Do We Do Weak Tests?
+### Why do we run weak tests?
 > “I can’t do a power analysis because I have no idea what the effect size is. If I knew the effect size, I wouldn't have to run the study in the first place!”
 
 This is a common objection, and underlies why many still don't do power analyses---but it turns out, we know much more than we think we do. For instance, here is a distribution of effect sizes from a meta-analysis of meta-analyses in social psychology collecting effect sizes across ~25,000 studies over 100 years in diverse research areas (credit to Jake Westfall for [this analysis](http://jakewestfall.org/blog/index.php/2015/06/16/dont-fight-the-power-analysis/)):
 
 ![Average Power Graph](./assets/images/power_graph.png)
 
-It turns out that, knowing _nothing_ about your research question, I can still make an informed guess about your effect size (it's probably ~0.3; in particular because reported effect sizes tend to be [inflated](https://statmodeling.stat.columbia.edu/2023/05/25/effect-size-expectations-and-common-method-bias/)).
+When prior evidence is sparse, broad empirical distributions can still constrain our expectations. In many areas of social psychology, reported standardized effects cluster in the small-to-moderate range, and publication bias may make those reports optimistic. This does not imply that every new effect is probably *d* = .3, but it gives us a more defensible starting range than assuming an arbitrarily large effect.
 
 Moreover, Joe Simmons has run some extremely helpful, large (N ~ 700) studies on the effect sizes of [very simple questions](http://datacolada.org/18#identifier_1_520). Consider a classic psych question: Do smokers think that smoking is less risky than non-smokers? What do you think the effect size is for this? It turns out to be ~.3. How about the likelihood that someone who likes eggs eats more egg salad? The effect size is ~.5.
 
 ![MTurk Power Graph](./assets/images/MTurkPower.png)
 
-The upshot of this is that even very obvious effects in psychology have 'small to moderate' effect sizes. If your manipulation is more subtle, you should expect your effect to be weaker.
+The upshot is that even seemingly obvious relationships can have small-to-moderate effect sizes. A useful power analysis should therefore consider several plausible effects. If a design works only when the effect is unusually large, that is itself important information.
 
-### You Should Trust Your Priors More Than Your Pilots.
+### Trust your priors more than your pilots
 
 Often, we'll do a smaller pilot study, and use the effect size estimates from that to do power analyses. This is probably not a good idea, unless your pilots are very large, mostly because getting tight bounds on effect sizes requires _very large_ samples, e.g., N > 3000 (see below, [courtesy of Uri Simonsohn](http://datacolada.org/20#footnote_1_545)) .
 
@@ -43,18 +37,20 @@ Often, we'll do a smaller pilot study, and use the effect size estimates from th
 
 This means that your pilot tells you less than you think about how big your effect probably is.
 
-## Implementing a Simple, Simulation-based Power Analysis in R
+## Implementing a simple, simulation-based power analysis in R
 Hopefully you are vaguely convinced that you should try power analyses. Here is my favorite way to do them.
 
-The intuition is simple: Given some effect and sample, we want to know how likely we are to detect a true effect. To do this, you can just create a bunch of fake, random data such that the effect is actually there, and you see if you can detect the effect. If you do this ~1000 times, you get a good estimate of your likelihood of detecting a true effect.
+The intuition is simple: given an effect and a sample size, we want to know how often our analysis would detect the effect. We can generate artificial data in which the effect is present, analyze those data, and repeat the process many times. The proportion of simulations that detect the effect estimates our statistical power.
 
-Toy example: Does eating cucumbers make you less thirsty? This should be a very obvious effect, so let's say our effect size = .5 (similar to egg salad from above). What's your likelihood of detecting this in a typical psych sample, at p < .05? Let's say 30 people were given cucumbers and told to eat them; 30 people were not given cucumbers (so total N = 60). They then rated their thirstiness from 0-10.
+Toy example: Does eating cucumbers make you less thirsty? Let's assume a standardized mean difference of *d* = .5. What is our likelihood of detecting it in a typical psychology sample at *p* < .05? Suppose 30 people were given cucumbers, 30 were not, and everyone rated their thirst from 0 to 10.
 
-The no_cucumber group has an average thirstiness of 5. If the effect size is .5, we would expect the cucumber group to have a 4.5 thirstiness on average. Let's arbitrarily say that the standard deviation for thirstiness is 1. Let's generate these samples and do a t-test:
+The `no_cucumber` group has a mean thirst rating of 5. Because the standard deviation is 1, a standardized effect of *d* = .5 corresponds to a mean of 4.5 in the `cucumber` group. Let's generate these samples and run a t-test:
 
 ```R
-cucumber = rnorm(n = 30, mean = 4.5, sd = 1)
-no_cucumber = rnorm(n = 30, mean = 5, sd = 1)
+set.seed(2026)
+
+cucumber <- rnorm(n = 30, mean = 4.5, sd = 1)
+no_cucumber <- rnorm(n = 30, mean = 5, sd = 1)
 
 t.test(cucumber, no_cucumber)
 ```
@@ -62,67 +58,64 @@ t.test(cucumber, no_cucumber)
 In this instance, there was enough signal in the randomly generated data that I could find it:
 <img src="https://keremoktar.com/assets/images/thirst.png" alt="Cucumber Graph" class="center">
 
-But obviously this won't hold for all randomly generated data. The question is, for what proportion of these datasets? So we can loop over and randomly generate 1000 cucumber datasets, and collect the p-values:
+One simulated experiment is not enough because a new random sample can produce a different result. Instead, we can generate and analyze 1,000 datasets, then collect their p-values:
 
 ```R
-test_pvalues = c() #initiate list to store p values
+set.seed(2026)
 
-for(dataset in 1:1000){
-  cucumber = rnorm(n = 30, mean = 4.5, sd = 1)
-  no_cucumber = rnorm(n = 30, mean = 5, sd = 1)
-  test = t.test(cucumber, no_cucumber)
-  test_pvalues = c(test_pvalues,
-                   test$p.value) # append the p.value to our running list
-}
+test_pvalues <- replicate(1000, {
+  cucumber <- rnorm(n = 30, mean = 4.5, sd = 1)
+  no_cucumber <- rnorm(n = 30, mean = 5, sd = 1)
+
+  t.test(cucumber, no_cucumber)$p.value
+})
 ```
 
-Here is the distribution of p-values. Red shows the mean p-value, and blue shows p = .05. All p-values after the blue line, in this case, are false negatives (i.e., we are not detecting the effect).
+Here is the distribution of p-values. Red shows the mean p-value, and blue shows *p* = .05. Because we generated every dataset with a real effect, the values above .05 are false negatives: experiments that did not detect the effect we put there.
 ![P-values Graph](./assets/images/thirst_pvals.png)
 
-Technically, this is more informative than a single number, but let's say you just want to know what your power is. We can just look at the proportion of our 'experiments' in which we found a significant relationship:
+Our estimated power is the proportion of simulated experiments in which the test detected the effect:
 
 ```R
-mean(ifelse(test_pvalues < .05, 1,0)) #ifelse assigns 1 if the test was significant, 0 if not, we then average it out with mean. I got .45.
+mean(test_pvalues < 0.05)
 ```
 
-So our power in this case ~.47. We can increase the number of experiments (e.g., from 1k to 10k) to get more precise estimates; or we can change various parameters (e.g., what if our variance was 2 vs. 1?) to see how they change our power.
+Setting the random seed makes this example reproducible. The result will be close to, but not exactly equal to, the theoretical power because it is estimated by simulation. We can run more simulations for a more precise estimate or change the assumptions to see how power responds. What happens, for example, if the standard deviation is 2 rather than 1?
 
-We can also ask, what is the sample size you would need to get good (e.g., 90%) power? There are many ways to do this. I find simulations very intuitive, so I just search through possible sample sizes that might make sense, and see what power they are at. In this case, we need a total sample size of 170 to detect our cucumber effect:
+We can also ask what sample size would give us good power, such as 90%. I find simulations intuitive, so we can estimate power across a range of candidate sample sizes. In this setup, the required total sample is approximately 170:
 
 <img src="https://keremoktar.com/assets/images/thirst_sampsearch.png" alt="Sample-size graph" class="center">
 
-And here is the code for looping over multiple sample sizes:
+Here is the code:
 
 ```R
-power_estimates = c() #initialize to store power estimates
-samplesizes = seq(50,300,10)
-for(samplesize in samplesizes){ #loop over possible sample sizes
-  test_pvalues = c() #initiate list to store p values
-  for(dataset in 1:1000){
-    cucumber = rnorm(n = samplesize / 2, mean = 4.5, sd = 1)
-    no_cucumber = rnorm(n = samplesize / 2, mean = 5, sd = 1)
-    test = t.test(cucumber, no_cucumber)
-    test_pvalues = c(test_pvalues,
-                     test$p.value) # append the p.value to our running list
-  }
-  powerest = mean(ifelse(test_pvalues < .05, 1,0))
-  power_estimates = c(power_estimates,
-                      powerest) # append power estimate to list
+set.seed(2026)
+
+estimate_power <- function(sample_size, simulations = 1000) {
+  p_values <- replicate(simulations, {
+    cucumber <- rnorm(n = sample_size / 2, mean = 4.5, sd = 1)
+    no_cucumber <- rnorm(n = sample_size / 2, mean = 5, sd = 1)
+
+    t.test(cucumber, no_cucumber)$p.value
+  })
+
+  mean(p_values < 0.05)
 }
+
+sample_sizes <- seq(50, 300, by = 10)
+power_estimates <- vapply(sample_sizes, estimate_power, numeric(1))
 ```
 
-One shortcoming of this method is that it uses loops in R, which are notoriously slow; for more complex analyses, you will either want to optimize the code above, or use an established power analysis library for the particular test you want to run.
+The same method extends naturally to more complicated analyses: generate data under your assumptions, fit the model you plan to use, and record how often it detects the target effect. For complex or computationally expensive designs, an established power-analysis package may be more convenient.
 
-## Outro: Power Matters.
-I wrote this up because I have done tens of studies with thousands of participants, which, in retrospect, told me a lot less than I thought they did. In the example above, running a 'standard' N = 30 per-cell design gives us ~.5 power. So there's an even chance it didn't work out because the effect actually doesn't exist vs. we couldn't detect it because we're underpowered. There's linear returns to power in this simple setting, so if we had recruited twice the sample size, we would actually have known that if we don't find an effect, it's because there isn't one there.
+## Power matters
+I wrote this because I have run dozens of studies with thousands of participants that, in retrospect, told me much less than I thought they did. In the example above, a standard design with 30 participants per condition has only about .5 power. A negative result would therefore leave two live possibilities: the effect was absent, or the study was too noisy to detect it.
 
-**I could have learned so much more about which effects are real, and which aren't, by conducting fewer, better powered studies.** And we would all stop wasting money and time if everyone conducted well-powered studies and reported when they failed.
+Power increases nonlinearly with sample size. Recruiting more participants makes a real effect easier to detect and usually narrows our uncertainty, but a nonsignificant result still does not establish that the effect is exactly zero. Answering that stronger question requires examining confidence intervals or using tools such as equivalence tests.
+
+**I could have learned much more from fewer, better-powered studies.** Better designs would not have told me with certainty which effects were real, but they would have produced more precise estimates and made negative findings substantially more informative.
 
 For more info on why this matters for psychology research, check out the article by Paul Meehl in my list of favorite [articles](./paperpile.html), or check out Uri, Joe, and Jake's posts above. [Data Colada](https://datacolada.org/) in particular has a lot of useful write-ups on this.
 
 * * *
-
-
-
-
 
