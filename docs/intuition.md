@@ -13,9 +13,7 @@ Here is a sentence that classical logic calls true:
 
 <img src="https://keremoktar.com/assets/images/cat-galaxy2.jpg" alt="catkerem" class="center">
 
-Seriously. I am not a cat, and I have never tasted dark matter. But logic uses a stripped-down version of “if” called the material conditional. It asks one question: Did the first part happen while the second part failed? Only then does it call the statement false. Because I am not a cat, the rule has not been broken, and the whole statement counts as true.
-
-Ordinary conversation expects more from “if”: relevance, causality, and some useful connection between the two ideas. Formal logic leaves those expectations behind so that it can do a narrower practical job: track which inferences preserve truth. The strange result above is therefore a clue to why true, false, and the basic machinery of propositional logic were built the way they were.
+I am not a cat, and I have never tasted dark matter. Yet logic dictates that the sentence above is true. To undersand how this can be, we have to peer behind the curtain of *why*  true, false, and the basic machinery of logic are built the way they are.
 
 Here is the truth table for the conditional operator '→' (where 'A → B' = 'if A then B'):
 
@@ -62,7 +60,7 @@ There is nothing _essentially correct_ about defining ‘→’ this way, much l
 
 But it isn’t a priori obvious which primitives will achieve your goals, and systems typically evolve primitives over time. For example, chess evolved as a system from its ancestors (e.g., the Egyptian senet):[^3]
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/1133px-Maler_der_Grabkammer_der_Nefertari_003.jpg" alt="egypt_senet" class="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/960px-Maler_der_Grabkammer_der_Nefertari_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20050519210427" alt="egypt_senet" class="center">
 
 It’s not like board game designers knew what would be more fun—they just knew fun when they had it. Similarly, people were arguing and figuring out what is a good inference before they had formal logic.[^2] Formal logic was built to satisfy these ‘good inference’ criteria.
 
