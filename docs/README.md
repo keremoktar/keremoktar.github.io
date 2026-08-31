@@ -20,7 +20,7 @@ redirect_from:
   <div class="selected-work__copy">
     <strong><a href="https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/">Muse Spark Safety &amp; Preparedness Report</a></strong>
     <span class="work-meta">Meta · 2026 · Sycophancy evaluation contributor</span>
-    <p>The report evaluates Muse Spark across catastrophic-risk and broader behavioral dimensions; I contributed the sycophancy benchmark, which measures both inappropriate agreement and inappropriate pushback.</p>
+    <p>The report evaluates Meta's LLM, Muse Spark, across safety and behavioral dimensions; I contributed to the sycophancy benchmark, which measures inappropriate agreement and pushback.</p>
     <a class="work-link" href="https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/">Report</a> · <a class="work-link" href="https://arxiv.org/abs/2606.12429">arXiv</a>
   </div>
   <a class="selected-work__figure selected-work__figure--bounded" href="https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/" aria-label="Open the Muse Spark Safety and Preparedness Report">
