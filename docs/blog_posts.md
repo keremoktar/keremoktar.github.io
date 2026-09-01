@@ -111,9 +111,9 @@ Some post-training methods directly optimize against human judgments. In RLHF, h
 
 <img src= "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/yjzW7gxk2h7bBs2qr/djnplw9rlzes9tidqjws" width = "400">
 
-This is how you get language models to stop repeating the toxic, hateful, over-sexualized morass of the internet and get it to act like a helpful assistant. Someone, of course, has to read through this toxic morass, and of course, they are usually poor and without better opportunity, [e.g., Kenyan workers that got paid $2/hr to read stories about content such as 'an explicit story about Batman’s sidekick, Robin, being raped in a villain’s lair'](https://time.com/6247678/openai-chatgpt-kenya-workers/).
+This is how you get language models to stop repeating the toxic, hateful, over-sexualized morass of the internet and get it to act like a helpful assistant. Someone, of course, has to read through this [toxic morass](https://time.com/6247678/openai-chatgpt-kenya-workers/).
 
-AI companies, then, curate data specifically to make their models useful, and literally pay for subjective judgment, through multimillion-dollar pay packages for expert judgment about what is 'good data' for pre-training, and billions spent on acquiring lay judgment of what are 'good responses' for post-training.
+AI companies, then, curate data specifically to make their models useful, and literally pay for subjective judgment, through million-dollar pay packages for expert judgment about what is 'good data' for pre-training, and billions spent on acquiring lay judgment of what are 'good responses' for post-training.
 
 ## Part 3: Of Free Lunch and Scissor Blades
 
