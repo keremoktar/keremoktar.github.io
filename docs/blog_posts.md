@@ -2,11 +2,10 @@
 layout: post
 title: Kerem Oktar — On the Reasonable Effectiveness of Judgment
 description: An essay on how subjective judgment helps explain the practical effectiveness of mathematics and language models.
+updated: August 2026
 ---
 
 # On the Reasonable Effectiveness of Judgment
-
-<small>Last updated: August 2026</small>
 
 <img src="./assets/dropcaps/yinit-D.svg" alt="D" height="36">ear reader captivated by specks of dust, shimmering in a sunbeam -
 

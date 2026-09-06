@@ -3,6 +3,19 @@
 
 @import "jekyll-theme-minimal";
 
+/* The dark palette is applied from two places -- the system preference and an
+   explicit choice -- so it is defined once here. */
+@mixin dark-palette {
+  --background: #111;
+  --text: #d4d4d4;
+  --heading: #f2f2f2;
+  --muted: #adb5bd;
+  --border: #3d3d3d;
+  --link: #80c8ff;
+  --link-hover: #b9e2ff;
+  --code-background: #1b1b1b;
+}
+
 :root {
   color-scheme: light dark;
   --background: #fff;
@@ -415,6 +428,12 @@ td {
     grid-row: 4;
   }
 
+  .theme-control {
+    grid-column: 1 / -1;
+    grid-row: 6;
+    margin-top: 10px;
+  }
+
   .section-nav {
     align-items: flex-start;
     border-left: 1px solid var(--border);
@@ -514,20 +533,61 @@ td {
   }
 }
 
+/* Three states: an explicit light or dark choice stamps the root element, and
+   the default -- no stamp -- follows the operating system. Both figure rules
+   already paint white in the base styles, so nothing but tokens changes. */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #111;
-    --text: #d4d4d4;
-    --heading: #f2f2f2;
-    --muted: #adb5bd;
-    --border: #3d3d3d;
-    --link: #80c8ff;
-    --link-hover: #b9e2ff;
-    --code-background: #1b1b1b;
+  :root:not([data-theme="light"]) {
+    @include dark-palette;
   }
+}
 
-  .selected-work__figure,
-  .benchmark-work__figure {
-    background: #fff;
-  }
+:root[data-theme="dark"] {
+  @include dark-palette;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* --- theme toggle --------------------------------------------------------- */
+
+.theme-control {
+  margin-top: 14px;
+}
+
+.theme-toggle {
+  align-items: center;
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  color: var(--muted);
+  cursor: pointer;
+  display: inline-flex;
+  height: 26px;
+  justify-content: center;
+  padding: 0;
+  width: 26px;
+}
+
+.theme-toggle[hidden] {
+  display: none;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  color: var(--link);
+}
+
+.theme-toggle__icon {
+  display: none;
+  height: 16px;
+  width: 16px;
+}
+
+:root:not([data-theme]) .theme-toggle__icon--system,
+:root[data-theme="light"] .theme-toggle__icon--light,
+:root[data-theme="dark"] .theme-toggle__icon--dark {
+  display: block;
 }

@@ -2,9 +2,9 @@
 layout: post
 title: Kerem Oktar — A Simple Guide to Power Analysis
 description: A simulation-based introduction to statistical power analysis in R, with an intuitive worked example.
+updated: August 2026
 ---
 # A Simple Guide to Power Analysis
-<small>Last updated: August 2026</small>
 
 ## What is statistical power?
 

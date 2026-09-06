@@ -7,47 +7,65 @@
 
     <title>{{ page.title | default: site.title }}</title>
 {% seo title=false %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap">
     <link rel="stylesheet" href="{{ "/assets/css/style2.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <span class="site-title">{{ site.title }}</span>
-        <h3 class="affiliation"><span>Postdoctoral Researcher,</span><br><span>Meta FAIR</span></h3>
-        <p class="credential">PhD in Psychology, Princeton</p>
-        <nav aria-label="Profile links">
-          <a href="https://keremoktar.com/assets/Academic_CV.pdf">CV</a> ·
-          <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=wBVlDlYAAAAJ&amp;hl=en">Scholar</a> ·
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/keremoktar">GitHub</a> ·
-          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kerem-oktar">LinkedIn</a> ·
-          <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/keremoktar.bsky.social">Bluesky</a> ·
-          <a target="_blank" rel="noopener noreferrer" href="https://x.com/keremoktar">X</a> ·
-          <a href="mailto:oktar.research@gmail.com">Email</a>
-        </nav>
-        <nav class="section-nav" aria-label="Homepage sections">
-          <a href="/#selected-work">Selected Work</a>
-          <a href="/#recent-research"><span class="nav-label-wide">Recent Research</span><span class="nav-label-compact">Recent</span></a>
-          <a href="/#about">About</a>
-          <a href="/#contact">Contact</a>
-          <a href="/#writing">Writing</a>
-        </nav>
-      </header>
-      <section>
+  <body class="reading">
+    <div class="read-progress" aria-hidden="true"><span class="read-progress__bar"></span></div>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-      {{ content }}
+    <div class="reading-shell">
+      <div class="topbar">
+        <a class="backlink" href="{{ "/" | relative_url }}"><span class="backlink__arrow" aria-hidden="true">&#8592;</span> {{ site.title }}</a>
+        <span class="topbar__right">
+          <a class="topbar__writing" href="{{ "/#writing" | relative_url }}">All writing</a>
+          {% include theme-toggle.html %}
+        </span>
+      </div>
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> --> 
+      <div class="reading-grid">
+        <nav class="toc" aria-label="Contents" hidden>
+          <button class="toc__toggle" type="button" aria-expanded="false" aria-controls="toc-list">Contents</button>
+          <p class="toc__label">Contents</p>
+          <ol class="toc__list" id="toc-list"></ol>
+          <a class="toc__top" href="#content"><span aria-hidden="true">&#8593;</span> Back to top</a>
+        </nav>
+
+        <article class="post" id="content" data-dropcaps="{{ "/assets/dropcaps/" | relative_url }}">
+          <p class="post-meta">
+            {%- if page.updated %}Last updated {{ page.updated }} &middot; {% endif -%}
+            {{ page.content | strip_html | number_of_words | divided_by: 220.0 | ceil }} min read
+          </p>
+
+          {{ content }}
+        </article>
+      </div>
+
+      <footer class="post-footer">
+        <img class="post-footer__photo" src="{{ "/assets/images/KeremOktar_headshot.jpg" | relative_url }}" width="72" height="72" alt="Kerem Oktar" loading="lazy">
+        <div class="post-footer__body">
+          <p class="post-footer__name"><a href="{{ "/" | relative_url }}">{{ site.title }}</a></p>
+          <p class="post-footer__role">Postdoctoral Researcher, Meta FAIR &middot; PhD in Psychology, Princeton</p>
+          <nav class="post-footer__links" aria-label="Profile links">
+            <a href="https://keremoktar.com/assets/Academic_CV.pdf">CV</a> &middot;
+            <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=wBVlDlYAAAAJ&amp;hl=en">Scholar</a> &middot;
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/keremoktar">GitHub</a> &middot;
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kerem-oktar">LinkedIn</a> &middot;
+            <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/keremoktar.bsky.social">Bluesky</a> &middot;
+            <a target="_blank" rel="noopener noreferrer" href="https://x.com/keremoktar">X</a> &middot;
+            <a href="mailto:oktar.research@gmail.com">Email</a>
+          </nav>
+        </div>
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script src="{{ "/assets/js/theme.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/reading.js" | relative_url }}"></script>
   </body>
 </html>

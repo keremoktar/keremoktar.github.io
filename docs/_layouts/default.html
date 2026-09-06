@@ -36,6 +36,9 @@
           <a href="/#contact">Contact</a>
           <a href="/#writing">Writing</a>
         </nav>
+        <div class="theme-control">
+          {% include theme-toggle.html %}
+        </div>
       </header>
       <section>
 
@@ -43,6 +46,7 @@
 
       </section>
     </div>
+    <script src="{{ "/assets/js/theme.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

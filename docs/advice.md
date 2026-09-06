@@ -2,9 +2,9 @@
 layout: post
 title: "Kerem Oktar — Grad School Application Guide: The Hidden Curriculum"
 description: Should you get a PhD, and if so, how do you get in? A guide to choosing programs, building a network, preparing application materials, and interviewing.
+updated: August 2026
 ---
 # Grad School Application Guide: The Hidden Curriculum
-<small>Last updated: August 2026</small>
 
 This guide explains the expectations and unwritten norms surrounding PhD applications, drawing primarily on my experience with U.S. psychology and adjacent research programs. Practices differ across fields, countries, and departments, so applicants should treat program-specific instructions as authoritative.
 

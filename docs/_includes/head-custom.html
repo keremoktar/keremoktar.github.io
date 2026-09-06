@@ -6,4 +6,19 @@
 <!-- You can set your favicon here -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 
+<!-- Apply a stored theme choice before first paint. This has to run inline
+     and blocking, or every visit flashes the system theme for a frame. -->
+<script>
+  (function () {
+    try {
+      var choice = localStorage.getItem('theme');
+      if (choice === 'light' || choice === 'dark') {
+        document.documentElement.setAttribute('data-theme', choice);
+      }
+    } catch (e) {
+      /* private mode, or site data blocked -- fall through to the system theme */
+    }
+  })();
+</script>
+
 <!-- end custom head snippets -->

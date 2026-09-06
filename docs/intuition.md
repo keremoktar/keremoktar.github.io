@@ -2,11 +2,10 @@
 layout: post
 title: Kerem Oktar — Why False Premises Make Conditionals True
 description: A galaxy-eating cat, a flying pope, and an intuitive explanation of why material conditionals with false premises are true.
+updated: August 2026
 ---
 
-<h1 style="text-align: center;">Why False Premises Make Conditionals True</h1>
-
-<small>Last updated: August 2026</small>
+# Why False Premises Make Conditionals True
 
 Here is a sentence that classical logic calls true:
 > If I am a cat, I love eating dark matter.

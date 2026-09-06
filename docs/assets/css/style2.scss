@@ -1,176 +1,738 @@
 ---
 ---
+
 @import "jekyll-theme-minimal";
+
+/* The dark palette is applied from two places -- the system preference and an
+   explicit choice -- so it is defined once here. */
+@mixin dark-palette {
+  --background: #111;
+  --text: #d4d4d4;
+  --heading: #f2f2f2;
+  --muted: #adb5bd;
+  --faint: #868e96;
+  --border: #3d3d3d;
+  --rule: #2b2b2b;
+  --link: #80c8ff;
+  --link-hover: #b9e2ff;
+  --code-background: #1b1b1b;
+  --code-text: #e8e8e8;
+  --quote-background: #1a1a18;
+  --surface: #1b1b1b;
+}
+
+/* ==========================================================================
+   Reading layout — used by the `post` layout for long-form writing.
+   The persistent element is a section rail (where you are), not a bio card.
+   ========================================================================== */
 
 :root {
   color-scheme: light dark;
+  --background: #fff;
+  --text: #35373c;
+  --heading: #1b1c1f;
+  --muted: #6b7280;
+  --faint: #9aa1ab;
+  --border: #e3e6e8;
+  --rule: #ededf0;
+  --link: #267cb9;
+  --link-hover: #175d8c;
+  --accent: #ff5603;
+  --code-background: #f6f7f8;
+  --quote-background: #f8f7f5;
+  --code-text: #333;
+  --surface: #fff;
+  /* Spectral carries the prose; the sans stays on interface chrome
+     (rail, meta, topbar, footer) so structure reads apart from text. */
+  --font-body: Spectral, "Iowan Old Style", Charter, Cambria, Georgia, serif;
+  --font-ui: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --dropcap-size: 4.4em;
+  --measure: 37rem;
+  --rail: 9.5rem;
+  --rail-inset: 24px;
 }
 
-@media screen and (min-width: 720px) {
-  .wrapper {
-    width:100vw;
-    margin:0 auto
-  
-  }
-  header { /* change vw to adjust left section size */
-    width:15vw;
-    float:left;
-    position:fixed;
-    -webkit-font-smoothing:subpixel-antialiased
-  }
-  section {
-    width:45vw; /* change vw to adjust middle section size */
-    margin: 0 auto;
-    padding-bottom:50px;
-    float: none
-  }
-}
-
-
-hr { /* changes horizontal line styles  */
-  border: none; /* Remove default border */
-  height: 4px; /* Set the height of the line */
-  background: linear-gradient(to right, #ff2d00, #ffb861); /* Apply a gradient background */
-  margin: 40px 0; /* Add margin above and below the line */
-  border-radius: 10px; /* Add rounded corners to the line */
-}
-
+/* --- resets over the base theme ------------------------------------------ */
 
 body {
-  font-size: 16px; /* Adjust the value to your preferred font size */
-  color: #515151; /* Dark gray color */
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 19px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
 }
 
-.site-title {
+.wrapper {
+  margin: 0;
+  width: auto;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  font-weight: inherit; /* theme bolds links on hover, which reflows text */
+}
+
+small {
+  font-size: 0.8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--heading);
+}
+
+.skip-link {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  left: 12px;
+  padding: 8px 14px;
+  position: absolute;
+  top: -100px;
+  z-index: 20;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+.topbar,
+.toc,
+.post-meta,
+.post-footer,
+.skip-link {
+  font-family: var(--font-ui);
+}
+
+/* --- reading progress ----------------------------------------------------- */
+
+.read-progress {
+  background: transparent;
+  height: 2px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.read-progress__bar {
+  background: linear-gradient(to right, #ff2d00, #ffb861);
   display: block;
-  color: #222;
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 1.1;
-  margin-bottom: 20px;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
 }
 
-h3 {
-  text-align: center;
-  color: #ff5603
+/* --- shell ---------------------------------------------------------------- */
+
+.reading-shell {
+  margin: 0 auto;
+  max-width: 68rem;
+  padding: 34px 28px 96px;
 }
 
-.affiliation {
-  color: #494949;
-  text-align: left;
+.topbar {
+  align-items: baseline;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  margin: 0 auto 44px;
+  max-width: var(--measure);
 }
 
-.affiliation span {
-  font-size: inherit;
-  font-weight: inherit;
+.backlink {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .01em;
 }
 
-.credential {
-  color: #727272;
+.backlink:hover,
+.backlink:focus {
+  color: var(--link);
+}
+
+.backlink__arrow {
+  display: inline-block;
+  transition: transform .15s ease;
+}
+
+.backlink:hover .backlink__arrow {
+  transform: translateX(-3px);
+}
+
+.topbar__writing {
+  color: var(--faint);
   font-size: 13px;
-  line-height: 1.4;
-  margin-top: -10px;
-  text-align: left;
 }
 
-.section-nav {
-  border-top: 1px solid #e3e6e8;
+.reading-grid {
+  margin: 0 auto;
+  max-width: var(--measure);
+}
+
+/* --- article -------------------------------------------------------------- */
+
+.post {
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
-  padding-top: 12px;
+  max-width: var(--measure);
+  /* Some quoted passages carry bare URLs over 100 characters; without this
+     they overrun the column and force the page to scroll sideways. */
+  overflow-wrap: break-word;
 }
 
-.section-nav a {
-  color: #727272;
-  font-size: 12px;
-  line-height: 1.8;
+.post > * {
+  order: 3;
+  min-width: 0;
 }
 
-.nav-label-compact {
-  display: none;
+/* Title comes from the markdown body; the meta line is rendered by the layout
+   above it, so reorder rather than move it with JS. */
+.post > h1:first-of-type {
+  order: 1;
 }
 
-@media screen and (max-width: 719px) {
-  .section-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .nav-label-wide {
-    display: none;
-  }
-
-  .nav-label-compact {
-    display: inline;
-  }
+.post > .post-meta {
+  order: 2;
 }
 
-li {
-  margin-bottom: 5px; /* Optional: additional margin between list items */
+.post h1 {
+  font-size: clamp(31px, 3.4vw, 41px);
+  font-weight: 600;
+  letter-spacing: -.008em;
+  line-height: 1.16;
+  margin: 0 0 14px;
+  text-wrap: balance;
 }
 
-.center { /* Optional: centered half-width images*/
+.post-meta {
+  color: var(--faint);
+  font-size: 13.5px;
+  letter-spacing: .02em;
+  margin: 0 0 40px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.post h2 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.28;
+  margin: 52px 0 14px;
+}
+
+.post h3 {
+  color: var(--heading);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 42px 0 12px;
+}
+
+.post h4 {
+  font-size: 17px;
+  margin: 32px 0 10px;
+}
+
+.post :is(h1, h2, h3, h4) {
+  scroll-margin-top: 24px;
+}
+
+.post p {
+  margin: 0 0 22px;
+}
+
+.post ul,
+.post ol {
+  margin: 0 0 22px;
+  padding-left: 1.35em;
+}
+
+.post li {
+  margin-bottom: 8px;
+}
+
+.post blockquote {
+  background: var(--quote-background);
+  border: 0;
+  border-radius: 5px;
+  color: var(--heading);
+  font-size: .95em;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 30px 0;
+  padding: 20px 24px 20px 32px;
+  position: relative;
+}
+
+/* A short accent stub sits in the panel's left gutter, aligned to the first
+   line. It marks the extract without running a rule down its whole height,
+   which reads as scaffolding where three quotations sit close together. */
+.post blockquote::before {
+  background: var(--accent);
+  border-radius: 2px;
+  content: "";
+  height: 1.35em;
+  left: 15px;
+  position: absolute;
+  top: 23px;
+  width: 3px;
+}
+
+/* Emphasis inside an italic passage flips back to roman. */
+.post blockquote em,
+.post blockquote i,
+.post blockquote cite {
+  font-style: normal;
+}
+
+.post blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.post blockquote cite {
+  color: var(--muted);
+  display: block;
+  font-size: .92em;
+  font-style: normal;
+  margin-top: 8px;
+}
+
+/* --- opening initial ------------------------------------------------------ */
+
+/* The yinit initials are SVGs that paint with fill="currentColor", which an
+   <img> cannot inherit -- so drive them as a mask and colour the box instead.
+   That keeps them legible in both themes. */
+.dropcap {
+  background-color: var(--heading);
+  float: left;
+  height: var(--dropcap-size);
+  margin: .1em .34em -.04em 0;
+  shape-outside: border-box;
+  width: var(--dropcap-size);
+  -webkit-mask-image: var(--dropcap-glyph);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-image: var(--dropcap-glyph);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.sr-only {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.post img {
+  height: auto;
+  max-width: 100%;
+}
+
+.post pre {
+  background: var(--code-background);
+  border: 1px solid var(--border);
+  color: var(--code-text);
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0 0 22px;
+  overflow-x: auto;
+  padding: 14px 16px;
+}
+
+.post code {
+  background: var(--code-background);
+  border-radius: 3px;
+  color: var(--code-text);
+  font-size: .82em;
+  padding: .1em .3em;
+}
+
+.post pre code {
+  background: none;
+  padding: 0;
+}
+
+.post table {
+  border-collapse: collapse;
+  display: block;
+  font-size: 15px;
+  margin: 0 0 22px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.post th,
+.post td {
+  border-bottom: 1px solid var(--border);
+}
+
+.post hr {
+  background: linear-gradient(to right, #ff2d00, #ffb861);
+  border: 0;
+  border-radius: 10px;
+  height: 2px;
+  margin: 52px auto;
+  width: 25%;
+}
+
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-@media (prefers-color-scheme: dark) {
+/* --- table of contents rail ----------------------------------------------- */
+
+.toc {
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.toc[hidden] {
+  display: none;
+}
+
+.toc__label {
+  color: var(--faint);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+.toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc__item {
+  margin: 0;
+}
+
+.toc__link {
+  align-items: baseline;
+  border-left: 2px solid transparent;
+  color: var(--muted);
+  display: flex;
+  gap: 7px;
+  padding: 5px 0 5px 10px;
+  transition: color .12s ease, border-color .12s ease;
+}
+
+.toc__link:hover,
+.toc__link:focus {
+  color: var(--link);
+}
+
+.toc__item--sub .toc__link {
+  font-size: 11.5px;
+  padding-left: 22px;
+}
+
+.toc__link[aria-current="true"] {
+  border-left-color: var(--accent);
+  color: var(--heading);
+  font-weight: 600;
+}
+
+.toc__num {
+  color: var(--faint);
+  flex: none;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  min-width: .9em;
+}
+
+.toc__link[aria-current="true"] .toc__num {
+  color: var(--accent);
+}
+
+.toc__top {
+  color: var(--faint);
+  display: none;
+  font-size: 11px;
+  margin-top: 16px;
+  padding-left: 12px;
+}
+
+.toc__top:hover,
+.toc__top:focus {
+  color: var(--link);
+}
+
+/* Narrow: rail collapses into a disclosure above the article. */
+.toc__toggle {
+  background: none;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+  display: block;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.toc__toggle::after {
+  content: " \25BE";
+  color: var(--faint);
+}
+
+.toc__toggle[aria-expanded="true"]::after {
+  content: " \25B4";
+}
+
+@media screen and (max-width: 1019px) {
+  .toc {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin: 0 0 40px;
+    padding: 14px 16px;
+  }
+
+  .toc__label {
+    display: none;
+  }
+
+  .toc__list {
+    display: none;
+    margin-top: 12px;
+  }
+
+  .toc.is-open .toc__list {
+    display: block;
+  }
+
+  .toc__link {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .toc__item--sub .toc__link {
+    padding-left: 16px;
+  }
+
+  .toc__link[aria-current="true"] {
+    font-weight: 400;
+  }
+}
+
+/* Wide: the rail is pinned to the left edge of the viewport and the article
+   stays centred, so the two are independent of each other. The breakpoint is
+   the narrowest width at which a 9.5rem rail clears a centred 37rem column. */
+@media screen and (min-width: 1020px) {
+  .toc__toggle {
+    display: none;
+  }
+
+  .toc__top {
+    display: block;
+  }
+
+  .toc {
+    left: var(--rail-inset);
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    position: fixed;
+    top: 3rem;
+    width: var(--rail);
+  }
+}
+
+/* --- footer author card --------------------------------------------------- */
+
+.post-footer {
+  align-items: center;
+  border-top: 1px solid var(--rule);
+  bottom: auto;
+  display: flex;
+  float: none;
+  gap: 18px;
+  margin: 72px auto 0;
+  max-width: var(--measure);
+  padding: 26px 0 0;
+  position: static;
+  width: auto;
+}
+
+.post-footer__photo {
+  border-radius: 50%;
+  flex: none;
+  height: 72px;
+  object-fit: cover;
+  width: 72px;
+}
+
+.post-footer__name {
+  font-size: 15px;
+  font-weight: 650;
+  margin: 0;
+}
+
+.post-footer__name a {
+  color: var(--heading);
+}
+
+.post-footer__name a:hover,
+.post-footer__name a:focus {
+  color: var(--link);
+}
+
+.post-footer__role {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 2px 0 6px;
+}
+
+.post-footer__links {
+  color: var(--faint);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* --- small screens -------------------------------------------------------- */
+
+@media screen and (max-width: 720px) {
   body {
-    background: #111;
-    color: #d4d4d4;
+    font-size: 18px;
+    word-wrap: break-word;
   }
 
-  .site-title,
-  .affiliation,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong {
-    color: #f2f2f2;
+  .reading-shell {
+    padding: 26px 20px 72px;
   }
 
-  .credential {
-    color: #adb5bd;
+  .topbar {
+    margin-bottom: 32px;
   }
 
-  .section-nav {
-    border-top-color: #3d3d3d;
+  .post h1 {
+    font-size: 28px;
   }
 
-  .section-nav a {
-    color: #adb5bd;
+  .post h2 {
+    font-size: 22px;
+    margin-top: 42px;
   }
 
-  a {
-    color: #80c8ff;
+  .post h3 {
+    font-size: 19px;
   }
 
-  a:hover,
-  a:focus {
-    color: #b9e2ff;
+  .post-meta {
+    margin-bottom: 32px;
   }
 
-  blockquote {
-    border-left-color: #555;
-    color: #bdbdbd;
+  .center {
+    width: 100%;
   }
 
-  code,
-  pre {
-    background: #1b1b1b;
-    border-color: #444;
-    color: #e8e8e8;
+  .post-footer {
+    align-items: flex-start;
+    gap: 14px;
   }
 
-  th,
-  td {
-    border-bottom-color: #444;
+  .post-footer__photo {
+    height: 56px;
+    width: 56px;
+  }
+}
+
+/* --- dark ----------------------------------------------------------------- */
+
+/* Three states: an explicit light or dark choice stamps the root element, and
+   the default -- no stamp -- follows the operating system. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-palette;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include dark-palette;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* --- theme toggle --------------------------------------------------------- */
+
+.theme-toggle {
+  align-items: center;
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  color: var(--faint);
+  cursor: pointer;
+  display: inline-flex;
+  height: 24px;
+  justify-content: center;
+  padding: 0;
+  width: 24px;
+}
+
+.theme-toggle[hidden] {
+  display: none;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  color: var(--link);
+}
+
+.theme-toggle__icon {
+  display: none;
+  height: 15px;
+  width: 15px;
+}
+
+:root:not([data-theme]) .theme-toggle__icon--system,
+:root[data-theme="light"] .theme-toggle__icon--light,
+:root[data-theme="dark"] .theme-toggle__icon--dark {
+  display: block;
+}
+
+.topbar__right {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backlink__arrow,
+  .toc__link {
+    transition: none;
   }
 }
