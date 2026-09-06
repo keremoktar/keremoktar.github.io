@@ -8,7 +8,9 @@ updated: August 2026
 # Why False Premises Make Conditionals True
 
 Here is a sentence that classical logic calls true:
-> If I am a cat, I love eating dark matter.
+
+If I am a cat, I love eating dark matter.
+{: .proposition}
 
 <img src="https://keremoktar.com/assets/images/cat-galaxy2.jpg" alt="catkerem" class="center">
 

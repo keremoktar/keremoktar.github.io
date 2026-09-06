@@ -104,6 +104,28 @@
 
   /* --- opening initial ---------------------------------------------------- */
 
+  // Artwork geometry per initial, read from each SVG's viewBox: the aspect
+  // ratio, where the glyph's own baseline sits as a fraction of the artwork
+  // height, and its left sidebearing as a fraction of the width. The letters
+  // are not uniform -- K is 0.92 wide where W is 1.11 -- so a square box would
+  // misalign the extremes by nearly a fifth of the cap's height.
+  var INITIALS = {
+    A: [1.0037, 0.9655, 0.0239], B: [1.0189, 0.9768, 0.064],
+    C: [0.9788, 0.9852, 0.0124], D: [1.0022, 0.9868, 0.0203],
+    E: [0.9447, 0.9868, 0.0142], F: [0.9837, 0.9873, 0.0134],
+    G: [0.9781, 0.9873, 0.0123], H: [0.9912, 0.9873, 0.0123],
+    I: [1.0219, 0.9871, 0.0446], J: [1.0219, 0.9871, 0.0446],
+    K: [0.9247, 0.986, -0.0081], L: [1.0086, 0.987, 0.0124],
+    M: [1.1039, 0.9661, 0.0595], N: [1.0132, 0.982, 0.0332],
+    O: [1.0079, 0.9808, 0.0357], P: [0.9612, 0.9718, 0.019],
+    Q: [1.0418, 0.9768, 0.0344], R: [0.9691, 0.9667, 0.0124],
+    S: [0.9859, 0.9874, 0.0232], T: [0.964, 0.9826, 0.0133],
+    U: [0.9659, 0.9789, -0.019], V: [0.9903, 0.9869, -0.0034],
+    W: [1.1056, 0.985, 0.0125], X: [0.9626, 0.9876, 0.0126],
+    Y: [0.9569, 0.9774, 0.0245], Z: [0.9432, 0.9792, 0.0166]
+  };
+
+
   function applyDropCap() {
     // Masking is how the initials pick up a theme colour; without it the
     // letter would go missing from the text, so bail before touching the DOM.
@@ -149,10 +171,16 @@
     if (!/^[A-Za-z]$/.test(letter)) return;
     letter = letter.toUpperCase();
 
+    var art = INITIALS[letter];
+    if (!art) return;
+
     var glyph = document.createElement('span');
     glyph.className = 'dropcap';
     glyph.setAttribute('aria-hidden', 'true');
     glyph.style.setProperty('--dropcap-glyph', 'url("' + base + 'yinit-' + letter + '.svg")');
+    glyph.style.setProperty('--dropcap-aspect', art[0]);
+    glyph.style.setProperty('--dropcap-baseline', art[1]);
+    glyph.style.setProperty('--dropcap-lsb', art[2]);
 
     // The glyph is decorative; keep the letter itself in the text for readers.
     var spoken = document.createElement('span');

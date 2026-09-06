@@ -46,10 +46,23 @@
      (rail, meta, topbar, footer) so structure reads apart from text. */
   --font-body: Spectral, "Iowan Old Style", Charter, Cambria, Georgia, serif;
   --font-ui: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --dropcap-size: 4.4em;
-  --measure: 37rem;
-  --rail: 9.5rem;
-  --rail-inset: 24px;
+  /* Drop cap geometry, derived from Spectral's own metrics at line-height 1.7:
+     cap height .66em, ascent 1.059em, descent .463em (hhea and typo agree, so
+     the line box is the same across platforms). The first baseline therefore
+     falls 1.148em below the top of the line box, the second 1.7em under that.
+       cap-height line  = 1.148 - .66  = .488em   <- where the cap starts
+       cap top to 2nd baseline         = 2.360em  <- how tall it reads
+     For a three-line initial instead, use 4.06em. */
+  --dropcap-size: 2.36em;
+  --dropcap-top: .488em;
+  /* Spectral sets a wide word space, .5em. At .3em the initial sat closer to
+     the text than two ordinary words sit to each other, which read as a
+     collision on the second line. A decorated initial wants more than a plain
+     one, so this is about 1.35 word spaces. */
+  --dropcap-gap: .68em;
+  --measure: 42rem;
+  --rail: 9rem;
+  --rail-inset: 16px;
 }
 
 /* --- resets over the base theme ------------------------------------------ */
@@ -271,7 +284,7 @@ strong {
   font-size: .95em;
   font-style: italic;
   line-height: 1.6;
-  margin: 30px 0;
+  margin: 6px 0 28px;
   padding: 20px 24px 20px 32px;
   position: relative;
 }
@@ -309,26 +322,57 @@ strong {
   margin-top: 8px;
 }
 
+/* A proposition put up for examination rather than quoted from someone --
+   displayed like a formula, without the quotation panel. */
+.post .proposition {
+  color: var(--heading);
+  font-size: 1.16em;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 4px 0 26px;
+  text-align: center;
+  text-wrap: balance;
+}
+
 /* --- opening initial ------------------------------------------------------ */
 
 /* The yinit initials are SVGs that paint with fill="currentColor", which an
    <img> cannot inherit -- so drive them as a mask and colour the box instead.
    That keeps them legible in both themes. */
 .dropcap {
+  /* Filled in per letter by the script; these are the averages, used only if
+     it cannot identify the initial. */
+  --dropcap-aspect: 1;
+  --dropcap-baseline: .9815;
+  --dropcap-lsb: .02;
+
+  /* The artwork is cropped to its ink, with the glyph's baseline slightly
+     above the bottom edge, so scale the box up by that fraction: the surplus
+     then hangs below the line as the initial's own descender, exactly as a
+     typeset letter would. */
+  --dropcap-box: calc(var(--dropcap-size) / var(--dropcap-baseline));
+  --dropcap-width: calc(var(--dropcap-box) * var(--dropcap-aspect));
+
   background-color: var(--heading);
   float: left;
-  height: var(--dropcap-size);
-  margin: .1em .34em -.04em 0;
-  shape-outside: border-box;
-  width: var(--dropcap-size);
+  height: var(--dropcap-box);
+  /* Pulled left by the artwork's own sidebearing so the ink, not the bounding
+     box, lines up with the text column. */
+  margin: var(--dropcap-top) var(--dropcap-gap) 0
+          calc(var(--dropcap-width) * var(--dropcap-lsb) * -1);
+  /* No shape-outside here on purpose. A float's text exclusion is its margin
+     box by default, which is what carries --dropcap-gap; naming a <shape-box>
+     replaces that area, and `border-box` would drop the margins from the wrap
+     and set the text flush against the letter. */
+  width: var(--dropcap-width);
   -webkit-mask-image: var(--dropcap-glyph);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
+  -webkit-mask-size: 100% 100%;
   mask-image: var(--dropcap-glyph);
   mask-position: center;
   mask-repeat: no-repeat;
-  mask-size: contain;
+  mask-size: 100% 100%;
 }
 
 .sr-only {
@@ -510,7 +554,7 @@ strong {
   content: " \25B4";
 }
 
-@media screen and (max-width: 1019px) {
+@media screen and (max-width: 1059px) {
   .toc {
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -547,8 +591,8 @@ strong {
 
 /* Wide: the rail is pinned to the left edge of the viewport and the article
    stays centred, so the two are independent of each other. The breakpoint is
-   the narrowest width at which a 9.5rem rail clears a centred 37rem column. */
-@media screen and (min-width: 1020px) {
+   the narrowest width at which a 9rem rail clears a centred 42rem column. */
+@media screen and (min-width: 1060px) {
   .toc__toggle {
     display: none;
   }
