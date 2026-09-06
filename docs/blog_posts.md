@@ -7,7 +7,7 @@ updated: August 2026
 
 # On the Reasonable Effectiveness of Judgment
 
-<img src="./assets/dropcaps/yinit-D.svg" alt="D" height="36">ear reader captivated by specks of dust, shimmering in a sunbeam -
+Dear reader captivated by specks of dust, shimmering in a sunbeam -
 
 Listen, I know you’ve got a lot on your plate. But Eugene Wigner is here, and he has a story he is just *dying* to tell you:
 
@@ -31,7 +31,7 @@ Eugene's puzzle partly arises from an illusion of objectivity that obscures the 
 
 It is easy to understand the origins of this illusion. Math, we are told, is derivation. You could start with the axioms, and grind the gears of logic until you reach every proof ever. As objective as it gets---so much so that they called it *Pure Mathematics* (pure of human or worldly relevance, presumably). Even a computer could do it. In fact, arguably the first AI program, the *Logic Theorist*, was all about generating arbitrary proofs from starting axioms, and formulated math as just this kind of mechanical search problem:
 
-<img src="https://pbs.twimg.com/media/FOJHeSTXEAAKpsC.png" alt="logic theorist image" width="300">
+<img src="/assets/images/posts/logic-theorist.png" alt="logic theorist image" width="300">
 
 And this is all correct; the machinery of mathematics is indeed objective. Cast as an arbitrary exploration of symbolic systems, it is puzzling that it does anything useful at all.
 
@@ -73,7 +73,7 @@ And these screenshots of stupid mistakes were pretty compelling; it is easy to f
 
 *"Hi. I am GPT-1. This is an essay exploring why people did not expect me to amount to much. All I do is predict the next token --"*
 
-<img src = "https://snipboard.io/HUbk4X.jpg" width = 300>
+<img src = "/assets/images/posts/gpt1-essay.png" width = 300>
 
 It starts off strong, yet it doesn't look like it's going to be useful enough to replace you, dear white collar. But academics had a more subtle reason for thinking that LLMs wouldn't amount to much, a reason that led to them being puzzled by the remarkable success of language models.
 
@@ -81,7 +81,7 @@ This was an illusion of objectivity that obscures the fact that language modelin
 
 It is easy to understand the origins of this illusion. Language modeling, we are told, is prediction. You start with a massive bag of words, and grind the gears of correlation until you extract every last drop of semantic association. As objective as it gets---so much so that they called it *Language Modeling* (modeling all of Language, presumably). Even a computer could do it... In fact, the first work on modeling word sequences by Shannon in [1948](http://medientheorie.com/doc/shannon_redundancy.pdf) used exactly this method:
 
-<img src = "https://snipboard.io/kFwWq8.jpg" width = 400>
+<img src = "/assets/images/posts/gpt-next-token.png" width = 400>
 
 Where the rows above bake increasing levels of dependency into the modeling: the first is a random sample of letters; in the second, you sample letters based on the probability with which they follow each other in English (what's called a bigram model); in the third, you start modeling the likelihood of letters given two preceding letters (a trigram); in the fourth, you introduce the likelihood of words following one another; and so on. LLMs are trained on more language --- sometimes we are even told, "on all of the internet."
 
@@ -108,7 +108,7 @@ Post-training was once a comparatively small part of the training budget, but it
 
 Some post-training methods directly optimize against human judgments. In RLHF, human raters or annotators compare possible responses, and a model learns to predict and optimize those preferences. The resulting assistant is therefore shaped not only by the text people have produced, but by explicit judgments about what it should produce.
 
-<img src= "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/yjzW7gxk2h7bBs2qr/djnplw9rlzes9tidqjws" width = "400">
+<img src= "/assets/images/posts/shoggoth-rlhf.jpg" width = "400">
 
 This is how you get language models to stop repeating the toxic, hateful, over-sexualized morass of the internet and get it to act like a helpful assistant. Someone, of course, has to read through this [toxic morass](https://time.com/6247678/openai-chatgpt-kenya-workers/).
 
@@ -134,7 +134,7 @@ But here comes this young economist, and he's got the numbers. He doesn't have y
 
 > **Peter Brand:** Baseball thinking is medieval… They are asking all the wrong questions. And if I say it to anybody, I'm-I'm ostracized. I'm-I'm-I'm a leper. (...) It's about getting things down to one number.
 
-<img src = 'https://b65f7ade.delivery.rocketcdn.me/wp-content/uploads/2020/01/moneyball-git-analytics.jpg' width = 400>
+<img src = '/assets/images/posts/moneyball-analytics.jpg' width = 400>
 
 *Jonah Hill, pointing at numbers*
 

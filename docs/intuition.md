@@ -12,7 +12,7 @@ Here is a sentence that classical logic calls true:
 If I am a cat, I love eating dark matter.
 {: .proposition}
 
-<img src="https://keremoktar.com/assets/images/cat-galaxy2.jpg" alt="catkerem" class="center">
+<img src="/assets/images/cat-galaxy2.jpg" alt="catkerem" class="center">
 
 I am not a cat, and I have never tasted dark matter. Yet logic dictates that the sentence above is true. To undersand how this can be, we have to peer behind the curtain of *why*  true, false, and the basic machinery of logic are built the way they are.
 
@@ -61,7 +61,7 @@ There is nothing _essentially correct_ about defining ‘→’ this way, much l
 
 But it isn’t a priori obvious which primitives will achieve your goals, and systems typically evolve primitives over time. For example, chess evolved as a system from its ancestors (e.g., the Egyptian senet):[^3]
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Maler_der_Grabkammer_der_Nefertari_003.jpg/960px-Maler_der_Grabkammer_der_Nefertari_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20050519210427" alt="egypt_senet" class="center">
+<img src="/assets/images/posts/senet-nefertari.jpg" alt="egypt_senet" class="center">
 
 It’s not like board game designers knew what would be more fun—they just knew fun when they had it. Similarly, people were arguing and figuring out what is a good inference before they had formal logic.[^2] Formal logic was built to satisfy these ‘good inference’ criteria.
 

@@ -55,6 +55,9 @@
      For a three-line initial instead, use 4.06em. */
   --dropcap-size: 2.36em;
   --dropcap-top: .488em;
+  /* A raised initial is measured the same way -- cap top to the baseline it
+     sits on -- but spans only the first line, rising above it. */
+  --dropcap-raised: 1.8em;
   /* Spectral sets a wide word space, .5em. At .3em the initial sat closer to
      the text than two ordinary words sit to each other, which read as a
      collision on the second line. A decorated initial wants more than a plain
@@ -334,6 +337,49 @@ strong {
   text-wrap: balance;
 }
 
+/* Image credits. The source stays in the DOM at all times -- assistive tech
+   and crawlers get it either way -- but keeps out of the reader's way until
+   they go looking. Reserving the space rather than collapsing it means
+   nothing shifts on hover. */
+.figure {
+  margin: 0 0 22px;
+}
+
+.figure__credit {
+  color: var(--faint);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 7px;
+  opacity: 0;
+  text-align: center;
+  transition: opacity .15s ease;
+}
+
+.figure:hover .figure__credit,
+.figure:focus-within .figure__credit {
+  opacity: 1;
+}
+
+.figure__credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 2px;
+}
+
+.figure__credit a:hover,
+.figure__credit a:focus {
+  color: var(--link);
+}
+
+/* Touch has no hover to reveal it with, so it simply shows. */
+@media (hover: none) {
+  .figure__credit {
+    opacity: 1;
+  }
+}
+
 /* --- opening initial ------------------------------------------------------ */
 
 /* The yinit initials are SVGs that paint with fill="currentColor", which an
@@ -373,6 +419,23 @@ strong {
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
+}
+
+/* Where the opening paragraph is too short to fill a dropped initial, the
+   script switches to a raised one: seated on the first baseline, rising above
+   the line, with the text running on beside it as part of the same word. */
+.dropcap--raised {
+  --dropcap-box: calc(var(--dropcap-raised) / var(--dropcap-baseline));
+
+  display: inline-block;
+  float: none;
+  /* An inline-block seats its bottom margin edge on the baseline, but the
+     artwork runs a little past the glyph's own baseline, so pull that back.
+     The right margin is letter spacing, not a word space -- the initial is
+     the first letter of a word, not a block beside it. */
+  margin: 0 .1em calc(var(--dropcap-box) * (var(--dropcap-baseline) - 1))
+          calc(var(--dropcap-width) * var(--dropcap-lsb) * -1);
+  vertical-align: baseline;
 }
 
 .sr-only {
@@ -776,6 +839,7 @@ strong {
 
 @media (prefers-reduced-motion: reduce) {
   .backlink__arrow,
+  .figure__credit,
   .toc__link {
     transition: none;
   }

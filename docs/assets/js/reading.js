@@ -148,24 +148,15 @@
     if (!para || para.classList.contains('has-dropcap')) return;
 
     var letter = '';
-
-    // An essay may already open with a hand-placed initial; reuse it so every
-    // post gets the same treatment rather than two competing ones.
-    var manual = para.querySelector('img[src*="yinit-"]');
-    if (manual && manual === para.firstElementChild) {
-      letter = (manual.getAttribute('alt') || '').charAt(0);
-      manual.parentNode.removeChild(manual);
-    } else {
-      var walker = document.createTreeWalker(para, NodeFilter.SHOW_TEXT, null, false);
-      var node;
-      while ((node = walker.nextNode())) {
-        var found = node.nodeValue.match(/\S/);
-        if (!found) continue;
-        letter = found[0];
-        node.nodeValue = node.nodeValue.slice(0, found.index) +
-                         node.nodeValue.slice(found.index + 1);
-        break;
-      }
+    var walker = document.createTreeWalker(para, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while ((node = walker.nextNode())) {
+      var found = node.nodeValue.match(/\S/);
+      if (!found) continue;
+      letter = found[0];
+      node.nodeValue = node.nodeValue.slice(0, found.index) +
+                       node.nodeValue.slice(found.index + 1);
+      break;
     }
 
     if (!/^[A-Za-z]$/.test(letter)) return;
@@ -190,6 +181,82 @@
     para.insertBefore(spoken, para.firstChild);
     para.insertBefore(glyph, para.firstChild);
     para.classList.add('has-dropcap');
+
+    fitInitial(para, glyph);
+    // Line breaks move once the webfont arrives, so decide again then.
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () { fitInitial(para, glyph); });
+    }
+  }
+
+  // A dropped initial only works if the paragraph fills the lines it spans.
+  // Where the opening is shorter than that -- a salutation, a one-line
+  // epigraph -- typography raises the initial onto the first baseline instead,
+  // with no text wrapping beside it.
+  //
+  // The paragraph contains its own float (flex items establish an independent
+  // formatting context), so its height is the greater of the text and the
+  // initial. If the text does not outrun the initial, it has not filled it.
+  function fitInitial(para, glyph) {
+    glyph.classList.remove('dropcap--raised');
+    var box = para.getBoundingClientRect();
+    var cap = glyph.getBoundingClientRect();
+    if (box.height - (cap.bottom - box.top) <= 1) {
+      glyph.classList.add('dropcap--raised');
+    }
+  }
+
+  /* --- image credits ------------------------------------------------------ */
+
+  // Sources live in _data/image_credits.yml, keyed by file name, so the essays
+  // stay free of attribution markup. The credit is attached both as a caption
+  // and as the image's title, and the caption stays in the DOM even while it
+  // is invisible, so screen readers and crawlers always see the attribution.
+  function addCredits() {
+    var store = document.getElementById('image-credits');
+    if (!store) return;
+
+    var credits;
+    try { credits = JSON.parse(store.textContent); } catch (e) { return; }
+
+    var images = article.querySelectorAll('img[src]');
+    for (var i = 0; i < images.length; i++) {
+      var img = images[i];
+      var name = img.getAttribute('src').split('?')[0].split('/').pop();
+      var credit = credits[name];
+      if (!credit || !credit.source) continue;
+
+      img.setAttribute('title', 'Source: ' + credit.source);
+
+      var figure = document.createElement('figure');
+      figure.className = 'figure';
+
+      // Kramdown wraps a lone image in a paragraph; replace it rather than
+      // nesting a figure inside a <p>, which is not valid HTML.
+      var host = img.parentNode;
+      if (host.tagName === 'P' && host.children.length === 1 &&
+          host.textContent.trim() === '') {
+        host.parentNode.replaceChild(figure, host);
+      } else {
+        host.insertBefore(figure, img);
+      }
+      figure.appendChild(img);
+
+      var caption = document.createElement('figcaption');
+      caption.className = 'figure__credit';
+      caption.appendChild(document.createTextNode('Source: '));
+      if (credit.url) {
+        var link = document.createElement('a');
+        link.href = credit.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = credit.source;
+        caption.appendChild(link);
+      } else {
+        caption.appendChild(document.createTextNode(credit.source));
+      }
+      figure.appendChild(caption);
+    }
   }
 
   /* --- scrollspy + progress ---------------------------------------------- */
@@ -235,6 +302,7 @@
 
   buildToc();
   applyDropCap();
+  addCredits();
   update();
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', onScroll, { passive: true });

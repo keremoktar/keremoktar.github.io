@@ -33,7 +33,7 @@ The upshot is that even seemingly obvious relationships can have small-to-modera
 
 Often, we'll do a smaller pilot study, and use the effect size estimates from that to do power analyses. This is probably not a good idea, unless your pilots are very large, mostly because getting tight bounds on effect sizes requires _very large_ samples, e.g., N > 3000 (see below, [courtesy of Uri Simonsohn](http://datacolada.org/20#footnote_1_545)) .
 
-<img src="https://keremoktar.com/assets/images/Power_uncertainty.jpg" alt="power_uncertainty" class="center">
+<img src="/assets/images/Power_uncertainty.jpg" alt="power_uncertainty" class="center">
 
 This means that your pilot tells you less than you think about how big your effect probably is.
 
@@ -56,7 +56,7 @@ t.test(cucumber, no_cucumber)
 ```
 
 In this instance, there was enough signal in the randomly generated data that I could find it:
-<img src="https://keremoktar.com/assets/images/thirst.png" alt="Cucumber Graph" class="center">
+<img src="/assets/images/thirst.png" alt="Cucumber Graph" class="center">
 
 One simulated experiment is not enough because a new random sample can produce a different result. Instead, we can generate and analyze 1,000 datasets, then collect their p-values:
 
@@ -84,7 +84,7 @@ Setting the random seed makes this example reproducible. The result will be clos
 
 We can also ask what sample size would give us good power, such as 90%. I find simulations intuitive, so we can estimate power across a range of candidate sample sizes. In this setup, the required total sample is approximately 170:
 
-<img src="https://keremoktar.com/assets/images/thirst_sampsearch.png" alt="Sample-size graph" class="center">
+<img src="/assets/images/thirst_sampsearch.png" alt="Sample-size graph" class="center">
 
 Here is the code:
 

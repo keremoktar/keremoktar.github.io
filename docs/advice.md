@@ -128,7 +128,7 @@ Every admissions website tells you what documents they want: minimally, the pers
    - What has worked for me is having external accountability: Break your task into chunks, and tell someone that you will have the chunk ready for them by a certain time. The more the chunks, the more the deadlines, the less likely you are to just procrastinate until the final deadline.
 
 4. Be kind to yourself! This is a hard process - if you find yourself resembling this Kafka drawing:
-<img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA4/29BACKPAGE_KAFKA4-jumbo.jpg?quality=75&amp;auto=webp" alt="Kafka_1" class="center">
+<img src="/assets/images/posts/kafka-1.jpg" alt="Kafka_1" class="center">
 
 You should stop and go for a walk. Schedule breaks and rest, much as you schedule work.
 
@@ -147,4 +147,4 @@ The only thing I will add to this is that _your interviews are primarily about y
 
 Thanks for reading, and best of luck! If you would like to send me anonymous feedback about this guide, please use the [anonymous feedback form.](https://docs.google.com/forms/d/1t2G5ZI214eO0Qs7lT00XGp47SAOlQRsedRkwc87SUnY){:target="_blank"}
 
-<img src="https://static01.nyt.com/images/2022/05/29/books/29BACKPAGE_KAFKA3/29BACKPAGE_KAFKA3-jumbo.jpg?quality=75&auto=webp" alt="Kafka_2" class="center">
+<img src="/assets/images/posts/kafka-2.jpg" alt="Kafka_2" class="center">

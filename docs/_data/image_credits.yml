@@ -1,0 +1,40 @@
+# Source credits for essay images, keyed by file name. Nothing here appears in
+# the essays themselves: the layout hands this to the page, which attaches the
+# credit to the matching image as a caption revealed on hover and as a native
+# tooltip. An image with no entry, or with an empty `source`, gets no credit --
+# that is the right state for my own figures.
+#
+# Still unattributed, because the file's origin does not identify its author.
+# Fill in `source` and these start appearing:
+#   logic-theorist.png    saved from an X/Twitter post
+#   gpt1-essay.png        screenshot, original context unrecorded
+#   gpt-next-token.png    screenshot, original context unrecorded
+
+kafka-1.jpg:
+  source: The New York Times, 29 May 2022
+  url: https://www.nytimes.com/2022/05/29/books/review/
+
+kafka-2.jpg:
+  source: The New York Times, 29 May 2022
+  url: https://www.nytimes.com/2022/05/29/books/review/
+
+senet-nefertari.jpg:
+  source: Tomb of Nefertari, c. 1255 BC — Wikimedia Commons, public domain
+  url: https://commons.wikimedia.org/wiki/File:Maler_der_Grabkammer_der_Nefertari_003.jpg
+
+shoggoth-rlhf.jpg:
+  source: Mirrored on LessWrong
+  url: https://www.lesswrong.com/posts/yjzW7gxk2h7bBs2qr
+
+moneyball-analytics.jpg:
+  source: Film still, Moneyball (2011, Columbia Pictures)
+
+logic-theorist.png:
+  source:
+  url: https://pbs.twimg.com/media/FOJHeSTXEAAKpsC.png
+
+gpt1-essay.png:
+  source:
+
+gpt-next-token.png:
+  source:
