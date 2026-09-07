@@ -7,9 +7,12 @@
 #
 # Still unattributed, because the file's origin does not identify its author.
 # Fill in `source` and these start appearing:
-#   logic-theorist.png    saved from an X/Twitter post
-#   gpt1-essay.png        screenshot, original context unrecorded
-#   gpt-next-token.png    screenshot, original context unrecorded
+#   logic-theorist.png    a RAND-style flowchart captioned "Fig. 1--The Single-
+#                         Problem Executive", showing the Logic Theory Machine's
+#                         control loop. Newell, Shaw and Simon, but the exact
+#                         report is unconfirmed -- it is not P-868.
+#   gpt1-essay.png        screenshot of GPT-1 output; the interface is not
+#                         identifiable from the crop
 
 phd-job-market.jpg:
   source: "Schillebeeckx et al., Nature Biotechnology (2013), Fig. 1"
@@ -51,4 +54,5 @@ gpt1-essay.png:
   source:
 
 gpt-next-token.png:
-  source:
+  source: "Shannon, \u201CA Mathematical Theory of Communication\u201D (1948) \u2014 approximations to English"
+  url: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x

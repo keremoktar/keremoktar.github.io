@@ -127,4 +127,5 @@ Here is an [anonymous feedback form](https://docs.google.com/forms/d/1t2G5ZI214e
   <p><a href="/blog_posts.html">On the Reasonable Effectiveness of Judgment</a>: Why human judgment matters to mathematics and model training.</p>
   <p><a href="/intuition.html">Why False Premises Birth Truths</a>: An intuition for material implication.</p>
   <p class="writing-list__more">More writing: <a href="/stats.html">Power analysis guide</a> · <a href="/advice.html">Grad school application guide</a></p>
+  <p class="writing-list__more">Notes and lists: <a href="/paperpile.html">Annotated reading list</a> · <a href="/paperpile2.html">Reading summaries</a> · <a href="/other-research.html">Other research interests</a> · <a href="/project_ideas.html">Project ideas</a></p>
 </div>

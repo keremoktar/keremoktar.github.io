@@ -2,6 +2,7 @@
 layout: default
 title: Kerem Oktar — Privilege and the Hidden Curriculum
 description: An unfinished essay about privilege, unequal obstacles, and society's hidden curriculum.
+sitemap: false  # unfinished draft, deliberately unlisted
 ---
 
 # Privilege and the Hidden Curriculum

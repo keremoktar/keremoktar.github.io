@@ -2,6 +2,7 @@
 layout: default
 title: Kerem Oktar — Reading List
 description: A concise list of recommended papers and books in cognitive science, psychology, and statistics.
+sitemap: false  # condensed duplicate of paperpile.md, deliberately unlisted
 ---
 
 # Some Words are Worth a Thousand Pictures.

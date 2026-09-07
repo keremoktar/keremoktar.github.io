@@ -7,8 +7,25 @@ baseurl: ""
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-redirect-from
 github:
   is_project_page: false
   is_user_page: false
 google_analytics: G-VN01SP2WVS
+twitter:
+  card: summary
+
+# Give every page a social card image; individual pages may override with
+# `image:` in their own front matter.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/KeremOktar_headshot.jpg
+  # Superseded CVs should not be advertised to search engines; the current one
+  # lives at /assets/Academic_CV.pdf.
+  - scope:
+      path: assets/prev_cv
+    values:
+      sitemap: false

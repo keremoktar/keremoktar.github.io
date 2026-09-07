@@ -32,7 +32,7 @@
   --text: #35373c;
   --heading: #1b1c1f;
   --muted: #6b7280;
-  --faint: #9aa1ab;
+  --faint: #6f767f;
   --border: #e3e6e8;
   --rule: #ededf0;
   --link: #267cb9;
@@ -796,39 +796,12 @@ strong {
 
 /* --- theme toggle --------------------------------------------------------- */
 
+@import "theme-toggle";
+
 .theme-toggle {
-  align-items: center;
-  background: none;
-  border: 0;
-  border-radius: 4px;
-  color: var(--faint);
-  cursor: pointer;
-  display: inline-flex;
+  --toggle-ink: var(--faint);
   height: 24px;
-  justify-content: center;
-  padding: 0;
   width: 24px;
-}
-
-.theme-toggle[hidden] {
-  display: none;
-}
-
-.theme-toggle:hover,
-.theme-toggle:focus-visible {
-  color: var(--link);
-}
-
-.theme-toggle__icon {
-  display: none;
-  height: 15px;
-  width: 15px;
-}
-
-:root:not([data-theme]) .theme-toggle__icon--system,
-:root[data-theme="light"] .theme-toggle__icon--light,
-:root[data-theme="dark"] .theme-toggle__icon--dark {
-  display: block;
 }
 
 .topbar__right {

@@ -18,14 +18,14 @@ Application support can make this hard process much more manageable. If you do n
 - [Section 3](#documents): How to prepare the application materials.
 - [Section 4](#interview): How to interview.
 
-### <a name="truth"></a>Section 0: Should you choose academia?
+## <a name="truth"></a>Section 0: Should you choose academia?
 At its best, academia is wonderful (literally). We contemplate the deepest mysteries of the universe, expand the [frontiers of human knowledge](https://matt.might.net/articles/phd-school-in-pictures/), and consume ungodly quantities of caffeine.
 
 As such, many guides to grad school applications assume that you want to do academia. As time goes by, this implicit assumption becomes an expectation, and many find themselves stuck. Since you are thinking of applying now, **it is extremely important that you frame this to yourself as a choice, and evaluate it as such.** This is your choice for how to spend the next 5-7 years of probably the most youthful, healthy, and independent years of your life.
 
 How can you make a decision like this? The following factors are the most relevant:
 
-#### How likely are you to get an academic job after doing a PhD?
+### How likely are you to get an academic job after doing a PhD?
 This depends on how many academic jobs there are, relative to people with PhDs. A survey of STEM fields from [2013](https://www.nature.com/articles/nbt.2706) shows that less than 10% of PhDs could get academic jobs a decade ago; now, it's much worse.
 
 ![phd_job_graph](/assets/images/posts/phd-job-market.jpg)
@@ -38,12 +38,12 @@ So everyone doesn't really have a 10% chance: At best, placement can be [around 
 
 In a nutshell, getting good academic jobs is extremely challenging - even for those who are privileged and in elite schools, but especially for those who are not. Keep 10% in mind as a baseline for your odds.
 
-#### How will getting a PhD impact your career prospects outside of academia?
-It depends, but overall, [an analysis by the Economist](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb) claims that PhDs don't confer advantage or employment benefits beyond master's degrees, and that advantage is roughly a 25% increase over Bachelor's degrees.
+### How will getting a PhD impact your career prospects outside of academia?
+It depends, but overall, [an analysis by the Economist](https://web.archive.org/web/20180707191827/https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb) claims that PhDs don't confer advantage or employment benefits beyond master's degrees, and that advantage is roughly a 25% increase over Bachelor's degrees.
 
 But this average hides tremendous variation: If you change fields and end up with a good degree in a highly employable field (e.g., AI/ML/Econ), your job prospects will likely increase a lot.  Similarly, if you are an international student from a struggling economy, doing a graduate degree can help you emigrate, which will improve your prospects. And if you get into a good school you can build a strong network.
 
-#### How much will I enjoy the PhD process?
+### How much will I enjoy the PhD process?
 This also depends, but overall, around a [third to half of graduate students](https://doi.org/10.1038/s41578-022-00444-x) are depressed or anxious, a much higher rate than the U.S. average of around ~10-20%. The outlook for underprivileged students (minorities, international students, LGBTQ+ groups, etc.) tends to be worse, according to a large analysis of [UC Berkeley students](https://gradresources.org/wp-content/uploads/2015/09/wellbeingreport_2014-17.pdf).
 
 Why do graduate students struggle so much? The following are all important factors:
@@ -60,12 +60,12 @@ So it is often rough. But obviously there are major upsides in many cases:
 
 In sum, academia is a challenging experience with sparse and uncertain rewards. Many struggle deeply during it, many thrive, and you should expect it to be more difficult than most alternative careers.
 
-#### So should you get a PhD?
+### So should you get a PhD?
 This may sound quite bleak. And it can be, for many. Of course, some academics are quite happy with their decision to pursue a PhD (I happen to be one). But it is important for you to know the facts, take some time to reflect, and make an informed decision about whether you want this for yourself.
 
 ---
 
-### <a name="general"></a>Section 1: General Application Advice.
+## <a name="general"></a>Section 1: General Application Advice.
 I will now assume that you are set on applying, and walk you through the process.
 
 Here are three key tips:
@@ -88,7 +88,7 @@ Now let's get to what you can do to prepare a strong application.
 I will begin the upcoming sections with quotes from _The Trial_, which is a book by Franz Kafka about an absurd, bureaucratic, and arcane evaluation that inspires tremendous dread in the protagonist, whose name is "K." Sounds oddly familiar...
 
 ---
-### <a name="network"></a>Section 2: How to build a network.
+## <a name="network"></a>Section 2: How to build a network.
 > The only things of real value are honest personal contacts (...). That is the only way the progress of the trial can be influenced, hardly noticeable at first, it's true, but from then on it becomes more and more visible. (pg. 139).
 
 Before contacting anyone, check the program's stated norms. Some programs encourage prospective students to contact individual faculty; others explicitly say that contact is unnecessary or discouraged.
@@ -97,17 +97,17 @@ When contact is appropriate, write to faculty with a specific purpose: to confir
 
 Current and recent graduate students are often the best source of candid information about advising, funding, collaboration, workload, and lab culture. Ask questions that invite concrete examples: How often do students meet with the advisor? How are projects chosen? What happens when a project fails? Where have recent students gone?
 
-#### How to have a useful conversation
+### How to have a useful conversation
 
 In conversations, be prepared, listen carefully, and avoid treating the interaction as a performance. Arrive with specific questions or aims, but leave room for the other person to tell you what they think matters. The more you have these conversations, the more natural they will feel.
 
-#### How to follow up
+### How to follow up
 
 Follow up with a brief thank-you and act on any concrete next step you discussed. If you need to remind someone about an unanswered question, these [follow-up email templates](https://academicguides.duke.edu/follow-up-and-reminder-emails/) offer useful examples. Be considerate of people's time and avoid sending repeated reminders in quick succession.
 
 ---
 
-### <a name="documents"></a>Section 3: How to prepare the application materials.
+## <a name="documents"></a>Section 3: How to prepare the application materials.
 
 > Needless to say, the documents would mean an almost endless amount of work. It was easy to come to the belief, not only for those of an anxious disposition, that it was impossible ever to finish it. (pg. 152).
 
@@ -134,7 +134,7 @@ You should stop and go for a walk. Schedule breaks and rest, much as you schedul
 
 ---
 
-### <a name="interview"></a> Section 4: How to interview.
+## <a name="interview"></a> Section 4: How to interview.
 > This is when the defence begins. (...) he has to learn what he can about it from him and extract whatever he can that might be of use, even though what the accused has to report is often very confused. (pg. 138).
 
 Congratulations on making it to the interview stage! If you are here, you have already cleared the vast majority of the hurdles, and should feel very proud of yourself.

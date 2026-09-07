@@ -29,7 +29,7 @@ Read this row-by-row. The first row tells us that "A is True, B is True, A → B
 
 Now we can phrase our key question more precisely: *Why on earth is A → B only false in the second row?*
 
-#### A Misleading Intuition.
+## A Misleading Intuition.
 
 Logic intuitively sounds like a machine that arbitrates objective truths about the world (i.e., a causal truth detector). It isn’t. Here is another example:
 
@@ -51,7 +51,7 @@ It is only a lie if the premise is true and what follows is false:
 
 This is a lie, and it is also the only way we get falsehood from the truth table. So lie detection gives us the right intuitions in this case.
 
-#### Falsehood and the foundations of logic.
+## Falsehood and the foundations of logic.
 
 Why does lie detection work as a framing? And why is it the ‘right way’ to define the conditional operator ‘→’?
 
@@ -65,7 +65,7 @@ But it isn’t a priori obvious which primitives will achieve your goals, and sy
 
 It’s not like board game designers knew what would be more fun—they just knew fun when they had it. Similarly, people were arguing and figuring out what is a good inference before they had formal logic.[^2] Formal logic was built to satisfy these ‘good inference’ criteria.
 
-#### Evolving logic.
+## Evolving logic.
 
 For instance, the following inference, called _modus ponens_, seems solid:
 
@@ -103,7 +103,7 @@ We can try an alternative definition and see that it fails. Imagine that we go b
 
 This way of defining ‘→’ does not end up telling us that the inference as a whole is valid. The lie detector framing does, hence we use it as a primitive. And it works.
 
-#### Why should this human-intuitive-definition turn out to be so useful?
+## Why should this human-intuitive-definition turn out to be so useful?
 
 This is a nice puzzle for psychology. Probably because a human who drew useless inferences in simple cases would not survive. These kinds of arguments are called ‘Dutch book’ arguments.[^4] There is also something deeply unsatisfying about those, but that is a story for another time…
 

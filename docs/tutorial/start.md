@@ -2,6 +2,7 @@
 layout: default
 title: Kerem Oktar — Tutorial
 description: The starting page for an experimental tutorial.
+sitemap: false  # placeholder scaffolding, deliberately unlisted
 ---
 
 # Please start here
