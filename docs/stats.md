@@ -115,7 +115,7 @@ Power increases nonlinearly with sample size. Recruiting more participants makes
 
 **I could have learned much more from fewer, better-powered studies.** Better designs would not have told me with certainty which effects were real, but they would have produced more precise estimates and made negative findings substantially more informative.
 
-For more info on why this matters for psychology research, check out the article by Paul Meehl in my list of favorite [articles](./paperpile.html), or check out Uri, Joe, and Jake's posts above. [Data Colada](https://datacolada.org/) in particular has a lot of useful write-ups on this.
+For more info on why this matters for psychology research, check out the article by Paul Meehl in my list of favorite [articles](https://doi.org/10.2466/pr0.1990.66.1.195), or check out Uri, Joe, and Jake's posts above. [Data Colada](https://datacolada.org/) in particular has a lot of useful write-ups on this.
 
 * * *
 
