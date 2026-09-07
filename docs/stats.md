@@ -19,13 +19,13 @@ Low power makes negative results difficult to interpret. Did the manipulation fa
 
 This is a common objection, and underlies why many still don't do power analyses---but it turns out, we know much more than we think we do. For instance, here is a distribution of effect sizes from a meta-analysis of meta-analyses in social psychology collecting effect sizes across ~25,000 studies over 100 years in diverse research areas (credit to Jake Westfall for [this analysis](http://jakewestfall.org/blog/index.php/2015/06/16/dont-fight-the-power-analysis/)):
 
-![Average Power Graph](./assets/images/power_graph.png)
+![Average Power Graph](/assets/images/power_graph.png)
 
 When prior evidence is sparse, broad empirical distributions can still constrain our expectations. In many areas of social psychology, reported standardized effects cluster in the small-to-moderate range, and publication bias may make those reports optimistic. This does not imply that every new effect is probably *d* = .3, but it gives us a more defensible starting range than assuming an arbitrarily large effect.
 
 Moreover, Joe Simmons has run some extremely helpful, large (N ~ 700) studies on the effect sizes of [very simple questions](http://datacolada.org/18#identifier_1_520). Consider a classic psych question: Do smokers think that smoking is less risky than non-smokers? What do you think the effect size is for this? It turns out to be ~.3. How about the likelihood that someone who likes eggs eats more egg salad? The effect size is ~.5.
 
-![MTurk Power Graph](./assets/images/MTurkPower.png)
+![MTurk Power Graph](/assets/images/MTurkPower.png)
 
 The upshot is that even seemingly obvious relationships can have small-to-moderate effect sizes. A useful power analysis should therefore consider several plausible effects. If a design works only when the effect is unusually large, that is itself important information.
 
@@ -72,7 +72,7 @@ test_pvalues <- replicate(1000, {
 ```
 
 Here is the distribution of p-values. Red shows the mean p-value, and blue shows *p* = .05. Because we generated every dataset with a real effect, the values above .05 are false negatives: experiments that did not detect the effect we put there.
-![P-values Graph](./assets/images/thirst_pvals.png)
+![P-values Graph](/assets/images/thirst_pvals.png)
 
 Our estimated power is the proportion of simulated experiments in which the test detected the effect:
 

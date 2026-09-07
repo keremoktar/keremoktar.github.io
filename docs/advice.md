@@ -28,11 +28,11 @@ How can you make a decision like this? The following factors are the most releva
 #### How likely are you to get an academic job after doing a PhD?
 This depends on how many academic jobs there are, relative to people with PhDs. A survey of STEM fields from [2013](https://www.nature.com/articles/nbt.2706) shows that less than 10% of PhDs could get academic jobs a decade ago; now, it's much worse.
 
-![phd_job_graph](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnbt.2706/MediaObjects/41587_2013_Article_BFnbt2706_Fig1_HTML.jpg?as=webp)
+![phd_job_graph](/assets/images/posts/phd-job-market.jpg)
 
 So the odds aren't great, especially considering that the average PhD grad is quite smart, competitive, and capable. Who are the 10% that get jobs then? Mostly graduates from elite programs: 80% of those that get jobs come from the top 20% of universities, according to a [2022 paper](https://www.nature.com/articles/s41586-022-05222-x). There is striking inequality even within the top 20 programs:
 
-![phd_job_inequality](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-022-05222-x/MediaObjects/41586_2022_5222_Fig2_HTML.png?as=webp)
+![phd_job_inequality](/assets/images/posts/faculty-hiring-hierarchy.png)
 
 So everyone doesn't really have a 10% chance: At best, placement can be [around 30%](https://doi.org/10.1371%2Fjournal.pone.0285330). And when we look at jobs at the most elite institutions, 95% come from the [top 25% of schools](https://www.science.org/doi/10.1126/sciadv.1400005). Moreover, you are twice as likely to become faculty if you have a parent who is a PhD, and parents of faculty tend to be much wealthier than average (see this [2022 paper](https://doi.org/10.1038/s41562-022-01425-4) on the socioeconomic roots of faculty).
 

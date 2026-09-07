@@ -2,7 +2,8 @@
 # the essays themselves: the layout hands this to the page, which attaches the
 # credit to the matching image as a caption revealed on hover and as a native
 # tooltip. An image with no entry, or with an empty `source`, gets no credit --
-# that is the right state for my own figures.
+# that is the right state for my own figures. An image can name a different key
+# with a `data-credit` attribute; otherwise its file name is used.
 #
 # Still unattributed, because the file's origin does not identify its author.
 # Fill in `source` and these start appearing:
@@ -10,20 +11,33 @@
 #   gpt1-essay.png        screenshot, original context unrecorded
 #   gpt-next-token.png    screenshot, original context unrecorded
 
+phd-job-market.jpg:
+  source: "Schillebeeckx et al., Nature Biotechnology (2013), Fig. 1"
+  url: https://doi.org/10.1038/nbt.2706
+
+faculty-hiring-hierarchy.png:
+  source: "Wapman et al., Nature (2022), Fig. 2"
+  url: https://doi.org/10.1038/s41586-022-05222-x
+
+# These are Kafka's own ink drawings, not newspaper illustrations -- the copies
+# here were simply fetched from a New York Times page that reproduced them in
+# May 2022, alongside "Franz Kafka: The Drawings" (Yale, ed. Kilcher). The work
+# belongs to the Brod estate; the link goes to the Jewish Museum Berlin essay
+# that reproduces them with that credit.
 kafka-1.jpg:
-  source: The New York Times, 29 May 2022
-  url: https://www.nytimes.com/2022/05/29/books/review/
+  source: "Franz Kafka, ink drawing, c. 1923 \u2014 Literary Estate of Max Brod, National Library of Israel"
+  url: https://www.jmberlin.de/en/essay-liska-kafka-judaism
 
 kafka-2.jpg:
-  source: The New York Times, 29 May 2022
-  url: https://www.nytimes.com/2022/05/29/books/review/
+  source: "Franz Kafka, ink drawing, c. 1923 \u2014 Literary Estate of Max Brod, National Library of Israel"
+  url: https://www.jmberlin.de/en/essay-liska-kafka-judaism
 
 senet-nefertari.jpg:
-  source: Tomb of Nefertari, c. 1255 BC — Wikimedia Commons, public domain
+  source: "Nefertari playing senet, tomb of Nefertari, c. 1298\u20131235 BC \u2014 Wikimedia Commons, public domain"
   url: https://commons.wikimedia.org/wiki/File:Maler_der_Grabkammer_der_Nefertari_003.jpg
 
 shoggoth-rlhf.jpg:
-  source: Mirrored on LessWrong
+  source: "\u201CThe Meaning of Shoggoth AI Memes\u201D, LessWrong"
   url: https://www.lesswrong.com/posts/yjzW7gxk2h7bBs2qr
 
 moneyball-analytics.jpg:

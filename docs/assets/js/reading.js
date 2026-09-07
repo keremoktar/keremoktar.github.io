@@ -222,7 +222,8 @@
     var images = article.querySelectorAll('img[src]');
     for (var i = 0; i < images.length; i++) {
       var img = images[i];
-      var name = img.getAttribute('src').split('?')[0].split('/').pop();
+      var name = img.getAttribute('data-credit') ||
+                 img.getAttribute('src').split('?')[0].split('/').pop();
       var credit = credits[name];
       if (!credit || !credit.source) continue;
 
